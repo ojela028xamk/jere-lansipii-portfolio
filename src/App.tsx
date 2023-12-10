@@ -1,11 +1,10 @@
-import './App.css'
+import css from './App.module.scss'
+import Header from './Header/Header'
 
 const App = (): JSX.Element => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Jeren sivusto :)</h1>
-      </header>
+    <div className={css.app}>
+      <Header />
     </div>
   )
 }
