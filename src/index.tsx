@@ -3,11 +3,19 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { StrictMode } from 'react'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>
 )
 
