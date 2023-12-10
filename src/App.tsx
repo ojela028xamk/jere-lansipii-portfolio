@@ -1,8 +1,10 @@
+import './App.css'
+
 const App = (): JSX.Element => {
   return (
     <div className="App">
       <header className="App-header">
-        Edit <code>src/App.tsx</code> and save to reload.
+        <h1>Jeren sivusto :)</h1>
       </header>
     </div>
   )

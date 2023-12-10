@@ -10,7 +10,10 @@
       "prettier",
       "plugin:prettier/recommended",
       "plugin:import/recommended",
-      "plugin:react/jsx-runtime"
+      "plugin:react/jsx-runtime",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript"
     ],
     "overrides": [],
     "parser": "@typescript-eslint/parser",
@@ -39,6 +42,10 @@
     },
     "settings": {
       "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"],
+          "moduleDirectory": ["node_modules", "src/"]
+      },
         "typescript": {}
       }
     }
