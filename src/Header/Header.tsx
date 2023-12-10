@@ -1,9 +1,10 @@
 import css from './Header.module.scss'
+import HeaderNavbar from './HeaderNavbar'
 
 const Header = (): JSX.Element => {
   return (
     <div className={css.header}>
-      <h2>Header</h2>
+      <HeaderNavbar />
     </div>
   )
 }
