@@ -1,3 +1,8 @@
+export type Skill = {
+  category: string
+  list: string[]
+}
+
 export type Project = {
   name: string
   image: string
@@ -5,32 +10,47 @@ export type Project = {
   link: string
 }
 
+export type Contact = {
+  email: string
+  phone: string
+  linkedin: string
+}
+
 const aboutMe =
   'Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. ' +
   'I have expertise in both frontend and some backend development through my education and work experience. ' +
   'I have over 1.5 years of work experience in software development.'
 
-const skills = {
-  frontend: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'SASS',
-    'React',
-    'React Bootstrap',
-    'TypeScript',
-    'React Router',
-    'Cypress',
-  ],
-  graphicDesign: [
-    'UI/UX',
-    'Graphic Design',
-    'Responsive Design',
-    'Adobe Illustrator',
-    'Figma',
-  ],
-  other: ['Microsoft Office Programs', 'Touch Typing', 'Adobe Premiere Pro'],
-}
+const skills: Skill[] = [
+  {
+    category: 'Frontend',
+    list: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'SASS',
+      'React',
+      'React Bootstrap',
+      'TypeScript',
+      'React Router',
+      'Cypress',
+    ],
+  },
+  {
+    category: 'Graphics Design',
+    list: [
+      'UI/UX',
+      'Graphic Design',
+      'Responsive Design',
+      'Adobe Illustrator',
+      'Figma',
+    ],
+  },
+  {
+    category: 'Other',
+    list: ['Microsoft Office Programs', 'Touch Typing', 'Adobe Premiere Pro'],
+  },
+]
 
 const projects: Project[] = [
   {
@@ -47,7 +67,7 @@ const projects: Project[] = [
   },
 ]
 
-const contact = {
+const contact: Contact = {
   email: 'jerelans91@gmail.com',
   phone: '+358407729448',
   linkedin: '',
