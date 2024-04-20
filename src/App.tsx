@@ -1,13 +1,12 @@
 import css from './App.module.scss'
-import Contact from './Site/Contact'
-import Header from './Site/Header'
-import Projects from './Site/Projects'
-import Skills from './Site/Skills'
+import Contact from './Website/Contact'
+import Header from './Website/Header'
+import Projects from './Website/Projects'
+import Skills from './Website/Skills'
 
 const App = (): JSX.Element => {
   return (
     <div className={css.App}>
-      <h1>Jeren sivusto :)</h1>
       <Header />
       <Skills />
       <Projects />
