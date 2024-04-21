@@ -65,6 +65,12 @@ const projects: Project[] = [
     description: '',
     link: '',
   },
+  {
+    name: 'Breaking News',
+    image: '',
+    description: '',
+    link: '',
+  },
 ]
 
 const contact: Contact = {
