@@ -76,7 +76,7 @@ const projects: Project[] = [
 const contact: Contact = {
   email: 'jerelans91@gmail.com',
   phone: '+358407729448',
-  linkedin: '',
+  linkedin: 'linkedin.com',
 }
 
 export { aboutMe, skills, projects, contact }
