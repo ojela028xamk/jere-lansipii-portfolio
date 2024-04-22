@@ -18,7 +18,7 @@ export type Contact = {
 
 const aboutMe =
   'Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. ' +
-  'I have expertise in both frontend and some backend development through my education and work experience. ' +
+  'I have expertise in frontend, UI/UX and graphic design through my education and work experience. ' +
   'I have over 1.5 years of work experience in software development.'
 
 const skills: Skill[] = [

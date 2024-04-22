@@ -8,9 +8,9 @@
   .header_content {
     display: flex;
     margin: auto;
-    padding: 1em;
+    padding: $content-padding;
     width: 1280px;
-    text-align: left;
+    text-align: center;
 
     .header_text {
       flex: 2;
@@ -19,21 +19,22 @@
       h2,
       p {
         font-weight: 200;
+        margin: 0.2em;
       }
 
       h1 {
-        font-size: 2.5em;
+        font-size: 4em;
         color: $pink;
       }
 
-      p {
-        font-size: 1.2em;
+      h2 {
+        font-size: 3em;
       }
-    }
 
-    .header_image {
-      flex: 1;
-      border: 2px solid white;
+      p {
+        font-size: 1.5em;
+        line-height: 1.2em;
+      }
     }
   }
 }
