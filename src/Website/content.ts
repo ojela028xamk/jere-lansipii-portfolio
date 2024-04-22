@@ -56,14 +56,16 @@ const projects: Project[] = [
   {
     name: 'Create&Save Recipe',
     image: '',
-    description: '',
-    link: '',
+    description:
+      'Create&Save Recipe is a web application that allows users to create and save their own recipes. ',
+    link: 'https://ojela028xamk.github.io/create-save-recipe/',
   },
   {
     name: 'Movie Quiz',
     image: '',
-    description: '',
-    link: '',
+    description:
+      'Movie Quiz is a web application that allows users to test their knowledge of movies.',
+    link: 'https://ojela028xamk.github.io/movie-quiz/',
   },
 ]
 
