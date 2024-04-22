@@ -7,8 +7,8 @@ const Header = (): JSX.Element => {
     <div className={css.header}>
       <div className={css.header_content}>
         <div className={css.header_text}>
-          <h1>Software Developer & Graphic Designer</h1>
-          <h2>Jere Länsipii</h2>
+          <h2>Software Developer & Graphic Designer</h2>
+          <h1>Jere Länsipii</h1>
           <p>{aboutMe}</p>
         </div>
         <div className={css.header_image}>

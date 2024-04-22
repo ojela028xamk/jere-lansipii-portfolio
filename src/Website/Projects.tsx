@@ -1,8 +1,12 @@
 import { Button, Card } from 'react-bootstrap'
 import css from './Projects.module.scss'
 import { projects } from './content'
+import ProjectsModal from './ProjectsModal'
+import { useToggle } from 'react-use'
 
 const Projects = (): JSX.Element => {
+  const [showModal, toggleModal] = useToggle(false)
+
   return (
     <div className={css.projects}>
       <h1>Projects</h1>
@@ -17,11 +21,14 @@ const Projects = (): JSX.Element => {
               <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary" onClick={toggleModal}>
+                  Go somewhere
+                </Button>
               </Card.Body>
             </Card>
           ))}
         </div>
+        <ProjectsModal showModal={showModal} toggleModal={toggleModal} />
       </div>
     </div>
   )
