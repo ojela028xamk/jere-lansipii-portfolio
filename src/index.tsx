@@ -4,6 +4,7 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { StrictMode } from 'react'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const router = createBrowserRouter([
   {

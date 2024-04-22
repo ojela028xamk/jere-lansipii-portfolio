@@ -1,7 +1,23 @@
 @import './../variables';
 
 .projects {
+  padding: 2em;
   flex: 1;
   background-color: $primary-black;
   color: white;
+
+  .projects_content {
+    width: 1280px;
+    margin: auto;
+
+    .project_items {
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+
+      .item {
+        flex: 1;
+      }
+    }
+  }
 }
