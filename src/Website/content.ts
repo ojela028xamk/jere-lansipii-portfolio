@@ -1,6 +1,7 @@
 export type Skill = {
   category: string
   list: string[]
+  icon: string
 }
 
 export type Project = {
@@ -25,9 +26,7 @@ const skills: Skill[] = [
   {
     category: 'Frontend',
     list: [
-      'HTML',
-      'CSS',
-      'JavaScript',
+      'HTML / CSS / JS',
       'SASS',
       'React',
       'React Bootstrap',
@@ -35,20 +34,23 @@ const skills: Skill[] = [
       'React Router',
       'Cypress',
     ],
+    icon: 'bi bi-display',
   },
   {
     category: 'Graphics Design',
     list: [
-      'UI/UX',
+      'UI / UX',
       'Graphic Design',
       'Responsive Design',
       'Adobe Illustrator',
       'Figma',
     ],
+    icon: 'bi bi-brush',
   },
   {
     category: 'Other',
     list: ['Microsoft Office Programs', 'Touch Typing', 'Adobe Premiere Pro'],
+    icon: 'bi bi-gear',
   },
 ]
 

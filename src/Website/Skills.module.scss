@@ -7,19 +7,62 @@
 
   .skills_content {
     margin: auto;
-    padding: 2em;
+    padding: $content-padding;
     width: 1280px;
+
+    h1 {
+      font-size: 3em;
+      color: $blue;
+      font-weight: 200;
+    }
 
     .skill_items {
       display: flex;
       gap: 1em;
+      margin: 2em;
 
       .item {
         flex: 1;
         text-align: left;
         background-color: $primary-black;
-        h3 {
+        padding: 1.8em;
+        border-radius: 1em;
+
+        i {
+          margin: auto;
+          width: 5vw;
+          font-size: 3.5vw;
+          color: white;
+          background-color: $blue;
+          display: block;
           text-align: center;
+          border-radius: 50%;
+        }
+
+        h3 {
+          margin: 0.3em 0;
+          font-size: 2.5em;
+          text-align: center;
+          font-weight: 200;
+          color: $blue;
+        }
+
+        ul {
+          margin: auto;
+          margin-top: 1em;
+          width: 80%;
+          list-style: none;
+          padding: 0;
+          text-align: center;
+
+          li {
+            font-size: 1.1em;
+            margin: 0.6em 0;
+            padding: 0.3em;
+            color: white;
+            border: 1px solid $blue;
+            border-radius: 1em;
+          }
         }
       }
     }
