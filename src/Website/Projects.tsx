@@ -16,8 +16,8 @@ const Projects = (): JSX.Element => {
 
   return (
     <div className={css.projects}>
-      <h1>Projects</h1>
       <div className={css.projects_content}>
+        <h1>Projects</h1>
         <div className={css.project_items}>
           {projects.map((project, index) => (
             <Fragment key={index}>
@@ -27,9 +27,11 @@ const Projects = (): JSX.Element => {
                   src="https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
                 />
                 <Card.Body>
-                  <Card.Title>{project.name}</Card.Title>
+                  <Card.Title className={css.item_title}>
+                    {project.name}
+                  </Card.Title>
                   <Button
-                    variant="primary"
+                    variant="outline-light"
                     onClick={() => handleProjectSelect(project)}
                   >
                     Show more

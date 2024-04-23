@@ -1,22 +1,48 @@
 @import './../variables';
 
 .projects {
-  padding: 2em;
   flex: 1;
   background-color: $primary-black;
   color: white;
 
   .projects_content {
-    width: 1280px;
     margin: auto;
+    padding: $content-padding;
+    width: 1280px;
+
+    h1 {
+      font-size: 3em;
+      color: $pink;
+      font-weight: 200;
+    }
 
     .project_items {
       display: flex;
       flex-direction: row;
-      gap: 2em;
+      margin: 2em;
+      gap: 1em;
 
       .item {
         flex: 1;
+        background-color: $secondary-black;
+        color: white;
+
+        .item_title {
+          margin-bottom: 0.5em;
+          font-size: 1.7em;
+          color: $pink;
+          font-weight: 200;
+        }
+
+        button {
+          color: $pink;
+          border: 1px solid $pink;
+
+          &:hover {
+            background-color: $pink;
+            color: $secondary-black;
+          }
+        }
       }
     }
   }
