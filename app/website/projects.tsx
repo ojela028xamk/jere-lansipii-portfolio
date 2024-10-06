@@ -19,8 +19,8 @@ const Projects = (): JSX.Element => {
 
   return (
     <div className={css.projects}>
-      <h1>Projects</h1>
       <div className={css.projects_content}>
+        <h1>Projects</h1>
         <div className={css.project_items}>
           {projects.map((project, index) => (
             <div key={index} className={css.project_card}>
