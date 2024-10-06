@@ -1,5 +1,5 @@
-import css from './Skills.module.scss'
-import { skills } from './content'
+import css from "./skills.module.scss";
+import { skills } from "./content";
 
 const Skills = (): JSX.Element => {
   return (
@@ -20,7 +20,7 @@ const Skills = (): JSX.Element => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

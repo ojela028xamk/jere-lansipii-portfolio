@@ -1,4 +1,4 @@
-@import './../variables';
+@import "../main";
 
 .projects {
   padding: 2em;
@@ -15,7 +15,7 @@
       flex-direction: row;
       gap: 2em;
 
-      .item {
+      .project_card {
         flex: 1;
       }
     }
