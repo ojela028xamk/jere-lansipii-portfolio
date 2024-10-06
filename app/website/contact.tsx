@@ -1,5 +1,5 @@
-import { contact } from './content'
-import css from './Contact.module.scss'
+import { contact } from "./content";
+import css from "./contact.module.scss";
 
 const Contact = (): JSX.Element => {
   return (
@@ -15,7 +15,7 @@ const Contact = (): JSX.Element => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

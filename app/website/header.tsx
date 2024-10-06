@@ -1,5 +1,6 @@
-import css from './Header.module.scss'
-import { aboutMe } from './content'
+import Image from "next/image";
+import css from "./header.module.scss";
+import { aboutMe } from "./content";
 
 const Header = (): JSX.Element => {
   return (
@@ -10,9 +11,12 @@ const Header = (): JSX.Element => {
           <h1>Jere Länsipii</h1>
           <p>{aboutMe}</p>
         </div>
+        <div className={css.header_image}>
+          <Image src="" alt="Jere Länsipii Avatar" width={200} height={200} />
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
