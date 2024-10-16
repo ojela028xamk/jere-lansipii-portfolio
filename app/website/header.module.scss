@@ -10,31 +10,34 @@
     margin: auto;
     padding: $content-padding;
     width: 1280px;
-    text-align: center;
+    text-align: left;
+    white-space: pre-wrap;
 
     .header_text {
       flex: 2;
 
-      h1,
-      h2,
-      p {
-        font-weight: 200;
-        margin: 0.2em;
+      h2 {
+        margin: 0;
+        font-weight: 300;
+        font-size: 2em;
       }
 
       h1 {
-        font-size: 4em;
+        font-weight: 600;
         color: $pink;
-      }
-
-      h2 {
         font-size: 3em;
+        margin: 0.3em 0;
       }
 
       p {
-        font-size: 1.5em;
-        line-height: 1.2em;
+        margin: 2em 0;
+        font-size: 1.3em;
+        font-weight: 300;
       }
+    }
+
+    .header_image {
+      flex: 1;
     }
   }
 }
