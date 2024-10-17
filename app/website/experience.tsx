@@ -13,13 +13,14 @@ const Experience = () => {
             width={180}
             height={180}
           />
-          <p>
+          <p className={css.text}>
             Excellent design, great communication, fast turnaround of revisions.
-            Recommended!
+            I had a clear vision of what I wanted. Jere did not just deliver it
+            he aimproved upon it substantially. Recommended!
           </p>
-          <p>
+          <span className={css.name}>
             <b>Aarne Savolainen, WheelQ</b>
-          </p>
+          </span>
         </div>
         <div className={css.job_logos}>
           <img className={css.job_logo} src="/wheelq.png" alt={"WheelQ logo"} />
