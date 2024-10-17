@@ -21,32 +21,25 @@ const aboutMe =
 
 const skills: Skill[] = [
   {
-    category: "Frontend",
+    category: "Coding",
     list: [
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "HTML/CSS/JS",
       "SASS",
       "React",
       "React Bootstrap",
+      "Next.js",
       "TypeScript",
-      "React Router",
+      "SQL",
       "Cypress",
     ],
   },
   {
     category: "Graphics Design",
-    list: [
-      "UI/UX",
-      "Graphic Design",
-      "Responsive Design",
-      "Adobe Illustrator",
-      "Figma",
-    ],
+    list: ["UI/UX", "Responsive Design", "Figma", "Adobe Illustrator"],
   },
   {
     category: "Other",
-    list: ["Microsoft Office Programs", "Touch Typing", "Adobe Premiere Pro"],
+    list: ["MS Office Programs", "Touch Typing"],
   },
 ];
 

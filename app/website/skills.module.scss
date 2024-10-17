@@ -1,69 +1,44 @@
 @import "../main";
 
 .skills {
-  flex: 1;
-  background-color: $secondary-black;
-  color: white;
+  background-color: $primary-black;
+  color: $white;
 
   .skills_content {
     margin: auto;
     padding: $content-padding;
-    width: 1280px;
+    width: 960px;
 
     h1 {
       font-size: 3em;
-      color: $blue;
-      font-weight: 200;
+      font-weight: 600;
+      text-align: center;
     }
 
     .skill_items {
-      display: flex;
-      gap: 1em;
-      margin: 2em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 1.5em;
+      grid-row-gap: 1.5em;
 
       .item {
-        flex: 1;
         text-align: left;
-        background-color: $primary-black;
+        background-color: $secondary-black;
         padding: 1.8em;
         border-radius: 1em;
+      }
 
-        i {
-          margin: auto;
-          width: 5vw;
-          font-size: 3.5vw;
-          color: white;
-          background-color: $blue;
-          display: block;
-          text-align: center;
-          border-radius: 50%;
-        }
+      .item:nth-child(1) {
+        grid-area: 1 / 1 / 4 / 2;
+      }
 
-        h3 {
-          margin: 0.3em 0;
-          font-size: 2.5em;
-          text-align: center;
-          font-weight: 200;
-          color: $blue;
-        }
+      .item:nth-child(2) {
+        grid-area: 1 / 2 / 3 / 3;
+      }
 
-        ul {
-          margin: auto;
-          margin-top: 1em;
-          width: 80%;
-          list-style: none;
-          padding: 0;
-          text-align: center;
-
-          li {
-            font-size: 1.1em;
-            margin: 0.6em 0;
-            padding: 0.3em;
-            color: white;
-            border: 1px solid $blue;
-            border-radius: 1em;
-          }
-        }
+      .item:nth-child(3) {
+        grid-area: 3 / 2 / 4 / 3;
       }
     }
   }
