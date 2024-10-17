@@ -10,6 +10,7 @@
     width: 960px;
 
     h1 {
+      margin: 0 0 1em 0;
       font-size: 3em;
       font-weight: 600;
       text-align: center;
@@ -27,6 +28,23 @@
         background-color: $secondary-black;
         padding: 1.8em;
         border-radius: 1em;
+
+        .item_header {
+          display: flex;
+          align-items: center;
+
+          .icon {
+            margin-right: 0.2em;
+            font-size: 4.5em;
+            padding: 0.1em;
+            background-color: $pink;
+            border-radius: 2em;
+          }
+
+          .category {
+            font-size: 2em;
+          }
+        }
       }
 
       .item:nth-child(1) {
