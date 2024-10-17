@@ -1,0 +1,33 @@
+@import "../main";
+
+.experience {
+  background-color: $white;
+  color: $primary-black;
+
+  .experience_content {
+    margin: auto;
+    padding: $content-padding;
+    width: 1280px;
+
+    .recommended {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .aarne_avatar {
+        border-radius: 7em;
+        border: 7px solid $blue;
+      }
+    }
+
+    .job_logos {
+      display: flex;
+      height: 7vh;
+      justify-content: center;
+
+      .job_logo {
+        margin: 0 1.5em;
+      }
+    }
+  }
+}
