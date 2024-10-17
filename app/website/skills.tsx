@@ -9,7 +9,10 @@ const Skills = (): JSX.Element => {
         <div className={css.skill_items}>
           {skills.map((skill) => (
             <div key={skill.category} className={css.item}>
-              <h2>{skill.category}</h2>
+              <h2>
+                <span className="material-symbols-outlined">{skill.icon}</span>
+                {skill.category}
+              </h2>
               <ul>
                 {skill.list.map((item) => (
                   <li key={item}>{item}</li>

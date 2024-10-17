@@ -1,5 +1,6 @@
 export type Skill = {
   category: string;
+  icon: string;
   list: string[];
 };
 
@@ -22,6 +23,7 @@ const aboutMe =
 const skills: Skill[] = [
   {
     category: "Coding",
+    icon: "code",
     list: [
       "HTML/CSS/JS",
       "SASS",
@@ -35,10 +37,12 @@ const skills: Skill[] = [
   },
   {
     category: "Graphics Design",
+    icon: "stylus_note",
     list: ["UI/UX", "Responsive Design", "Figma", "Adobe Illustrator"],
   },
   {
     category: "Other",
+    icon: "bolt",
     list: ["MS Office Programs", "Touch Typing"],
   },
 ];
