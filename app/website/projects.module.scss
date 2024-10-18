@@ -1,9 +1,7 @@
 @import "../main";
 
 .projects {
-  flex: 1;
-  background-color: $primary-black;
-  color: white;
+  background-color: $white;
 
   .projects_content {
     margin: auto;
@@ -11,36 +9,57 @@
     width: 1280px;
 
     h1 {
+      color: $primary-black;
+      margin: 0 0 1em 0;
       font-size: 3em;
-      color: $pink;
-      font-weight: 200;
+      font-weight: 600;
+      text-align: center;
     }
 
     .project_items {
       display: flex;
       flex-direction: row;
-      margin: 2em;
+      margin: 0 2em;
       gap: 1em;
 
       .project_card {
         flex: 1;
+        position: relative;
+        padding: 0.8em;
+        border-radius: 1.5em;
         background-color: $secondary-black;
-        color: white;
+        color: $white;
 
-        .item_title {
+        .project_image {
+          border-radius: 1.5em;
           margin-bottom: 0.5em;
-          font-size: 1.7em;
-          color: $pink;
-          font-weight: 200;
         }
 
-        button {
-          color: $pink;
-          border: 1px solid $pink;
+        .project_name {
+          font-size: 1.7em;
+        }
+
+        p {
+          font-size: 1.1em;
+          margin-bottom: 3em;
+        }
+
+        .button_project {
+          position: absolute;
+          bottom: 0.8em;
+          left: 50%;
+          transform: translate(-50%, 0);
+          text-align: center;
+          text-decoration: auto;
+          padding: 0.5em 1.5em;
+          border-radius: 0.7em;
+          background-color: $blue;
+          border: 1px solid $blue;
+          color: $secondary-black;
 
           &:hover {
-            background-color: $pink;
-            color: $secondary-black;
+            background-color: $secondary-black;
+            color: $blue;
           }
         }
       }
