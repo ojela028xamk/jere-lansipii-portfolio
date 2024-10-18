@@ -7,7 +7,7 @@ const Projects = (): JSX.Element => {
   return (
     <div className={css.projects}>
       <div className={css.projects_content}>
-        <h1>Projects</h1>
+        <h1>My Projects</h1>
         <div className={css.project_items}>
           {projects.toReversed().map((project, index) => (
             <div key={index} className={css.project_card}>

@@ -9,11 +9,8 @@
     width: 1280px;
 
     h1 {
-      color: $primary-black;
-      margin: 0 0 1em 0;
-      font-size: 3em;
-      font-weight: 600;
-      text-align: center;
+      @include content_header;
+      color: $secondary-black;
     }
 
     .project_items {

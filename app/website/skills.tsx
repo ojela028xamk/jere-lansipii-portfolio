@@ -5,7 +5,7 @@ const Skills = (): JSX.Element => {
   return (
     <div className={css.skills}>
       <div className={css.skills_content}>
-        <h1>Skills</h1>
+        <h1>My Skills</h1>
         <div className={css.skill_items}>
           {skills.map((skill) => (
             <div key={skill.category} className={css.item}>

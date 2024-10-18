@@ -1,17 +1,14 @@
-import { contact } from "./content";
 import css from "./contact.module.scss";
 
 const Contact = (): JSX.Element => {
   return (
     <div className={css.contact}>
       <div className={css.contact_content}>
-        <h1>Contact</h1>
+        <h1>Stay Connected</h1>
         <div className={css.contact_items}>
-          {Object.entries(contact).map(([name, value]) => (
-            <div key={name} className={css.item}>
-              <span>{value}</span>
-            </div>
-          ))}
+          <span>Helsinki, Finland</span>
+          <span>jerelans91@gmail.com</span>
+          <span>+358 40 7729 448</span>
         </div>
       </div>
     </div>
