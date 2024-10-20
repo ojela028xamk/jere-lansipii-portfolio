@@ -30,6 +30,8 @@
         .project_image {
           border-radius: 1.5em;
           margin-bottom: 0.5em;
+          object-fit: cover;
+          border: 2px solid $blue;
         }
 
         .project_name {

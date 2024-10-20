@@ -26,7 +26,7 @@ const skills: Skill[] = [
     icon: "code",
     list: [
       "HTML/CSS/JS",
-      "SASS",
+      "Sass",
       "React",
       "React Bootstrap",
       "Next.js",
@@ -50,21 +50,21 @@ const skills: Skill[] = [
 const projects: Project[] = [
   {
     name: "Movie Quiz",
-    image: "",
+    image: "/movie_quiz.png",
     description:
       "Movie Quiz is a web application that allows users to test their knowledge of movies.",
     link: "https://ojela028xamk.github.io/movie-quiz/",
   },
   {
     name: "Guitar Dictionary",
-    image: "",
+    image: "/guitar_dictionary.png",
     description:
       "On this website user can read and learn english and finnish guitar terminology",
     link: "https://guitar-dictionary.vercel.app/",
   },
   {
     name: "Metal Band Template",
-    image: "",
+    image: "/band_template.png",
     description:
       "Website template for an imaginary AI generated metal band called 'Beast Within'.",
     link: "https://www.google.fi",

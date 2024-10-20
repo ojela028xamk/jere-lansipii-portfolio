@@ -13,11 +13,14 @@ const Projects = (): JSX.Element => {
             <div key={index} className={css.project_card}>
               <Image
                 className={css.project_image}
-                src="https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
+                src={
+                  project.image
+                    ? project.image
+                    : "https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
+                }
                 alt={"Project image"}
-                width={0}
-                height={0}
-                layout="responsive"
+                width={370}
+                height={250}
               />
               <span className={css.project_name}>{project.name}</span>
               <p>{project.description}</p>

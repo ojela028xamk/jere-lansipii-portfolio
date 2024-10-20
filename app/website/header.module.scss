@@ -2,7 +2,7 @@
 
 .header {
   background-color: $primary-black;
-  color: white;
+  color: $white;
 
   .header_content {
     display: flex;
@@ -46,7 +46,7 @@
           border-radius: 0.7em;
           background-color: $pink;
           border: 1px solid $pink;
-          color: white;
+          color: $white;
           font-size: 1.5em;
 
           &:hover {
