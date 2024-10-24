@@ -21,6 +21,7 @@ const Projects = (): JSX.Element => {
                 alt={"Project image"}
                 width={370}
                 height={250}
+                layout="responsive"
               />
               <span className={css.project_name}>{project.name}</span>
               <p>{project.description}</p>

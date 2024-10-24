@@ -51,6 +51,7 @@ const Header = (): JSX.Element => {
             alt="Jere Länsipii Avatar"
             width={200}
             height={200}
+            layout="responsive"
           />
         </div>
       </div>

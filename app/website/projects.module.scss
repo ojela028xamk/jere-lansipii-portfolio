@@ -6,7 +6,7 @@
   .projects_content {
     margin: auto;
     padding: $content-padding;
-    width: 1280px;
+    max-width: 1280px;
 
     h1 {
       @include content_header;
@@ -30,7 +30,6 @@
         .project_image {
           border-radius: 1.5em;
           margin-bottom: 0.5em;
-          object-fit: cover;
           border: 2px solid $blue;
         }
 

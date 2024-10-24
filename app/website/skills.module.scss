@@ -7,7 +7,7 @@
   .skills_content {
     margin: auto;
     padding: $content-padding;
-    width: 960px;
+    max-width: 960px;
 
     h1 {
       @include content_header;
