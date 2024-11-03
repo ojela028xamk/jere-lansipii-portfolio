@@ -23,9 +23,27 @@ const Experience = () => {
           </span>
         </div>
         <div className={css.job_logos}>
-          <img className={css.job_logo} src="/wheelq.png" alt={"WheelQ logo"} />
-          <img className={css.job_logo} src="/mipro.png" alt={"Mipro logo"} />
-          <img className={css.job_logo} src="/xamk.png" alt={"XAMK logo"} />
+          <Image
+            className={css.job_logo}
+            src="/wheelq.png"
+            alt="WheelQ logo"
+            width={514}
+            height={134}
+          />
+          <Image
+            className={css.job_logo}
+            src="/mipro.png"
+            alt="Mipro logo"
+            width={2048}
+            height={342}
+          />
+          <Image
+            className={css.job_logo}
+            src="/xamk.png"
+            alt="XAMK logo"
+            width={2409}
+            height={976}
+          />
         </div>
       </div>
     </div>

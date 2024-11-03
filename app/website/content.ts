@@ -67,7 +67,7 @@ const projects: Project[] = [
     image: "/band_template.png",
     description:
       "Website template for an imaginary AI generated metal band called 'Beast Within'.",
-    link: "https://www.google.fi",
+    link: "https://metal-band-template.vercel.app/",
   },
 ];
 

@@ -7,7 +7,7 @@
   .experience_content {
     margin: auto;
     padding: $content-padding;
-    width: 1280px;
+    max-width: 1280px;
 
     .recommended {
       display: flex;
@@ -33,13 +33,17 @@
     }
 
     .job_logos {
-      display: flex;
-      height: 7vh;
-      justify-content: center;
+      margin: auto;
+      max-width: 960px;
       margin-top: 4em;
+      display: flex;
+      justify-content: center;
 
       .job_logo {
         margin: 0 1.5em;
+        height: 5vw;
+        object-fit: contain;
+        flex-basis: content;
       }
     }
   }
