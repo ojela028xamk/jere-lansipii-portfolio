@@ -28,9 +28,12 @@
         color: $white;
 
         .project_image {
+          width: 100%;
+          height: 220px;
           border-radius: 1.5em;
           margin-bottom: 0.5em;
           border: 2px solid $blue;
+          object-fit: cover;
         }
 
         .project_name {

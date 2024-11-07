@@ -19,9 +19,8 @@ const Projects = (): JSX.Element => {
                     : "https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
                 }
                 alt={"Project image"}
-                width={370}
-                height={250}
-                layout="responsive"
+                width={1918}
+                height={947}
               />
               <span className={css.project_name}>{project.name}</span>
               <p>{project.description}</p>
