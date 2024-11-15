@@ -15,8 +15,8 @@ const Experience = () => {
           />
           <p className={css.text}>
             Excellent design, great communication, fast turnaround of revisions.
-            I had a clear vision of what I wanted. Jere did not just deliver it
-            he aimproved upon it substantially. Recommended!
+            I had a clear vision of what I wanted. Jere did not just deliver it,
+            he improved upon it substantially. Recommended!
           </p>
           <span className={css.name}>
             <b>Aarne Savolainen, WheelQ</b>

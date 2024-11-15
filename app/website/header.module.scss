@@ -7,13 +7,15 @@
   .header_content {
     display: flex;
     margin: auto;
-    padding: $content-padding;
+    padding-top: 1em;
     max-width: 1280px;
     text-align: left;
     white-space: pre-wrap;
+    align-items: end;
 
     .header_content_left {
-      flex: 2;
+      flex: 3;
+      padding: 2em;
 
       .text {
         h2 {
@@ -67,9 +69,11 @@
     }
 
     .header_content_right {
-      flex: 1;
+      flex: 2;
 
       .image {
+        width: 100%;
+        height: auto;
       }
     }
   }

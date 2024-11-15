@@ -16,7 +16,7 @@ const Header = (): JSX.Element => {
           <div className={css.buttons}>
             <Link
               className={css.button_cv}
-              href="https://www.google.fi"
+              href="https://drive.google.com/file/d/1ONBHjjM8T_aM5PQCiaL4_UNfxXJIeNmn/view?usp=sharing"
               target="_blank"
             >
               Open CV
@@ -47,11 +47,10 @@ const Header = (): JSX.Element => {
         <div className={css.header_content_right}>
           <Image
             className={css.image}
-            src=""
+            src="/avatar.png"
             alt="Jere Länsipii Avatar"
-            width={200}
-            height={200}
-            layout="responsive"
+            width={828}
+            height={816}
           />
         </div>
       </div>
