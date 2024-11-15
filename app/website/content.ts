@@ -59,7 +59,7 @@ const projects: Project[] = [
     name: "Guitar Dictionary",
     image: "/guitar_dictionary.png",
     description:
-      "On this website user can read and learn english and finnish guitar terminology",
+      "On this website user can read and learn english and finnish guitar terminology.",
     link: "https://guitar-dictionary.vercel.app/",
   },
   {

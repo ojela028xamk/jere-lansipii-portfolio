@@ -1,5 +1,47 @@
 @import "../main";
 
+@media screen and (width >= 1200px) {
+  .projects {
+    .projects_content {
+      .project_items {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .project_card {
+          flex: 1;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 1200px) {
+  .projects {
+    .projects_content {
+      .project_items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        .project_card {
+          flex: 0 0 44%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 768px) {
+  .projects {
+    .projects_content {
+      .project_items {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .project_card {
+          flex: 1;
+        }
+      }
+    }
+  }
+}
+
 .projects {
   background-color: $white;
 
@@ -15,13 +57,13 @@
 
     .project_items {
       display: flex;
-      flex-direction: row;
+      justify-content: center;
       margin: 0 2em;
       gap: 1em;
 
       .project_card {
-        flex: 1;
-        position: relative;
+        display: flex;
+        flex-direction: column;
         padding: 0.8em;
         border-radius: 1.5em;
         background-color: $secondary-black;
@@ -43,13 +85,11 @@
         p {
           font-size: 1.1em;
           margin-bottom: 3em;
+          flex-grow: 1;
         }
 
         .button_project {
-          position: absolute;
-          bottom: 0.8em;
-          left: 50%;
-          transform: translate(-50%, 0);
+          align-self: center;
           text-align: center;
           text-decoration: auto;
           padding: 0.5em 1.5em;
