@@ -3,3 +3,14 @@ $primary-black: #2e2e35;
 $secondary-black: #34343b;
 $blue: #51e5ff;
 $pink: #ec368d;
+$white: #f5f3f5;
+
+// Structure
+$content-padding: 3em;
+
+@mixin content_header {
+  margin: 0 0 1em 0;
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+}

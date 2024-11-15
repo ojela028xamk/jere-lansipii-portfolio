@@ -1,43 +1,36 @@
-"use client";
 import css from "./projects.module.scss";
-import { Project, projects } from "./content";
-import { useToggle } from "react-use";
-import { useState } from "react";
+import { projects } from "./content";
 import Image from "next/image";
-import Modal from "react-responsive-modal";
-import ProjectsModal from "./projectsModal";
-import "react-responsive-modal/styles.css";
+import Link from "next/link";
 
 const Projects = (): JSX.Element => {
-  const [showModal, toggleModal] = useToggle(false);
-  const [selectedProject, setSelectedProject] = useState({} as Project);
-
-  const handleProjectSelect = (project: Project): void => {
-    toggleModal();
-    setSelectedProject(project);
-  };
-
   return (
     <div className={css.projects}>
       <div className={css.projects_content}>
-        <h1>Projects</h1>
+        <h1>My Projects</h1>
         <div className={css.project_items}>
-          {projects.map((project, index) => (
+          {projects.toReversed().map((project, index) => (
             <div key={index} className={css.project_card}>
               <Image
-                src="https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
+                className={css.project_image}
+                src={
+                  project.image
+                    ? project.image
+                    : "https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
+                }
                 alt={"Project image"}
-                width={0}
-                height={0}
-                layout="responsive"
+                width={1918}
+                height={947}
               />
-              <h5>{project.name}</h5>
-              <button onClick={() => handleProjectSelect(project)}>
-                Show more
-              </button>
-              <Modal open={showModal} onClose={toggleModal} center>
-                <ProjectsModal project={selectedProject} />
-              </Modal>
+              <span className={css.project_name}>{project.name}</span>
+              <p>{project.description}</p>
+              <Link
+                className={css.button_project}
+                href={project.link}
+                target="_blank"
+              >
+                Open Website
+              </Link>
             </div>
           ))}
         </div>

@@ -1,26 +1,65 @@
 @import "../main";
 
 .skills {
-  flex: 1;
-  background-color: $secondary-black;
-  color: white;
+  background-color: $primary-black;
+  color: $white;
 
   .skills_content {
     margin: auto;
-    padding: 2em;
-    width: 1280px;
+    padding: $content-padding;
+    max-width: 960px;
+
+    h1 {
+      @include content_header;
+      color: $white;
+    }
 
     .skill_items {
-      display: flex;
-      gap: 1em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+      grid-column-gap: 1.5em;
+      grid-row-gap: 1.5em;
 
       .item {
-        flex: 1;
         text-align: left;
-        background-color: $primary-black;
-        h3 {
-          text-align: center;
+        background-color: $secondary-black;
+        padding: 1.8em;
+        border-radius: 1em;
+
+        .item_header {
+          display: flex;
+          align-items: center;
+
+          .icon {
+            margin-right: 0.4em;
+            font-size: 3.5em;
+            padding: 0.1em;
+            background-color: $pink;
+            border-radius: 2em;
+          }
+
+          .category {
+            font-size: 2em;
+          }
         }
+
+        ul {
+          font-size: 1.3em;
+          line-height: 1.5em;
+        }
+      }
+
+      .item:nth-child(1) {
+        grid-area: 1 / 1 / 4 / 2;
+      }
+
+      .item:nth-child(2) {
+        grid-area: 1 / 2 / 3 / 3;
+      }
+
+      .item:nth-child(3) {
+        grid-area: 3 / 2 / 4 / 3;
       }
     }
   }

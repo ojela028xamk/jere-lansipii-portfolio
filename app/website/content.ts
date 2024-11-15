@@ -1,5 +1,6 @@
 export type Skill = {
   category: string;
+  icon: string;
   list: string[];
 };
 
@@ -17,55 +18,56 @@ export type Contact = {
 };
 
 const aboutMe =
-  "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. " +
-  "I have expertise in both frontend and some backend development through my education and work experience. " +
-  "I have over 1.5 years of work experience in software development.";
+  "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. \n \nI have expertise in both frontend and some backend development through my education and work experience. I have over 2 years of work experience in software development.";
 
 const skills: Skill[] = [
   {
-    category: "Frontend",
+    category: "Coding",
+    icon: "code",
     list: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "SASS",
+      "HTML/CSS/JS",
+      "Sass",
       "React",
       "React Bootstrap",
+      "Next.js",
       "TypeScript",
-      "React Router",
+      "SQL",
       "Cypress",
     ],
   },
   {
     category: "Graphics Design",
-    list: [
-      "UI/UX",
-      "Graphic Design",
-      "Responsive Design",
-      "Adobe Illustrator",
-      "Figma",
-    ],
+    icon: "stylus_note",
+    list: ["UI/UX", "Responsive Design", "Figma", "Adobe Illustrator"],
   },
   {
     category: "Other",
-    list: ["Microsoft Office Programs", "Touch Typing", "Adobe Premiere Pro"],
+    icon: "bolt",
+    list: ["MS Office Programs", "Touch Typing"],
   },
 ];
 
 const projects: Project[] = [
   {
-    name: "Create&Save Recipe",
-    image: "",
-    description:
-      "Create&Save Recipe is a web application that allows users to create and save their own recipes. ",
-    link: "https://ojela028xamk.github.io/create-save-recipe/",
-  },
-  {
     name: "Movie Quiz",
-    image: "",
+    image: "/movie_quiz.png",
     description:
       "Movie Quiz is a web application that allows users to test their knowledge of movies.",
     link: "https://ojela028xamk.github.io/movie-quiz/",
+  },
+  {
+    name: "Guitar Dictionary",
+    image: "/guitar_dictionary.png",
+    description:
+      "On this website user can read and learn english and finnish guitar terminology",
+    link: "https://guitar-dictionary.vercel.app/",
+  },
+  {
+    name: "Metal Band Template",
+    image: "/band_template.png",
+    description:
+      "Website template for an imaginary AI generated metal band called 'Beast Within'.",
+    link: "https://metal-band-template.vercel.app/",
   },
 ];
 

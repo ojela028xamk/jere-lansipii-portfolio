@@ -1,24 +1,33 @@
 @import "../main";
 
 .contact {
-  flex: 1;
-  background-color: $secondary-black;
-  color: white;
+  background-color: $primary-black;
+  color: $white;
 
   .contact_content {
     margin: auto;
-    padding: 2em;
-    width: 1280px;
+    text-align: center;
+    padding: $content-padding;
+    max-width: 1280px;
+
+    h1 {
+      @include content_header;
+    }
 
     .contact_items {
-      display: flex;
-      flex-direction: row;
-      gap: 2em;
+      font-size: 1.5em;
+      line-height: 1.5em;
 
-      .item {
-        flex: 1;
-        padding: 1em;
-        background-color: $primary-black;
+      span {
+        display: block;
+      }
+
+      span:nth-child(1) {
+        font-weight: 200;
+      }
+
+      span:nth-child(3) {
+        color: $pink;
       }
     }
   }

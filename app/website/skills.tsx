@@ -5,11 +5,16 @@ const Skills = (): JSX.Element => {
   return (
     <div className={css.skills}>
       <div className={css.skills_content}>
-        <h1>Skills</h1>
+        <h1>My Skills</h1>
         <div className={css.skill_items}>
           {skills.map((skill) => (
             <div key={skill.category} className={css.item}>
-              <h3>{skill.category}</h3>
+              <div className={css.item_header}>
+                <span className={`${css.icon} material-symbols-outlined`}>
+                  {skill.icon}
+                </span>
+                <span className={css.category}>{skill.category}</span>
+              </div>
               <ul>
                 {skill.list.map((item) => (
                   <li key={item}>{item}</li>
