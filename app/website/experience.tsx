@@ -14,9 +14,10 @@ const Experience = () => {
             height={180}
           />
           <p className={css.text}>
-            Excellent design, great communication, fast turnaround of revisions.
-            I had a clear vision of what I wanted. Jere did not just deliver it,
-            he improved upon it substantially. Recommended!
+            Jere demonstrated a good visual eye as well as knowledge of user
+            interface/user experience design. It was also easy to communicate
+            with him. I had a clear vision of what I wanted. Jere implemented
+            this as well as greatly improved it. Recommended!
           </p>
           <span className={css.name}>
             <b>Aarne Savolainen, WheelQ</b>
