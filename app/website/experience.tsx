@@ -8,7 +8,7 @@ const Experience = () => {
         <div className={css.recommended}>
           <Image
             className={css.aarne_avatar}
-            src="/aarne.jfif"
+            src="/aarne.png"
             alt={"Aarne Savolainen"}
             width={180}
             height={180}
