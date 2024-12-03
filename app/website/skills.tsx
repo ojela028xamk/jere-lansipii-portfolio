@@ -1,5 +1,6 @@
 import css from "./skills.module.scss";
 import { skills } from "./content";
+import "../iconsGlobal.scss";
 
 const Skills = (): JSX.Element => {
   return (
