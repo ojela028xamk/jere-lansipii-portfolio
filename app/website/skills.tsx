@@ -1,8 +1,21 @@
 import css from "./skills.module.scss";
-import { skills } from "./content";
-import "../iconsGlobal.scss";
+import { SkillIcon, skills } from "./content";
+import { FaPenRuler, FaAtom, FaCode, FaBolt } from "react-icons/fa6";
 
 const Skills = (): JSX.Element => {
+  const handleIcon = (icon: SkillIcon) => {
+    switch (icon) {
+      case SkillIcon.CODE:
+        return <FaCode className={css.icon} />;
+      case SkillIcon.GRAPHIC:
+        return <FaPenRuler className={css.icon} />;
+      case SkillIcon.OTHER:
+        return <FaBolt className={css.icon} />;
+      default:
+        return <FaAtom className={css.icon} />;
+    }
+  };
+
   return (
     <div className={css.skills}>
       <div className={css.skills_content}>
@@ -11,9 +24,7 @@ const Skills = (): JSX.Element => {
           {skills.map((skill) => (
             <div key={skill.category} className={css.item}>
               <div className={css.item_header}>
-                <span className={`${css.icon} material-symbols-outlined`}>
-                  {skill.icon}
-                </span>
+                {handleIcon(skill.icon)}
                 <span className={css.category}>{skill.category}</span>
               </div>
               <ul>

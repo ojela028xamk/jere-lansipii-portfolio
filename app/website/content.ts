@@ -1,8 +1,14 @@
 export type Skill = {
   category: string;
-  icon: string;
+  icon: SkillIcon;
   list: string[];
 };
+
+export enum SkillIcon {
+  CODE = "code",
+  GRAPHIC = "graphic",
+  OTHER = "other",
+}
 
 export type Project = {
   name: string;
@@ -23,7 +29,7 @@ const aboutMe =
 const skills: Skill[] = [
   {
     category: "Coding",
-    icon: "code",
+    icon: SkillIcon.CODE,
     list: [
       "HTML/CSS/JS",
       "Sass",
@@ -37,12 +43,12 @@ const skills: Skill[] = [
   },
   {
     category: "Graphics Design",
-    icon: "stylus_note",
+    icon: SkillIcon.GRAPHIC,
     list: ["UI/UX", "Responsive Design", "Figma", "Adobe Illustrator"],
   },
   {
     category: "Other",
-    icon: "bolt",
+    icon: SkillIcon.OTHER,
     list: ["MS Office Programs", "Touch Typing"],
   },
 ];
