@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import "./iconsGlobal.scss";
 
 export const metadata: Metadata = {
   title: "Jere Länsipii Portfolio",
