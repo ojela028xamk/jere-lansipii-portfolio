@@ -1,3 +1,3 @@
 # Jere Länsipii Portfolio
 
-jere-lansipii-portfolio.vercel.app
+Website: https://jere-lansipii-portfolio.vercel.app/
