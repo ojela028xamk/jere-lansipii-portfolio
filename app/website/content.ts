@@ -37,7 +37,6 @@ const skills: Skill[] = [
       "React Bootstrap",
       "Next.js",
       "TypeScript",
-      "SQL",
       "Cypress",
     ],
   },
