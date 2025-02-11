@@ -69,10 +69,9 @@ const projects: Project[] = [
     link: "https://guitar-dictionary.vercel.app/",
   },
   {
-    name: "Metal Band Template",
+    name: "Band Template",
     image: "/band_template.png",
-    description:
-      "Website template for an imaginary AI generated metal band called 'Beast Within'.",
+    description: "Website template for a metal/rock/punk band.",
     link: "https://metal-band-template.vercel.app/",
   },
 ];
