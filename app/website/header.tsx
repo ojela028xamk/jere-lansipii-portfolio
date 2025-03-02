@@ -49,8 +49,8 @@ const Header = (): JSX.Element => {
             className={css.image}
             src="/avatar.png"
             alt="Jere Länsipii Avatar"
-            width={828}
-            height={816}
+            width={764}
+            height={786}
           />
         </div>
       </div>
