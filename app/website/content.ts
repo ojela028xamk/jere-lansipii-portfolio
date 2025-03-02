@@ -30,25 +30,12 @@ const skills: Skill[] = [
   {
     category: "Coding",
     icon: SkillIcon.CODE,
-    list: [
-      "HTML/CSS/JS",
-      "Sass",
-      "React",
-      "React Bootstrap",
-      "Next.js",
-      "TypeScript",
-      "Cypress",
-    ],
+    list: ["HTML/CSS/JS", "Sass", "React", "Next.js", "TypeScript", "Cypress"],
   },
   {
-    category: "Graphics Design",
+    category: "Design",
     icon: SkillIcon.GRAPHIC,
-    list: ["UI/UX", "Responsive Design", "Figma", "Adobe Illustrator"],
-  },
-  {
-    category: "Other",
-    icon: SkillIcon.OTHER,
-    list: ["MS Office Programs", "Touch Typing"],
+    list: ["Graphics Design", "UI/UX", "Responsive Design", "Figma"],
   },
 ];
 
