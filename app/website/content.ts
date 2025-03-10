@@ -62,7 +62,7 @@ const projects: Project[] = [
   },
   {
     name: "Finnish Map Quiz",
-    image: "/finnish_map_quiz.png",
+    image: "/finnish_map_quiz.PNG",
     description: "Website that tests finnish geography knowledge.",
     link: "https://finland-map-quiz.vercel.app/",
   },
