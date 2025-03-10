@@ -60,6 +60,12 @@ const projects: Project[] = [
     description: "Website template for a metal/rock/punk band.",
     link: "https://metal-band-template.vercel.app/",
   },
+  {
+    name: "Finnish Map Quiz",
+    image: "/finnish_map_quiz.png",
+    description: "Website that tests finnish geography knowledge.",
+    link: "https://finland-map-quiz.vercel.app/",
+  },
 ];
 
 const contact: Contact = {

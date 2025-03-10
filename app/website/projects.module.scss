@@ -1,54 +1,12 @@
 @import "../main";
 
-@media screen and (width >= 1200px) {
-  .projects {
-    .projects_content {
-      .project_items {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .project_card {
-          flex: 1;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (width < 1200px) {
-  .projects {
-    .projects_content {
-      .project_items {
-        flex-direction: row;
-        flex-wrap: wrap;
-        .project_card {
-          flex: 0 0 44%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (width < 768px) {
-  .projects {
-    .projects_content {
-      .project_items {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        .project_card {
-          flex: 1;
-        }
-      }
-    }
-  }
-}
-
 .projects {
   background-color: $white;
 
   .projects_content {
     margin: auto;
     padding: $content-padding;
-    max-width: 1280px;
+    max-width: 960px;
 
     h1 {
       @include content_header;
@@ -56,8 +14,8 @@
     }
 
     .project_items {
-      display: flex;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       margin: 0 2em;
       gap: 1em;
 
