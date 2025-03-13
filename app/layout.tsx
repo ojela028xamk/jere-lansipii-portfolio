@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Jere Länsipii Portfolio",
@@ -15,19 +13,9 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const locale = await getLocale();
-
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
-
   return (
-    <html lang={locale} className={montserrat.className}>
-      <body style={{ margin: 0 }}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
+    <html className={montserrat.className}>
+      <body style={{ margin: 0 }}>{children}</body>
     </html>
   );
 }

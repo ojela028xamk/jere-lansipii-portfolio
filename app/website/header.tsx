@@ -2,17 +2,13 @@ import Image from "next/image";
 import css from "./header.module.scss";
 import { aboutMe } from "./content";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 
 const Header = (): JSX.Element => {
-  const t = useTranslations("Website");
-
   return (
     <div className={css.header}>
       <div className={css.header_content}>
         <div className={css.header_content_left}>
           <div className={css.text}>
-            <h1>{t("title")}</h1>
             <h2>Software Developer & Graphic Designer</h2>
             <h1>JERE LÄNSIPII</h1>
             <p>{aboutMe}</p>
