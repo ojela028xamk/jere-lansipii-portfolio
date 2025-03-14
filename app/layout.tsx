@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Jere Länsipii Portfolio",
@@ -13,9 +15,13 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+
   return (
-    <html className={montserrat.className}>
-      <body style={{ margin: 0 }}>{children}</body>
+    <html lang={locale} className={montserrat.className}>
+      <body style={{ margin: 0 }}>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      </body>
     </html>
   );
 }
