@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 const Header = (): JSX.Element => {
-  const t = useTranslations("HomePage");
+  const t = useTranslations("Website");
 
   return (
     <div className={css.header}>
