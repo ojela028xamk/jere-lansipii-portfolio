@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 const Header = (): JSX.Element => {
-  const t = useTranslations("Website");
+  const t = useTranslations("website");
 
   return (
     <div className={css.header}>
-      <h1>{t("title")}</h1>
+      <h1>{t("header.title")}</h1>
       <div className={css.header_content}>
         <div className={css.header_content_left}>
           <div className={css.text}>

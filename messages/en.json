@@ -1,5 +1,7 @@
 {
-  "Website": {
-    "title": "Hello world!"
+  "website": {
+    "header": {
+      "title": "Software Developer & Graphic Designer"
+    }
   }
 }

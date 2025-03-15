@@ -1,5 +1,7 @@
 {
-  "Website": {
-    "title": "Hei maailma!"
+  "website": {
+    "header": {
+      "title": "Sovelluskehittäjä ja graafinen suunnittelija"
+    }
   }
 }
