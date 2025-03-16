@@ -21,8 +21,11 @@ const LanguageSwitch = () => {
 
   return (
     <div className={css.language_switch}>
-      <button onClick={() => handleLanguageSwitch(Locale.EN)}>English</button>
-      <button onClick={() => handleLanguageSwitch(Locale.FI)}>Finland</button>
+      {Object.values(Locale).map((value) => (
+        <button key={value} onClick={() => handleLanguageSwitch(value)}>
+          {value}
+        </button>
+      ))}
     </div>
   );
 };

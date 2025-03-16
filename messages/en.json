@@ -1,7 +1,9 @@
 {
   "website": {
     "header": {
-      "title": "Software Developer & Graphic Designer"
+      "title": "Software Developer & Graphic Designer",
+      "description": "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. \n \nI have expertise in both frontend and some backend development through my education and work experience. I have over 2 years of work experience in software development.",
+      "open_cv": "Open CV"
     }
   }
 }
