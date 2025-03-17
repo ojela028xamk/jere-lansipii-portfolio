@@ -7,7 +7,7 @@ import { Locale } from "../website/languageSwitch";
 const COOKIE_NAME = "NEXT_LOCALE";
 
 export async function getUserLocale() {
-  return (await cookies()).get(COOKIE_NAME)?.value || Locale.EN;
+  return (await cookies()).get(COOKIE_NAME)?.value || "en";
 }
 
 export async function setUserLocale(locale: Locale) {

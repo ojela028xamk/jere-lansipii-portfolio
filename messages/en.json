@@ -5,6 +5,16 @@
       "description": "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. \n \nI have expertise in both frontend and some backend development through my education and work experience. I have over 2 years of work experience in software development.",
       "open_cv": "Open CV"
     },
-    "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!"
+    "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
+    "skills": {
+      "header": "My Skills",
+      "coding_header": "Coding",
+      "design_header": "Design",
+      "graphic": "Graphics Design",
+      "ui": "User Interface Design",
+      "ux": "User Experience Design",
+      "responsive": "Responsive Design",
+      "figma": "Figma"
+    }
   }
 }
