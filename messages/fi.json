@@ -7,28 +7,28 @@
     },
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
-      "header": "Minun Taidot",
+      "header": "Minun taidot",
       "coding_header": "Ohjelmointi",
       "design_header": "Suunnittelu",
-      "graphic": "Graafinen Suunnittelu",
+      "graphic": "Graafinen suunnittelu",
       "ui": "Käyttöliittymäsuunnittelu",
       "ux": "Käyttökokemussuunnittelu",
-      "responsive": "Responsiivinen Suunnittelu",
+      "responsive": "Responsiivinen suunnittelu",
       "figma": "Figma"
     },
     "projects": {
-      "header": "Minun Projektit",
-      "link_button": "Avaa Sivusto",
+      "header": "Minun projektit",
+      "link_button": "Avaa sivusto",
       "project1": {
-        "name": "Suomen Maantietovisa",
+        "name": "Suomen maantietovisa",
         "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
       },
       "project2": {
-        "name": "Mallisivusto Bändille",
+        "name": "Mallisivusto bändille",
         "description": "Mallisivusto tai pohja metalli/rock/punk-bändille."
       },
       "project3": {
-        "name": "Kitaran Sanakirja",
+        "name": "Kitaran sanakirja",
         "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
       },
       "project4": {
@@ -36,6 +36,6 @@
         "description": "Tämä on sivusto, jossa käyttäjä voi testata elokuvatietämystään."
       }
     },
-    "contact_header": "Ollaan Yhteydessä"
+    "contact_header": "Ollaan yhteydessä"
   }
 }
