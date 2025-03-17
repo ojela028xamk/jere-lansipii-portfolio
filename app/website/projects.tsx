@@ -54,9 +54,9 @@ const Projects = (): JSX.Element => {
                 height={947}
               />
               <span className={css.project_name}>
-                {t(`projects.${project.translateKey}.title`)}
+                {t(`projects.${project.translateKey}.name`)}
               </span>
-              <p>{t(`projects.${project.translateKey}.value`)}</p>
+              <p>{t(`projects.${project.translateKey}.description`)}</p>
               <Link
                 className={css.button_project}
                 href={project.link}

@@ -20,20 +20,20 @@
       "header": "Minun Projektit",
       "link_button": "Avaa Sivusto",
       "project1": {
-        "title": "Suomen Maantietovisa",
-        "value": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
+        "name": "Suomen Maantietovisa",
+        "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
       },
       "project2": {
-        "title": "Mallisivusto Bändille",
-        "value": "Mallisivusto tai pohja metalli/rock/punk-bändille."
+        "name": "Mallisivusto Bändille",
+        "description": "Mallisivusto tai pohja metalli/rock/punk-bändille."
       },
       "project3": {
-        "title": "Kitaran Sanakirja",
-        "value": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
+        "name": "Kitaran Sanakirja",
+        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
       },
       "project4": {
-        "title": "Elokuvatietovisa",
-        "value": "Tämä on sivusto, jossa käyttäjä voi testata elokuvatietämystään."
+        "name": "Elokuvatietovisa",
+        "description": "Tämä on sivusto, jossa käyttäjä voi testata elokuvatietämystään."
       }
     },
     "contact_header": "Ollaan Yhteydessä"
