@@ -15,6 +15,26 @@
       "ux": "Käyttökokemussuunnittelu",
       "responsive": "Responsiivinen Suunnittelu",
       "figma": "Figma"
+    },
+    "projects": {
+      "header": "Minun Projektit",
+      "link_button": "Avaa Sivusto",
+      "project1": {
+        "title": "Suomen Maantietovisa",
+        "value": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
+      },
+      "project2": {
+        "title": "Mallisivusto Bändille",
+        "value": "Mallisivusto tai pohja metalli/rock/punk-bändille."
+      },
+      "project3": {
+        "title": "Kitaran Sanakirja",
+        "value": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
+      },
+      "project4": {
+        "title": "Elokuvatietovisa",
+        "value": "Tämä on sivusto, jossa käyttäjä voi testata elokuvatietämystään."
+      }
     }
   }
 }

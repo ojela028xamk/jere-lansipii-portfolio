@@ -15,6 +15,26 @@
       "ux": "User Experience Design",
       "responsive": "Responsive Design",
       "figma": "Figma"
+    },
+    "projects": {
+      "header": "My Projects",
+      "link_button": "Open Website",
+      "project1": {
+        "title": "Finnish Map Quiz",
+        "value": "Website that tests users finnish geography knowledge."
+      },
+      "project2": {
+        "title": "Band Template",
+        "value": "Website template for a metal/rock/punk band."
+      },
+      "project3": {
+        "title": "Guitar Dictionary",
+        "value": "On this website user can read and learn english and finnish guitar terminology."
+      },
+      "project4": {
+        "title": "Movie Quiz",
+        "value": "Movie Quiz is a web application that allows user to test their knowledge of movies."
+      }
     }
   }
 }
