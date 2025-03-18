@@ -1,8 +1,9 @@
 "use client";
-import { useTransition } from "react";
+import { useState, useTransition } from "react";
 import css from "./languageSwitch.module.scss";
 import { setUserLocale } from "../i18n/locale";
 import Image from "next/image";
+import { useLocale } from "next-intl";
 
 export enum Locale {
   EN = "en",
@@ -10,11 +11,14 @@ export enum Locale {
 }
 
 const LanguageSwitch = () => {
+  const initialLanguage = useLocale() as Locale;
   const [isPending, startTransition] = useTransition();
-
-  console.log(isPending);
+  const [currentLanguage, setCurrentLanguage] =
+    useState<Locale>(initialLanguage);
 
   const handleLanguageSwitch = (locale: Locale) => {
+    if (currentLanguage === locale) return;
+    setCurrentLanguage(locale);
     startTransition(() => {
       setUserLocale(locale);
     });
@@ -25,8 +29,11 @@ const LanguageSwitch = () => {
       {Object.values(Locale).map((value) => (
         <button
           key={value}
-          className={css.language_switch_button}
+          className={`${css.language_switch_button} ${
+            currentLanguage === value ? css.current_language : ""
+          }`}
           onClick={() => handleLanguageSwitch(value)}
+          disabled={isPending}
         >
           <span className={css.language_value}>
             {value.toLocaleUpperCase()}

@@ -27,7 +27,7 @@
       min-width: 25px;
       flex: 1;
       position: relative;
-      margin: 0 0.5em;
+      margin: 0 0.3em;
 
       .image {
         object-fit: contain;
@@ -39,5 +39,10 @@
       color: $pink;
       cursor: pointer;
     }
+  }
+
+  .current_language {
+    background-color: $white;
+    color: $pink;
   }
 }
