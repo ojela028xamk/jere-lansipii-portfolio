@@ -1,8 +1,8 @@
 import Image from "next/image";
 import css from "./header.module.scss";
-import { aboutMe } from "./content";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import LanguageSwitch from "./languageSwitch";
 
 const Header = (): JSX.Element => {
   const t = useTranslations("website");
@@ -48,6 +48,7 @@ const Header = (): JSX.Element => {
           </div>
         </div>
         <div className={css.header_content_right}>
+          <LanguageSwitch />
           <Image
             className={css.image}
             src="/avatar.png"

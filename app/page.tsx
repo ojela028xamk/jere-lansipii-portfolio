@@ -9,7 +9,6 @@ import LanguageSwitch from "./website/languageSwitch";
 export default function Home() {
   return (
     <main className={css.main}>
-      <LanguageSwitch />
       <Header />
       <Experience />
       <Skills />

@@ -1,6 +1,5 @@
 import css from "./skills.module.scss";
-import { SkillIcon } from "./content";
-import { FaPenRuler, FaAtom, FaCode, FaBolt } from "react-icons/fa6";
+import { FaPenRuler, FaCode } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 
 const Skills = (): JSX.Element => {
