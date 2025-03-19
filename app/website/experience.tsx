@@ -1,7 +1,10 @@
 import Image from "next/image";
 import css from "./experience.module.scss";
+import { useTranslations } from "next-intl";
 
 const Experience = () => {
+  const t = useTranslations("website");
+
   return (
     <div className={css.experience}>
       <div className={css.experience_content}>
@@ -13,12 +16,7 @@ const Experience = () => {
             width={180}
             height={180}
           />
-          <p className={css.text}>
-            Jere demonstrated a good visual eye as well as knowledge of user
-            interface/user experience design. It was also easy to communicate
-            with him. I had a clear vision of what I wanted. Jere implemented
-            this as well as greatly improved it. Recommended!
-          </p>
+          <p className={css.text}>{t("experience")}</p>
           <span className={css.name}>
             <b>Aarne Savolainen, WheelQ</b>
           </span>

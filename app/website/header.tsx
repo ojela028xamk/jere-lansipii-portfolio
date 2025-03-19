@@ -1,17 +1,20 @@
 import Image from "next/image";
 import css from "./header.module.scss";
-import { aboutMe } from "./content";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import LanguageSwitch from "./languageSwitch";
 
 const Header = (): JSX.Element => {
+  const t = useTranslations("website");
+
   return (
     <div className={css.header}>
       <div className={css.header_content}>
         <div className={css.header_content_left}>
           <div className={css.text}>
-            <h2>Software Developer & Graphic Designer</h2>
+            <h2>{t("header.title")}</h2>
             <h1>JERE LÄNSIPII</h1>
-            <p>{aboutMe}</p>
+            <p>{t("header.description")}</p>
           </div>
           <div className={css.buttons}>
             <Link
@@ -19,7 +22,7 @@ const Header = (): JSX.Element => {
               href="https://drive.google.com/file/d/1o3bsGmkNMjoStX7TJrDpobjQxG9hXLFU/view?usp=drive_link"
               target="_blank"
             >
-              Open CV
+              {t("header.open_cv")}
             </Link>
             <Link
               href="https://linkedin.com/in/jere-länsipii-60b1a3217"
@@ -45,6 +48,7 @@ const Header = (): JSX.Element => {
           </div>
         </div>
         <div className={css.header_content_right}>
+          <LanguageSwitch />
           <Image
             className={css.image}
             src="/avatar.png"

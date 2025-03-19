@@ -1,39 +1,46 @@
 import css from "./skills.module.scss";
-import { SkillIcon, skills } from "./content";
-import { FaPenRuler, FaAtom, FaCode, FaBolt } from "react-icons/fa6";
+import { FaPenRuler, FaCode } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 const Skills = (): JSX.Element => {
-  const handleIcon = (icon: SkillIcon) => {
-    switch (icon) {
-      case SkillIcon.CODE:
-        return <FaCode className={css.icon} />;
-      case SkillIcon.GRAPHIC:
-        return <FaPenRuler className={css.icon} />;
-      case SkillIcon.OTHER:
-        return <FaBolt className={css.icon} />;
-      default:
-        return <FaAtom className={css.icon} />;
-    }
-  };
+  const t = useTranslations("website");
+  const codingSkills = [
+    "HTML/CSS/JS",
+    "Sass",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Cypress",
+  ];
+  const designSkills = ["graphic", "ui", "ux", "responsive", "figma"];
 
   return (
     <div className={css.skills}>
       <div className={css.skills_content}>
-        <h1>My Skills</h1>
+        <h1>{t("skills.header")}</h1>
         <div className={css.skill_items}>
-          {skills.map((skill) => (
-            <div key={skill.category} className={css.item}>
-              <div className={css.item_header}>
-                {handleIcon(skill.icon)}
-                <span className={css.category}>{skill.category}</span>
-              </div>
-              <ul>
-                {skill.list.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
+          <div className={css.item}>
+            <div className={css.item_header}>
+              <FaCode className={css.icon} />
+              <span className={css.category}>{t("skills.coding_header")}</span>
             </div>
-          ))}
+            <ul>
+              {codingSkills.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+          </div>
+          <div className={css.item}>
+            <div className={css.item_header}>
+              <FaPenRuler className={css.icon} />
+              <span className={css.category}>{t("skills.design_header")}</span>
+            </div>
+            <ul>
+              {designSkills.map((skill) => (
+                <li key={skill}>{t(`skills.${skill}`)}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </div>

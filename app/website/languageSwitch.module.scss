@@ -1,0 +1,48 @@
+@import "../main";
+
+.language_switch {
+  display: flex;
+  flex-direction: row;
+  justify-self: end;
+
+  .language_switch_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2em;
+    padding: 0.2em;
+    color: $white;
+    background-color: $pink;
+    font-size: 1.5em;
+    border-radius: 0.3em;
+    border: none;
+
+    .language_value {
+      flex: 1;
+      font-size: 0.8em;
+    }
+
+    .image_container {
+      min-height: 25px;
+      min-width: 25px;
+      flex: 1;
+      position: relative;
+      margin: 0 0.3em;
+
+      .image {
+        object-fit: contain;
+      }
+    }
+
+    &:hover {
+      background-color: $white;
+      color: $pink;
+      cursor: pointer;
+    }
+  }
+
+  .current_language {
+    background-color: $white;
+    color: $pink;
+  }
+}

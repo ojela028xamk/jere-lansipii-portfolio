@@ -1,0 +1,41 @@
+{
+  "website": {
+    "header": {
+      "title": "Software Developer & Graphic Designer",
+      "description": "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. \n \nI have expertise in both frontend and some backend development through my education and work experience. I have over 2 years of work experience in software development.",
+      "open_cv": "Open CV"
+    },
+    "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
+    "skills": {
+      "header": "My Skills",
+      "coding_header": "Coding",
+      "design_header": "Design",
+      "graphic": "Graphics Design",
+      "ui": "User Interface Design",
+      "ux": "User Experience Design",
+      "responsive": "Responsive Design",
+      "figma": "Figma"
+    },
+    "projects": {
+      "header": "My Projects",
+      "link_button": "Open Website",
+      "project1": {
+        "name": "Finnish Map Quiz",
+        "description": "Website that tests users finnish geography knowledge."
+      },
+      "project2": {
+        "name": "Band Template",
+        "description": "Website template for a metal/rock/punk band."
+      },
+      "project3": {
+        "name": "Guitar Dictionary",
+        "description": "On this website user can read and learn english and finnish guitar terminology."
+      },
+      "project4": {
+        "name": "Movie Quiz",
+        "description": "Movie Quiz is a web application that allows user to test their knowledge of movies."
+      }
+    },
+    "contact_header": "Stay Connected"
+  }
+}

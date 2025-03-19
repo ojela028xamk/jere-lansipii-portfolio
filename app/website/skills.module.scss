@@ -18,8 +18,15 @@
       display: flex;
       gap: 2em;
 
+      .item:first-child {
+        flex: 2;
+      }
+
+      .item:nth-child(2) {
+        flex: 3;
+      }
+
       .item {
-        flex: 1;
         text-align: left;
         background-color: $secondary-black;
         padding: 1.8em;

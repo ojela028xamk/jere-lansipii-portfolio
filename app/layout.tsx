@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Jere Länsipii Portfolio",
@@ -8,14 +10,18 @@ export const metadata: Metadata = {
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+
   return (
-    <html lang="en" className={montserrat.className}>
-      <body style={{ margin: 0 }}>{children}</body>
+    <html lang={locale} className={montserrat.className}>
+      <body style={{ margin: 0 }}>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      </body>
     </html>
   );
 }

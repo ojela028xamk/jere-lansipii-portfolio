@@ -1,16 +1,47 @@
 import css from "./projects.module.scss";
-import { projects } from "./content";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+
+type Project = {
+  translateKey: string;
+  image: string;
+  link: string;
+};
+
+const projects: Project[] = [
+  {
+    translateKey: "project1",
+    image: "/finnish_map_quiz.PNG",
+    link: "https://finland-map-quiz.vercel.app/",
+  },
+  {
+    translateKey: "project2",
+    image: "/band_template.png",
+    link: "https://metal-band-template.vercel.app/",
+  },
+  {
+    translateKey: "project3",
+    image: "/guitar_dictionary.png",
+    link: "https://guitar-dictionary.vercel.app/",
+  },
+  {
+    translateKey: "project4",
+    image: "/movie_quiz.png",
+    link: "https://ojela028xamk.github.io/movie-quiz/",
+  },
+];
 
 const Projects = (): JSX.Element => {
+  const t = useTranslations("website");
+
   return (
     <div className={css.projects}>
       <div className={css.projects_content}>
-        <h1>My Projects</h1>
+        <h1>{t("projects.header")}</h1>
         <div className={css.project_items}>
-          {projects.toReversed().map((project, index) => (
-            <div key={index} className={css.project_card}>
+          {projects.map((project) => (
+            <div key={project.translateKey} className={css.project_card}>
               <Image
                 className={css.project_image}
                 src={
@@ -22,14 +53,16 @@ const Projects = (): JSX.Element => {
                 width={1918}
                 height={947}
               />
-              <span className={css.project_name}>{project.name}</span>
-              <p>{project.description}</p>
+              <span className={css.project_name}>
+                {t(`projects.${project.translateKey}.name`)}
+              </span>
+              <p>{t(`projects.${project.translateKey}.description`)}</p>
               <Link
                 className={css.button_project}
                 href={project.link}
                 target="_blank"
               >
-                Open Website
+                {t("projects.link_button")}
               </Link>
             </div>
           ))}
