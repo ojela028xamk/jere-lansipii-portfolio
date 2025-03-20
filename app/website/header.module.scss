@@ -1,17 +1,20 @@
-@import "../main";
+@use "../main";
+@use "../responsive.scss";
 
 .header {
-  background-color: $primary-black;
-  color: $white;
+  background-color: main.$primary-black;
+  color: main.$white;
 
   .header_content {
     display: flex;
-    margin: auto;
     padding-top: 1em;
-    max-width: 1280px;
-    text-align: left;
+    margin: auto;
+    max-width: 1200px;
     white-space: pre-wrap;
-    align-items: flex-end;
+
+    @media (max-width: responsive.$tablet) {
+      flex-direction: column-reverse;
+    }
 
     .header_content_left {
       flex: 3;
@@ -21,13 +24,13 @@
         h2 {
           margin: 0;
           font-weight: 300;
-          font-size: 2em;
+          font-size: clamp(1.5em, 5vw, 2em);
         }
 
         h1 {
           font-weight: 600;
-          color: $pink;
-          font-size: 3em;
+          color: main.$pink;
+          font-size: clamp(2em, 8vw, 3em);
           margin: 0.3em 0;
         }
 
@@ -40,26 +43,26 @@
 
       .buttons {
         display: flex;
+        gap: 0.8em;
         align-items: center;
 
         .button_cv {
           text-decoration: auto;
-          padding: 0.5em 1.5em;
+          text-align: center;
+          padding: 0.5em 1.2em;
           border-radius: 0.7em;
-          background-color: $pink;
-          border: 1px solid $pink;
-          color: $white;
+          background-color: main.$pink;
+          border: 1px solid main.$pink;
+          color: main.$white;
           font-size: 1.5em;
 
           &:hover {
-            background-color: $primary-black;
-            color: $pink;
+            background-color: main.$primary-black;
+            color: main.$pink;
           }
         }
 
         .button_icon {
-          margin-left: 1em;
-
           &:hover {
             cursor: pointer;
             opacity: 0.5;
@@ -70,11 +73,22 @@
 
     .header_content_right {
       flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @media (max-width: responsive.$tablet) {
+        border-bottom: 5px solid main.$pink;
+      }
 
       .image {
-        display: block;
         max-width: 100%;
         height: auto;
+
+        @media (width > responsive.$mobile-large) and (max-width: responsive.$tablet) {
+          max-width: 60%;
+          margin: auto;
+        }
       }
     }
   }

@@ -2,8 +2,8 @@
 
 .language_switch {
   display: flex;
-  flex-direction: row;
-  justify-self: end;
+  align-self: flex-end;
+  padding: 0.5em;
 
   .language_switch_button {
     display: flex;

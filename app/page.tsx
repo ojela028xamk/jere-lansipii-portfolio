@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <main className={css.main}>
       <Header />
-      <Experience />
+      {/* <Experience />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }
