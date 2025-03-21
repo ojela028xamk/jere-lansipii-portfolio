@@ -18,7 +18,7 @@
 
     .header_content_left {
       flex: 3;
-      padding: 2em;
+      padding: main.$content-padding;
 
       .text {
         h2 {
@@ -36,7 +36,7 @@
 
         p {
           margin: 2em 0 3em 0;
-          font-size: 1.3em;
+          font-size: main.$paragraph;
           font-weight: 300;
         }
       }

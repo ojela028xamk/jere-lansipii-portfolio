@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className={css.main}>
       <Header />
-      {/* <Experience />
-      <Skills />
+      <Experience />
+      {/*  <Skills />
       <Projects />
       <Contact /> */}
     </main>
