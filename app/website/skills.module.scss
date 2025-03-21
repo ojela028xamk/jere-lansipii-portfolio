@@ -1,17 +1,17 @@
-@import "../main";
+@use "../main";
 
 .skills {
-  background-color: $primary-black;
-  color: $white;
+  background-color: main.$primary-black;
+  color: main.$white;
 
   .skills_content {
     margin: auto;
-    padding: $content-padding;
+    padding: main.$content-padding;
     max-width: 960px;
 
     h1 {
-      @include content_header;
-      color: $white;
+      @include main.content_header;
+      color: main.$white;
     }
 
     .skill_items {
@@ -22,7 +22,7 @@
       .item {
         flex: 1;
         text-align: left;
-        background-color: $secondary-black;
+        background-color: main.$secondary-black;
         padding: 1.8em;
         border-radius: 1em;
 
@@ -34,7 +34,7 @@
             margin-right: 0.4em;
             font-size: clamp(1.6em, 6vw, 2.5em);
             padding: 0.3em;
-            background-color: $pink;
+            background-color: main.$pink;
             border-radius: 2em;
             overflow: visible;
           }

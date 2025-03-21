@@ -1,4 +1,4 @@
-@import "../main";
+@use "../main";
 
 .language_switch {
   display: flex;
@@ -11,8 +11,8 @@
     align-items: center;
     margin: 0.2em;
     padding: 0.2em;
-    color: $white;
-    background-color: $pink;
+    color: main.$white;
+    background-color: main.$pink;
     font-size: 1.5em;
     border-radius: 0.3em;
     border: none;
@@ -35,14 +35,14 @@
     }
 
     &:hover {
-      background-color: $white;
-      color: $pink;
+      background-color: main.$white;
+      color: main.$pink;
       cursor: pointer;
     }
   }
 
   .current_language {
-    background-color: $white;
-    color: $pink;
+    background-color: main.$white;
+    color: main.$pink;
   }
 }
