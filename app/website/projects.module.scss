@@ -1,38 +1,41 @@
-@import "../main";
+@use "../main";
 
 .projects {
-  background-color: $white;
+  background-color: main.$white;
 
   .projects_content {
     margin: auto;
-    padding: $content-padding;
+    padding: main.$content-padding;
     max-width: 960px;
 
     h1 {
-      @include content_header;
-      color: $secondary-black;
+      @include main.content_header;
+      color: main.$secondary-black;
     }
 
     .project_items {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      margin: 0 2em;
       gap: 1em;
+
+      @media (max-width: 650px) {
+        grid-template-columns: 1fr;
+      }
 
       .project_card {
         display: flex;
         flex-direction: column;
         padding: 0.8em;
         border-radius: 1.5em;
-        background-color: $secondary-black;
-        color: $white;
+        background-color: main.$secondary-black;
+        color: main.$white;
 
         .project_image {
           width: 100%;
-          height: 220px;
+          height: 200px;
           border-radius: 1.5em;
           margin-bottom: 0.5em;
-          border: 2px solid $blue;
+          border: 2px solid main.$blue;
           object-fit: cover;
         }
 
@@ -52,13 +55,13 @@
           text-decoration: auto;
           padding: 0.5em 1.5em;
           border-radius: 0.7em;
-          background-color: $blue;
-          border: 1px solid $blue;
-          color: $secondary-black;
+          background-color: main.$blue;
+          border: 1px solid main.$blue;
+          color: main.$secondary-black;
 
           &:hover {
-            background-color: $secondary-black;
-            color: $blue;
+            background-color: main.$secondary-black;
+            color: main.$blue;
           }
         }
       }

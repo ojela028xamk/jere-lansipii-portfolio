@@ -3,6 +3,7 @@ import css from "./contact.module.scss";
 
 const Contact = (): JSX.Element => {
   const t = useTranslations("website");
+
   return (
     <div className={css.contact}>
       <div className={css.contact_content}>

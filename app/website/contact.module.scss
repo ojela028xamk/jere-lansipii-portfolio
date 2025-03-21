@@ -1,17 +1,17 @@
-@import "../main";
+@use "../main";
 
 .contact {
-  background-color: $primary-black;
-  color: $white;
+  background-color: main.$primary-black;
+  color: main.$white;
 
   .contact_content {
     margin: auto;
     text-align: center;
-    padding: $content-padding;
+    padding: main.$content-padding;
     max-width: 1280px;
 
     h1 {
-      @include content_header;
+      @include main.content_header;
     }
 
     .contact_items {
@@ -27,7 +27,7 @@
       }
 
       span:nth-child(3) {
-        color: $pink;
+        color: main.$pink;
       }
     }
   }
