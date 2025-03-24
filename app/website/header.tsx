@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
           <div className={css.buttons}>
             <Link
               className={css.button_cv}
-              href="https://drive.google.com/file/d/1o3bsGmkNMjoStX7TJrDpobjQxG9hXLFU/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1lW8POtjbSFBUgkzlg0tzgyOiHAW1PIUB/view?usp=drive_link"
               target="_blank"
             >
               {t("header.open_cv")}
