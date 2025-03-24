@@ -39,6 +39,7 @@ const Projects = (): JSX.Element => {
     <div className={css.projects}>
       <div className={css.projects_content}>
         <h1>{t("projects.header")}</h1>
+        <p>{t("projects.information")}</p>
         <div className={css.project_items}>
           {projects.map((project) => (
             <div key={project.translateKey} className={css.project_card}>
@@ -56,7 +57,9 @@ const Projects = (): JSX.Element => {
               <span className={css.project_name}>
                 {t(`projects.${project.translateKey}.name`)}
               </span>
-              <p>{t(`projects.${project.translateKey}.description`)}</p>
+              <p className={css.project_description}>
+                {t(`projects.${project.translateKey}.description`)}
+              </p>
               <Link
                 className={css.button_project}
                 href={project.link}
