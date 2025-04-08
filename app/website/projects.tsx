@@ -22,7 +22,7 @@ const projects: Project[] = [
   },
   {
     translateKey: "project3",
-    image: "/guitar_dictionary.PNG",
+    image: "/guitar_dictionary.png",
     link: "https://guitar-dictionary.vercel.app/",
   },
   {
