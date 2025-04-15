@@ -18,7 +18,7 @@
     },
     "projects": {
       "header": "Minun projektit",
-      "information": "Tämä portfolio, elokuvatietovisa, kitaran sanakirja ja mallisivusto bändille ovat responsiivisia 320px leveyteen asti. Suomen maantietovisa on työn alla responsiiviselle suunnittelulle.",
+      "information": "Kaikki nämä projektit ovat responsiivisia 320px leveyteen asti.",
       "link_button": "Avaa sivusto",
       "project1": {
         "name": "Suomen maantietovisa",

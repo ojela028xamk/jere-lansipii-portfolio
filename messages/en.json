@@ -18,7 +18,7 @@
     },
     "projects": {
       "header": "My Projects",
-      "information": "This portfolio, movie quiz, guitar dictionary and band template are responsive until 320px width. Finnish map quiz is under development for responsive design.",
+      "information": "All of these projects are responsive until 320px width.",
       "link_button": "Open Website",
       "project1": {
         "name": "Finnish Map Quiz",
