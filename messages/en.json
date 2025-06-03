@@ -20,6 +20,7 @@
       "header": "My Projects",
       "information": "All of these projects are responsive until 320px width.",
       "link_button": "Open Website",
+      "link_button_github": "Github",
       "project1": {
         "name": "Finnish Map Quiz",
         "description": "Website that tests users Finnish geography knowledge."
