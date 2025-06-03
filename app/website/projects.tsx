@@ -2,6 +2,7 @@ import css from "./projects.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import ProjectsModal from "./projectsModal";
 
 type Project = {
   translateKey: string;
@@ -67,6 +68,7 @@ const Projects = (): JSX.Element => {
               >
                 {t("projects.link_button")}
               </Link>
+              <ProjectsModal />
             </div>
           ))}
         </div>
