@@ -20,12 +20,8 @@
 
     .project_items {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 1em;
-
-      @media (max-width: 650px) {
-        grid-template-columns: 1fr;
-      }
 
       .project_card {
         display: flex;
@@ -37,11 +33,10 @@
 
         .project_image {
           width: 100%;
-          height: 200px;
+          height: auto;
           border-radius: 1.5em;
           margin-bottom: 0.5em;
           border: 2px solid main.$blue;
-          object-fit: cover;
         }
 
         .project_name {
