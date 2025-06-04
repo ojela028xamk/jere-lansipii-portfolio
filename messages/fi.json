@@ -20,6 +20,7 @@
       "header": "Minun projektit",
       "information": "Kaikki nämä projektit ovat responsiivisia 320px leveyteen asti.",
       "link_button": "Avaa sivusto",
+      "link_button_github": "Github",
       "project1": {
         "name": "Suomen maantietovisa",
         "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
