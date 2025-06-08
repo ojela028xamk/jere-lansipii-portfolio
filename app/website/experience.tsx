@@ -11,10 +11,11 @@ const Experience = () => {
         <div className={css.recommended}>
           <Image
             className={css.aarne_avatar}
-            src="/aarne.png"
+            src="/aarne.jpg"
             alt={"Aarne Savolainen"}
             width={180}
             height={180}
+            priority
           />
           <p className={css.text}>{t("experience")}</p>
           <span className={css.name}>
@@ -28,6 +29,8 @@ const Experience = () => {
             alt="WheelQ logo"
             width={514}
             height={134}
+            priority
+            quality={50}
           />
           <Image
             className={css.job_logo}
@@ -35,6 +38,8 @@ const Experience = () => {
             alt="Mipro logo"
             width={2048}
             height={342}
+            priority
+            quality={50}
           />
           <Image
             className={css.job_logo}
@@ -42,6 +47,8 @@ const Experience = () => {
             alt="XAMK logo"
             width={2409}
             height={976}
+            priority
+            quality={50}
           />
         </div>
       </div>

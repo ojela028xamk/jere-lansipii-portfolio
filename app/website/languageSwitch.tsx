@@ -44,6 +44,8 @@ const LanguageSwitch = () => {
               src={`/${value}.png`}
               alt={"Flag icon"}
               fill
+              priority
+              quality={50}
             />
           </div>
         </button>
