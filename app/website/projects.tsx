@@ -59,6 +59,7 @@ const Projects = (): JSX.Element => {
                 alt={"Project image"}
                 width={4096}
                 height={1861}
+                quality={50}
               />
               <span className={css.project_name}>
                 {t(`projects.${project.translateKey}.name`)}

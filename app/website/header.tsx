@@ -34,6 +34,8 @@ const Header = (): JSX.Element => {
                 alt="Linkedin link"
                 width={60}
                 height={60}
+                priority
+                quality={50}
               />
             </Link>
             <Link href="https://github.com/ojela028xamk" target="_blank">
@@ -43,6 +45,8 @@ const Header = (): JSX.Element => {
                 alt="Github link"
                 width={55}
                 height={55}
+                priority
+                quality={50}
               />
             </Link>
           </div>
@@ -55,6 +59,8 @@ const Header = (): JSX.Element => {
             alt="Jere Länsipii Avatar"
             width={764}
             height={786}
+            priority
+            quality={100}
           />
         </div>
       </div>
