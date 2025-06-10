@@ -14,7 +14,9 @@
       "ui": "UI-suunnittelu",
       "ux": "UX-suunnittelu",
       "responsive": "Responsiivinen suunnittelu",
-      "figma": "Figma"
+      "figma": "Figma",
+      "wordpress": "Wordpress",
+      "photoshop": "Adobe Photoshop"
     },
     "projects": {
       "header": "Minun projektit",
