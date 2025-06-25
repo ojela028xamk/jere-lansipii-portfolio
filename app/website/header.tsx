@@ -17,13 +17,13 @@ const Header = (): JSX.Element => {
             <p>{t("header.description")}</p>
           </div>
           <div className={css.buttons}>
-            <Link
+            {/*<Link
               className={css.button_cv}
               href="https://drive.google.com/file/d/1lW8POtjbSFBUgkzlg0tzgyOiHAW1PIUB/view?usp=drive_link"
               target="_blank"
             >
               {t("header.open_cv")}
-            </Link>
+            </Link>*/}
             <Link
               href="https://linkedin.com/in/jere-länsipii-60b1a3217"
               target="_blank"
