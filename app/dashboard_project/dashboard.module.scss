@@ -8,5 +8,39 @@
     max-width: 1280px;
     margin: auto;
     padding: 2em;
+
+    .dashboard_excel {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .dashboard_image {
+        width: 100%;
+        height: auto;
+        opacity: 0.5;
+      }
+
+      .dashboard_button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        text-decoration: auto;
+        text-align: center;
+        padding: 0.5em 1.2em;
+        border-radius: 0.7em;
+        background-color: main.$primary-black;
+        border: 1px solid main.$primary-black;
+        color: main.$white;
+        font-size: 1.5em;
+
+        &:hover {
+          background-color: white;
+          color: main.$primary-black;
+        }
+      }
+    }
   }
 }

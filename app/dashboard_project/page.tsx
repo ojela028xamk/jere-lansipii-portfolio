@@ -1,5 +1,6 @@
 import Image from "next/image";
 import css from "./dashboard.module.scss";
+import Link from "next/link";
 
 const Dashboard = () => {
   return (
@@ -14,6 +15,21 @@ const Dashboard = () => {
           dataan perustuva raportti, jossa puhutaan tarkemmin mm. osakkeiden
           trendeistä ja dataan liittyvistä havainnoista.
         </p>
+        <div className={css.dashboard_excel}>
+          <Image
+            className={css.dashboard_image}
+            src="/excel_dashboard.PNG"
+            alt="Excel dashboard"
+            width={1799}
+            height={649}
+          />
+          <Link
+            href="/dashboard_images/maang_dashboard.xlsx"
+            download="/dashboard_images/maang_dashboard.xlsx"
+          >
+            <button className={css.dashboard_button}>Lataa kojelauta</button>
+          </Link>
+        </div>
         <h1>Raportti</h1>
         <h2>Tausta ja yleiskatsaus</h2>
         <p>
