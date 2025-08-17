@@ -61,11 +61,7 @@ const Projects = (): JSX.Element => {
           <p className={css.project_description}>
             {t("projects.project_data1.description")}
           </p>
-          <Link
-            className={css.button_project}
-            href={"/dashboard_project"}
-            target="_blank"
-          >
+          <Link className={css.button_project} href={"/dashboard_project"}>
             {t("projects.link_button")}
           </Link>
         </div>

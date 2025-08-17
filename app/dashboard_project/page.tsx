@@ -1,11 +1,17 @@
 import Image from "next/image";
 import css from "./dashboard.module.scss";
 import Link from "next/link";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const Dashboard = () => {
   return (
     <div className={css.dashboard}>
       <div className={css.dashboard_project}>
+        <Link href="/">
+          <button className={css.dashboard_back_button}>
+            <FaArrowLeft className={css.icon} /> Takaisin etusivulle
+          </button>
+        </Link>
         <h1>MAANG osakkeiden kojelauta ja raportti</h1>
         <p>
           Tästä projektista löytyy Excel-kojelauta, josta voi tarkastella MAANG
@@ -22,6 +28,7 @@ const Dashboard = () => {
             alt="Excel dashboard"
             width={1799}
             height={649}
+            priority
           />
           <Link
             href="/dashboard_images/maang_dashboard.xlsx"
