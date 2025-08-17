@@ -45,7 +45,28 @@ const Projects = (): JSX.Element => {
     <div className={css.projects}>
       <div className={css.projects_content}>
         <h1>{t("projects.header")}</h1>
-        <p>{t("projects.information")}</p>
+        <h2>{t("projects.data_header")}</h2>
+        <div className={css.project_card}>
+          <Image
+            className={css.project_image}
+            src={"/excel_dashboard.PNG"}
+            alt={"Project image"}
+            width={4096}
+            height={1861}
+            quality={50}
+          />
+          <span className={css.project_name}>
+            {t("projects.project_data1.name")}
+          </span>
+          <p className={css.project_description}>
+            {t("projects.project_data1.description")}
+          </p>
+          <Link className={css.button_project} href={""} target="_blank">
+            {t("projects.link_button")}
+          </Link>
+        </div>
+        <h2>{t("projects.websites_header")}</h2>
+        <p>{t("projects.websites_information")}</p>
         <div className={css.project_items}>
           {projects.map((project) => (
             <div key={project.translateKey} className={css.project_card}>

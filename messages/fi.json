@@ -20,9 +20,15 @@
     },
     "projects": {
       "header": "Minun projektit",
-      "information": "Kaikki nämä projektit ovat responsiivisia 320px leveyteen asti.",
+      "data_header": "Data-analyysiprojektit",
+      "websites_header": "Verkkosivustot",
+      "websites_information": "Kaikki nämä sivustot ovat responsiivisia 320px leveyteen asti.",
       "link_button": "Avaa sivusto",
       "link_button_github": "Github",
+      "project_data1": {
+        "name": "MAANG osakkeiden kojelauta",
+        "description": "Kojelauta, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan raportin."
+      },
       "project1": {
         "name": "Suomen maantietovisa",
         "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."

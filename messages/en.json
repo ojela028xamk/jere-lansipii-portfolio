@@ -20,9 +20,15 @@
     },
     "projects": {
       "header": "My Projects",
-      "information": "All of these projects are responsive until 320px width.",
+      "data_header": "Data Analyst Projects",
+      "websites_header": "Websites",
+      "websites_information": "All of these websites are responsive until 320px width.",
       "link_button": "Open Website",
       "link_button_github": "Github",
+      "project_data1": {
+        "name": "MAANG Stock Dashboard",
+        "description": "Dashboard that shows MAANG stock data. Report based on this data is also included."
+      },
       "project1": {
         "name": "Finnish Map Quiz",
         "description": "Website that tests users Finnish geography knowledge."
