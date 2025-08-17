@@ -122,10 +122,23 @@ const Dashboard = () => {
           </li>
           <li>
             Maailman terveysjärjestö WHO julisti koronavirusepidemian
-            pandemiaksi 11.3.2020 [1] ja kansainvälisen terveysuhkatilanteen
-            päättyneeksi 5.5.2023 [2]. Tällä aikavälillä vuoden 2022
-            osakeromahdusta lukuun ottamatta, yritykset jatkoivat nousua. Vuonna
-            2021 Amazonin vuosituotto oli lähellä nollaa (2,38 %).
+            pandemiaksi 11.3.2020{" "}
+            <a
+              href="https://www.who.int/europe/emergencies/situations/covid-19"
+              target="_blank"
+            >
+              [1]
+            </a>{" "}
+            ja kansainvälisen terveysuhkatilanteen päättyneeksi 5.5.2023{" "}
+            <a
+              href="https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic"
+              target="_blank"
+            >
+              [2]
+            </a>
+            . Tällä aikavälillä vuoden 2022 osakeromahdusta lukuun ottamatta,
+            yritykset jatkoivat nousua. Vuonna 2021 Amazonin vuosituotto oli
+            lähellä nollaa (2,38 %).
           </li>
         </ul>
         <h3>Yrityksien vertaaminen</h3>
@@ -134,7 +147,14 @@ const Dashboard = () => {
           <li>
             Jokaisen yrityksen osake lähti laskuun vuonna 2022. Asiantuntijoiden
             mukaan osakeromahduksen taustalla oli korkea inflaatio,
-            keskuspankkien rahapolitiikan kiristäminen ja Ukrainan sota [3].
+            keskuspankkien rahapolitiikan kiristäminen ja Ukrainan sota{" "}
+            <a
+              href="https://www.entrepreneur.com/money-finance/why-the-stock-market-has-been-so-volatile-in-2022/428890"
+              target="_blank"
+            >
+              [3]
+            </a>
+            .
           </li>
           <li>
             Yrityksien osakkeet kuitenkin lähtivät takaisin nousuun vuonna 2023.
@@ -149,16 +169,37 @@ const Dashboard = () => {
         <ol>
           <li>
             World Health Organization. Coronavirus disease (COVID-19) pandemic.
-            WWW-dokumentti. Saatavissa: Linkki [viitattu 17.8.2025].
+            WWW-dokumentti. Saatavissa:{" "}
+            <a
+              href="https://www.who.int/europe/emergencies/situations/covid-19"
+              target="_blank"
+            >
+              Linkki
+            </a>{" "}
+            [viitattu 17.8.2025].
           </li>
           <li>
             World Health Organization. Statement on the fifteenth meeting of the
             IHR (2005) Emergency Committee on the COVID-19 pandemic.
-            WWW-dokumentti. 2023. Saatavissa: Linkki [viitattu 17.8.2025].
+            WWW-dokumentti. 2023. Saatavissa:{" "}
+            <a
+              href="https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic"
+              target="_blank"
+            >
+              Linkki
+            </a>{" "}
+            [viitattu 17.8.2025].
           </li>
           <li>
             Degalbo A., Mcintyre K. Why the Stock Market Has Been So Volatile in
-            2022. WWW-dokumentti. 2022. Saatavissa: Linkki [viitattu 17.8.2025].
+            2022. WWW-dokumentti. 2022. Saatavissa:{" "}
+            <a
+              href="https://www.entrepreneur.com/money-finance/why-the-stock-market-has-been-so-volatile-in-2022/428890"
+              target="_blank"
+            >
+              Linkki
+            </a>{" "}
+            [viitattu 17.8.2025].
           </li>
         </ol>
       </div>
