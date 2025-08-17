@@ -5,6 +5,9 @@ import { useTranslations } from "next-intl";
 const Skills = (): JSX.Element => {
   const t = useTranslations("website");
   const codingSkills = [
+    "Excel",
+    "Powerpoint",
+    "Postman",
     "HTML",
     "CSS",
     "Typescript",
@@ -12,15 +15,13 @@ const Skills = (): JSX.Element => {
     "React",
     "Next.js",
     "Cypress",
-    "Postman",
   ];
   const designSkills = [
+    "data_storytelling",
     "graphic",
     "ui",
-    "ux",
     "responsive",
     "figma",
-    "wordpress",
     "photoshop",
   ];
 

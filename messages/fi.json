@@ -8,14 +8,13 @@
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
       "header": "Minun taidot",
-      "coding_header": "Ohjelmointi",
+      "coding_header": "Ohjelmat ja ohjelmointi",
       "design_header": "Suunnittelu",
+      "data_storytelling": "Datan tarinankerronta",
       "graphic": "Graafinen suunnittelu",
       "ui": "UI-suunnittelu",
-      "ux": "UX-suunnittelu",
       "responsive": "Responsiivinen suunnittelu",
       "figma": "Figma",
-      "wordpress": "Wordpress",
       "photoshop": "Adobe Photoshop"
     },
     "projects": {
