@@ -10,6 +10,11 @@
     margin: auto;
     padding: 2em;
 
+    .dashboard_title {
+      font-size: 3rem;
+      line-height: 2.8rem;
+    }
+
     .dashboard_back_button {
       cursor: pointer;
       text-align: center;

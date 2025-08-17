@@ -12,12 +12,14 @@ const Dashboard = () => {
             <FaArrowLeft className={css.icon} /> Takaisin etusivulle
           </button>
         </Link>
-        <h1>MAANG osakkeiden kojelauta ja raportti</h1>
+        <h1 className={css.dashboard_title}>
+          MAANG osakkeiden kojelauta ja raportti
+        </h1>
         <p>
           Tästä projektista löytyy Excel-kojelauta, josta voi tarkastella MAANG
           osakkeiden kuukausittaisia päätöskursseja viimeisen 10+ vuoden aikana,
           kuten myös vuosituotot/tappiot. Käyttäjä voi valita haluamansa
-          ajanjakson väliltä 2015 tammikuu - 2025 heinäkuu. Alta löytyy myös
+          ajanjakson väliltä 2015 tammikuu-2025 heinäkuu. Alta löytyy myös
           dataan perustuva raportti, jossa puhutaan tarkemmin mm. osakkeiden
           trendeistä ja dataan liittyvistä havainnoista.
         </p>
@@ -49,7 +51,7 @@ const Dashboard = () => {
         <p>
           Tässä raportissa käydään läpi tarkemmin, miten näiden yrityksien
           osakkeiden kurssit ovat muuttuneet viimeisen 10+ vuoden aikana
-          (Tammikuu 2015–Heinäkuu 2025). Raportin arvot perustuvat
+          (tammikuu 2015-heinäkuu 2025). Raportin arvot perustuvat
           kuukausittaisiin ja vuosittaisiin päätöskursseihin.
         </p>
         <p>
@@ -64,7 +66,7 @@ const Dashboard = () => {
           </li>
           <li>
             <b>Suurin nousu ja lasku: </b>Tutkitaan, milloin osakkeiden nousu ja
-            lasku ulivat kaikista suurimmat ja miksi nämä muutokset saattoivat
+            lasku olivat kaikista suurimmat ja miksi nämä muutokset saattoivat
             tapahtua.
           </li>
           <li>
@@ -103,7 +105,7 @@ const Dashboard = () => {
         <h2>Havainnot ja yhteenveto</h2>
         <h3>Havaintojen yleiskatsaus</h3>
         <p>
-          Kun tarkastellaan vuosituottoja 2015–2024 välillä, jokainen
+          Kun tarkastellaan vuosituottoja 2015-2024 välillä, jokainen
           MAANG-yhtiö on tarjonnut tuottoja sijoittajille satoja prosentteja.
           Näistä yrityksistä suurin voittaja on Netflix. Vuoden 2025
           kuukausittaiset päätöskurssit (tammikuu-heinäkuu) kertovat, että
