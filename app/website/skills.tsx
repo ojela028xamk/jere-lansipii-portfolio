@@ -18,6 +18,7 @@ const Skills = (): JSX.Element => {
   ];
   const designSkills = [
     "data_storytelling",
+    "data_visualization",
     "graphic",
     "ui",
     "responsive",
