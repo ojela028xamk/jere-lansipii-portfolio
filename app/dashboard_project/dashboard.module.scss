@@ -1,0 +1,12 @@
+@use "../main";
+
+.dashboard {
+  font-size: 1.2rem;
+  color: main.$primary-black;
+
+  .dashboard_project {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2em;
+  }
+}
