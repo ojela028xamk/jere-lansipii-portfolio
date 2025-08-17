@@ -48,39 +48,40 @@ const Dashboard = () => {
         <p>
           Datan näkemyksiä ja havaintoja annetaan seuraavilla keskeisillä
           osa-alueilla:
-          <ul>
-            <li>
-              <b>Osakkeiden trendianalyysi:</b> Arvioidaan, miten osakkeiden
-              kurssit ovat vaihdelleet ja miten erilaiset tapahtumat vaikuttivat
-              osakkeiden hintoihin.
-            </li>
-            <li>
-              <b>Suurin nousu ja lasku: </b>Tutkitaan, milloin osakkeiden nousu
-              ja lasku ulivat kaikista suurimmat ja miksi nämä muutokset
-              saattoivat tapahtua.
-            </li>
-            <li>
-              <b>Yrityksien vertaaminen: </b>Katsotaan, onko osakkeiden välillä
-              eroja tai samanlaisuuksia.
-            </li>
-          </ul>
         </p>
+        <ul>
+          <li>
+            <b>Osakkeiden trendianalyysi:</b> Arvioidaan, miten osakkeiden
+            kurssit ovat vaihdelleet ja miten erilaiset tapahtumat vaikuttivat
+            osakkeiden hintoihin.
+          </li>
+          <li>
+            <b>Suurin nousu ja lasku: </b>Tutkitaan, milloin osakkeiden nousu ja
+            lasku ulivat kaikista suurimmat ja miksi nämä muutokset saattoivat
+            tapahtua.
+          </li>
+          <li>
+            <b>Yrityksien vertaaminen: </b>Katsotaan, onko osakkeiden välillä
+            eroja tai samanlaisuuksia.
+          </li>
+        </ul>
         <h2>Datan rakenne</h2>
         <p>
           Alkuperäinen data on ryhmä CSV-tiedostoja, jotka on eritelty päivä-,
           viikko-, ja kuukausihintojen mukaan jokaiselle yritykselle. Datan
           otsikot ovat:
-          <ul>
-            <li>Date (päivämäärä)</li>
-            <li>Open (avaushinta)</li>
-            <li>High (korkein hinta)</li>
-            <li>Low (alin hinta)</li>
-            <li>Close (päätöskurssi)</li>
-            <li>Adj close (mukautettu päätöskurssi)</li>
-            <li>Volume (kaupankäyntivolyymi)</li>
-          </ul>
         </p>
+        <ul>
+          <li>Date (päivämäärä)</li>
+          <li>Open (avaushinta)</li>
+          <li>High (korkein hinta)</li>
+          <li>Low (alin hinta)</li>
+          <li>Close (päätöskurssi)</li>
+          <li>Adj close (mukautettu päätöskurssi)</li>
+          <li>Volume (kaupankäyntivolyymi)</li>
+        </ul>
         <Image
+          className={css.image}
           src="/dashboard_images/data1.PNG"
           alt="Data structure"
           width={890}
@@ -104,6 +105,7 @@ const Dashboard = () => {
           muutoksista ja trendeistä.
         </p>
         <Image
+          className={css.image}
           src="/dashboard_images/yearly_return.PNG"
           alt="Yearly return"
           width={1142}

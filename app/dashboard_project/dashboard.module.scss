@@ -1,13 +1,19 @@
 @use "../main";
 
 .dashboard {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: main.$primary-black;
+  line-height: 1.7rem;
 
   .dashboard_project {
     max-width: 1280px;
     margin: auto;
     padding: 2em;
+
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
 
     .dashboard_excel {
       position: relative;
@@ -34,13 +40,17 @@
         background-color: main.$primary-black;
         border: 1px solid main.$primary-black;
         color: main.$white;
-        font-size: 1.5em;
+        font-size: 1.4rem;
 
         &:hover {
           background-color: white;
           color: main.$primary-black;
         }
       }
+    }
+
+    li {
+      margin-bottom: 0.3rem;
     }
 
     a {
