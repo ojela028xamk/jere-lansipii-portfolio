@@ -1,0 +1,84 @@
+@use "../main";
+
+.dashboard {
+  font-size: 1.25rem;
+  color: main.$primary-black;
+  line-height: 1.7rem;
+
+  .dashboard_project {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2em;
+
+    .dashboard_title {
+      font-size: 3rem;
+      line-height: 2.8rem;
+    }
+
+    .dashboard_back_button {
+      cursor: pointer;
+      text-align: center;
+      padding: 0.5em 1.2em;
+      border-radius: 0.7em;
+      background-color: main.$blue;
+      border: 1px solid main.$blue;
+      color: white;
+      font-size: 1.2rem;
+
+      &:hover {
+        background-color: white;
+        color: main.$blue;
+      }
+
+      .icon {
+        vertical-align: text-bottom;
+      }
+    }
+
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .dashboard_excel {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .dashboard_image {
+        width: 100%;
+        height: auto;
+        opacity: 0.5;
+      }
+
+      .dashboard_button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        text-align: center;
+        padding: 0.5em 1.2em;
+        border-radius: 0.7em;
+        background-color: main.$primary-black;
+        border: 1px solid main.$primary-black;
+        color: main.$white;
+        font-size: 1.4rem;
+
+        &:hover {
+          background-color: white;
+          color: main.$primary-black;
+        }
+      }
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

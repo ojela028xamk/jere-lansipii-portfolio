@@ -1,28 +1,34 @@
 {
   "website": {
     "header": {
-      "title": "Sovelluskehittäjä ja graafinen suunnittelija",
-      "description": "Hei, olen tradenomi tietojenkäsittelyn linjalta ja asun Helsingissä. \n \nTöiden ja koulutuksen tiimoilta osaamista löytyy lähinnä frontend-puolelta. Minulla on yli kaksi vuotta työkokemusta sovelluskehityksestä.",
+      "title": "Data-analyytikko ja ohjelmistokehittäjä",
+      "description": "Hei, olen tradenomi tietojenkäsittelyn linjalta ja asun Helsingissä. \n \nMinulla on yli kaksi vuotta työkokemusta sovelluskehityksestä ja tällä hetkellä toimin data-analytiikan alalla. Datan tarinankerronnalla ja visualisoinnilla pystyn antamaan yrityksille dataan perustuvia havaintoja ja raportteja, jotka auttavat heitä organisoimaan resursseja tehokkaammin. Graafisen suunnittelun taidoilla pystyn myös luomaan selkeitä ja helposti luettavia kaavioita ja esitelmiä.",
       "open_cv": "Avaa CV"
     },
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
       "header": "Minun taidot",
-      "coding_header": "Ohjelmointi",
+      "coding_header": "Ohjelmat ja ohjelmointi",
       "design_header": "Suunnittelu",
+      "data_storytelling": "Datan tarinankerronta",
+      "data_visualization": "Datan visualisointi",
       "graphic": "Graafinen suunnittelu",
       "ui": "UI-suunnittelu",
-      "ux": "UX-suunnittelu",
       "responsive": "Responsiivinen suunnittelu",
       "figma": "Figma",
-      "wordpress": "Wordpress",
       "photoshop": "Adobe Photoshop"
     },
     "projects": {
       "header": "Minun projektit",
-      "information": "Kaikki nämä projektit ovat responsiivisia 320px leveyteen asti.",
+      "data_header": "Data-analyysiprojektit",
+      "websites_header": "Verkkosivustot",
+      "websites_information": "Kaikki nämä sivustot ovat responsiivisia 320px leveyteen asti.",
       "link_button": "Avaa sivusto",
       "link_button_github": "Github",
+      "project_data1": {
+        "name": "MAANG osakkeiden kojelauta",
+        "description": "Kojelauta, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan raportin."
+      },
       "project1": {
         "name": "Suomen maantietovisa",
         "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."

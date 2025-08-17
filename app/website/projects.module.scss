@@ -13,6 +13,13 @@
       color: main.$secondary-black;
     }
 
+    h2 {
+      font-weight: 500;
+      font-size: 2em;
+      text-align: center;
+      color: main.$secondary-black;
+    }
+
     p {
       text-align: center;
       font-size: main.$paragraph;
@@ -22,57 +29,57 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 1em;
+    }
+  }
 
-      .project_card {
-        display: flex;
-        flex-direction: column;
-        padding: 0.8em;
-        border-radius: 1.5em;
+  .project_card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em;
+    border-radius: 1.5em;
+    background-color: main.$secondary-black;
+    color: main.$white;
+
+    .project_image {
+      width: 100%;
+      height: auto;
+      border-radius: 1.5em;
+      margin-bottom: 0.5em;
+      border: 2px solid main.$blue;
+    }
+
+    .project_name {
+      font-size: 1.7em;
+    }
+
+    .project_description {
+      text-align: left;
+      font-size: 1.1em;
+      margin-bottom: 1em;
+      flex-grow: 1;
+    }
+
+    .button_project {
+      align-self: center;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      text-decoration: auto;
+      margin: 0.3em;
+      padding: 0.5em 1.5em;
+      border-radius: 0.7em;
+      background-color: main.$blue;
+      border: 1px solid main.$blue;
+      color: main.$secondary-black;
+
+      &:hover {
         background-color: main.$secondary-black;
-        color: main.$white;
+        color: main.$blue;
+      }
 
-        .project_image {
-          width: 100%;
-          height: auto;
-          border-radius: 1.5em;
-          margin-bottom: 0.5em;
-          border: 2px solid main.$blue;
-        }
-
-        .project_name {
-          font-size: 1.7em;
-        }
-
-        .project_description {
-          text-align: left;
-          font-size: 1.1em;
-          margin-bottom: 1em;
-          flex-grow: 1;
-        }
-
-        .button_project {
-          align-self: center;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          text-decoration: auto;
-          margin: 0.3em;
-          padding: 0.5em 1.5em;
-          border-radius: 0.7em;
-          background-color: main.$blue;
-          border: 1px solid main.$blue;
-          color: main.$secondary-black;
-
-          &:hover {
-            background-color: main.$secondary-black;
-            color: main.$blue;
-          }
-
-          .button_icon {
-            margin-left: 0.2em;
-            font-size: 1.8rem;
-          }
-        }
+      .button_icon {
+        margin-left: 0.2em;
+        font-size: 1.8rem;
       }
     }
   }

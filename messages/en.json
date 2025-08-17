@@ -1,28 +1,34 @@
 {
   "website": {
     "header": {
-      "title": "Software Developer & Graphic Designer",
-      "description": "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. \n \nI have expertise in frontend development through my education and work experience. I have over 2 years of work experience in software development.",
+      "title": "Data Analyst & Software Developer",
+      "description": "Hello, I am a Bachelor of Business Administration specializing in information technology and I live in Helsinki. \n \nI have over two years of work experience in software development, and I am currently working in the field of data analytics. Through data storytelling and visualization, I can provide companies with data-driven insights and reports that help them organize resources more efficiently. With graphic design skills, I can also create clear and easy-to-read charts and presentations.",
       "open_cv": "Open CV"
     },
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
     "skills": {
       "header": "My Skills",
-      "coding_header": "Coding",
+      "coding_header": "Software and coding",
       "design_header": "Design",
+      "data_storytelling": "Data Storytelling",
+      "data_visualization": "Data Visualization",
       "graphic": "Graphics Design",
       "ui": "UI Design",
-      "ux": "UX Design",
       "responsive": "Responsive Design",
       "figma": "Figma",
-      "wordpress": "Wordpress",
       "photoshop": "Adobe Photoshop"
     },
     "projects": {
       "header": "My Projects",
-      "information": "All of these projects are responsive until 320px width.",
+      "data_header": "Data Analyst Projects",
+      "websites_header": "Websites",
+      "websites_information": "All of these websites are responsive until 320px width.",
       "link_button": "Open Website",
       "link_button_github": "Github",
+      "project_data1": {
+        "name": "MAANG Stock Dashboard",
+        "description": "Dashboard that shows MAANG stock data. Report based on this data is also included."
+      },
       "project1": {
         "name": "Finnish Map Quiz",
         "description": "Website that tests users Finnish geography knowledge."
