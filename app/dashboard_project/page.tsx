@@ -13,15 +13,16 @@ const Dashboard = () => {
           </button>
         </Link>
         <h1 className={css.dashboard_title}>
-          MAANG osakkeiden kojelauta ja raportti
+          MAANG osakkeiden visuaalinen ja kirjallinen raportti
         </h1>
         <p>
-          Tästä projektista löytyy Excel-kojelauta, josta voi tarkastella MAANG
-          osakkeiden kuukausittaisia päätöskursseja viimeisen 10+ vuoden aikana,
-          kuten myös vuosituotot/tappiot. Käyttäjä voi valita haluamansa
-          ajanjakson väliltä 2015 tammikuu-2025 heinäkuu. Alta löytyy myös
-          dataan perustuva raportti, jossa puhutaan tarkemmin mm. osakkeiden
-          trendeistä ja dataan liittyvistä havainnoista.
+          Tästä projektista löytyy Excelillä rakennettu visuaalinen raportti,
+          josta voi tarkastella MAANG osakkeiden kuukausittaisia päätöskursseja
+          viimeisen 10+ vuoden aikana, kuten myös vuosituotot/tappiot. Käyttäjä
+          voi valita haluamansa ajanjakson väliltä 2015 tammikuu-2025 heinäkuu.
+          Alta löytyy myös dataan perustuva kirjallinen raportti, jossa puhutaan
+          tarkemmin mm. osakkeiden trendeistä ja dataan liittyvistä
+          havainnoista.
         </p>
         <div className={css.dashboard_excel}>
           <Image
@@ -36,7 +37,9 @@ const Dashboard = () => {
             href="/dashboard_images/maang_dashboard.xlsx"
             download="/dashboard_images/maang_dashboard.xlsx"
           >
-            <button className={css.dashboard_button}>Lataa kojelauta</button>
+            <button className={css.dashboard_button}>
+              Lataa Excel-raportti
+            </button>
           </Link>
         </div>
         <h1>Raportti</h1>
@@ -98,7 +101,7 @@ const Dashboard = () => {
           quality={100}
         />
         <p>
-          Pidetään kojelaudan rakenne ja raportin analyysi selkeänä siten, että
+          Pidetään raporttien rakenne ja analyysi selkeänä siten, että
           keskitytään yrityksien kuukausittaisiin päätöskursseihin ja niistä
           saadaan myös vuosittaiset päätöskurssit.
         </p>
