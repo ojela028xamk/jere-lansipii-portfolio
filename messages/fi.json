@@ -27,8 +27,8 @@
       "link_button": "Avaa sivusto",
       "link_button_github": "Github",
       "project_data1": {
-        "name": "MAANG osakkeiden kojelauta",
-        "description": "Kojelauta, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan raportin."
+        "name": "MAANG osakkeiden visuaalinen raportti",
+        "description": "Visuaalinen raportti, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan kirjallisen raportin."
       },
       "project1": {
         "name": "Suomen maantietovisa",
