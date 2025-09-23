@@ -49,10 +49,10 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
-            src={"/powerbi_dashboard.PNG"}
+            src={"/powerbi_dashboard.png"}
             alt={"Project image"}
-            width={1919}
-            height={970}
+            width={1200}
+            height={545}
             quality={50}
           />
           <span className={css.project_name}>
@@ -68,7 +68,7 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
-            src={"/excel_dashboard.PNG"}
+            src={"/excel_dashboard.png"}
             alt={"Project image"}
             width={1799}
             height={649}
@@ -97,8 +97,8 @@ const Projects = (): JSX.Element => {
                     : "https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
                 }
                 alt={"Project image"}
-                width={4096}
-                height={1861}
+                width={1200}
+                height={545}
                 quality={50}
               />
               <span className={css.project_name}>
