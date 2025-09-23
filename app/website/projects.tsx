@@ -49,7 +49,7 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
-            src={"/powerbi_dashboard.png"}
+            src={"/powerbi_dashboard.PNG"}
             alt={"Project image"}
             width={1200}
             height={545}
@@ -68,7 +68,7 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
-            src={"/excel_dashboard.png"}
+            src={"/excel_dashboard.PNG"}
             alt={"Project image"}
             width={1200}
             height={545}
