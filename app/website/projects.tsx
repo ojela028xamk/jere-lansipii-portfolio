@@ -49,10 +49,29 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
-            src={"/excel_dashboard.PNG"}
+            src={"/powerbi_dashboard.png"}
             alt={"Project image"}
-            width={4096}
-            height={1861}
+            width={1200}
+            height={545}
+            quality={50}
+          />
+          <span className={css.project_name}>
+            {t("projects.project_data2.name")}
+          </span>
+          <p className={css.project_description}>
+            {t("projects.project_data2.description")}
+          </p>
+          <Link className={css.button_project} href={"/powerbi_project"}>
+            {t("projects.link_button")}
+          </Link>
+        </div>
+        <div className={css.project_card}>
+          <Image
+            className={css.project_image}
+            src={"/excel_dashboard.png"}
+            alt={"Project image"}
+            width={1200}
+            height={545}
             quality={50}
           />
           <span className={css.project_name}>
@@ -78,8 +97,8 @@ const Projects = (): JSX.Element => {
                     : "https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
                 }
                 alt={"Project image"}
-                width={4096}
-                height={1861}
+                width={1200}
+                height={545}
                 quality={50}
               />
               <span className={css.project_name}>

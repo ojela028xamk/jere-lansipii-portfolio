@@ -28,7 +28,6 @@
     .project_items {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 1em;
     }
   }
 
@@ -39,6 +38,7 @@
     border-radius: 1.5em;
     background-color: main.$secondary-black;
     color: main.$white;
+    margin-bottom: 1em;
 
     .project_image {
       width: 100%;
