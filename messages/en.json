@@ -30,6 +30,10 @@
         "name": "MAANG Stock Dashboard",
         "description": "Dashboard that shows MAANG stock data. Report based on this data is also included."
       },
+      "project_data2": {
+        "name": "Electronics Sales Power BI Dashboard",
+        "description": "Power BI dashboard that shows electronics sales data."
+      },
       "project1": {
         "name": "Finnish Map Quiz",
         "description": "Website that tests users Finnish geography knowledge."

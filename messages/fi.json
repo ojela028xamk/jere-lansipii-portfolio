@@ -30,6 +30,10 @@
         "name": "MAANG osakkeiden visuaalinen raportti",
         "description": "Visuaalinen raportti, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan kirjallisen raportin."
       },
+      "project_data2": {
+        "name": "Elektroniikkamyynnin Power BI visuaalinen raportti",
+        "description": "Power BI visuaalinen raportti, joka näyttää elektroniikkamyynnin dataa."
+      },
       "project1": {
         "name": "Suomen maantietovisa",
         "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."

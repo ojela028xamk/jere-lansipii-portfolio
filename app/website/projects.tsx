@@ -51,8 +51,8 @@ const Projects = (): JSX.Element => {
             className={css.project_image}
             src={"/excel_dashboard.PNG"}
             alt={"Project image"}
-            width={4096}
-            height={1861}
+            width={1799}
+            height={649}
             quality={50}
           />
           <span className={css.project_name}>
@@ -62,6 +62,25 @@ const Projects = (): JSX.Element => {
             {t("projects.project_data1.description")}
           </p>
           <Link className={css.button_project} href={"/dashboard_project"}>
+            {t("projects.link_button")}
+          </Link>
+        </div>
+        <div className={css.project_card}>
+          <Image
+            className={css.project_image}
+            src={"/powerbi_dashboard.PNG"}
+            alt={"Project image"}
+            width={1919}
+            height={970}
+            quality={50}
+          />
+          <span className={css.project_name}>
+            {t("projects.project_data2.name")}
+          </span>
+          <p className={css.project_description}>
+            {t("projects.project_data2.description")}
+          </p>
+          <Link className={css.button_project} href={"/powerbi_project"}>
             {t("projects.link_button")}
           </Link>
         </div>
