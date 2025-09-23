@@ -70,8 +70,8 @@ const Projects = (): JSX.Element => {
             className={css.project_image}
             src={"/excel_dashboard.png"}
             alt={"Project image"}
-            width={1799}
-            height={649}
+            width={1200}
+            height={545}
             quality={50}
           />
           <span className={css.project_name}>
