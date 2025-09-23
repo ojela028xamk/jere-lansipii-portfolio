@@ -1,4 +1,38 @@
+@use "../main";
+
 .powerbi {
-  padding: 2em;
-  text-align: center;
+  font-size: 1.25rem;
+  color: main.$primary-black;
+  line-height: 1.7rem;
+
+  .powerbi_project {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2em;
+
+    .powerbi_title {
+      font-size: 3rem;
+      line-height: 2.8rem;
+    }
+
+    .powerbi_back_button {
+      cursor: pointer;
+      text-align: center;
+      padding: 0.5em 1.2em;
+      border-radius: 0.7em;
+      background-color: main.$blue;
+      border: 1px solid main.$blue;
+      color: white;
+      font-size: 1.2rem;
+
+      &:hover {
+        background-color: white;
+        color: main.$blue;
+      }
+
+      .icon {
+        vertical-align: text-bottom;
+      }
+    }
+  }
 }
