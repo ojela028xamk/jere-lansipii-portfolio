@@ -15,9 +15,10 @@ const PowerBI = () => {
           Analyzing sales for strategic growth
         </h1>
         <p>
-          A dashboard created for sales managers of a fictitious global
-          electronics retailer. For this project, I used a modified version of
-          sales data from Maven Analytics, with a timeframe from
+          A Power BI dashboard and a PowerPoint presentation created for sales
+          managers of a fictitious global electronics retailer. For this
+          project, I used a modified version of sales data from Maven Analytics,
+          with a timeframe from
           <b> January 2020 to August 2025.</b>
         </p>
         <p>
@@ -39,11 +40,13 @@ const PowerBI = () => {
           </li>
         </ul>
         <p>
-          The dashboard is interactive, allowing the user to filter data by
-          country or online sales. Users can also click a specific year on a bar
-          chart to show data for that year. For the best experience, the
-          dashboard can be viewed full screen by clicking the two arrows in the
-          bottom-right corner.
+          The dashboard is interactive, allowing users to filter data by country
+          or online sales. Users can also click a specific year on a bar chart
+          to show data for that year. The PowerPoint presentation synthesizes
+          data from all areas and provides a more detailed analysis of sales
+          trends. It also delivers key takeaways and strategic recommendations
+          based on the data. For the best experience, both can be viewed full
+          screen by clicking the icon in the bottom-right corner.
         </p>
         <p>
           This project demonstrates my ability to not only create visually
