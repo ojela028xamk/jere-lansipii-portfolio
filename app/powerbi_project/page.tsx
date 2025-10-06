@@ -12,12 +12,13 @@ const PowerBI = () => {
           </button>
         </Link>
         <h1 className={css.powerbi_title}>
-          Power BI dashboard: Analyzing sales for strategic growth
+          Analyzing sales for strategic growth
         </h1>
         <p>
-          A dashboard created for sales managers of a fictitious global
-          electronics retailer. For this project, I used a modified version of
-          sales data from Maven Analytics, with a timeframe from
+          A Power BI dashboard and a PowerPoint presentation created for sales
+          managers of a fictitious global electronics retailer. For this
+          project, I used a modified version of sales data from Maven Analytics,
+          with a timeframe from
           <b> January 2020 to August 2025.</b>
         </p>
         <p>
@@ -39,22 +40,32 @@ const PowerBI = () => {
           </li>
         </ul>
         <p>
-          The dashboard is interactive, allowing the user to filter data by
-          country or online sales. Users can also click a specific year on a bar
-          chart to show data for that year. For the best experience, the
-          dashboard can be viewed full screen by clicking the two arrows in the
-          bottom-right corner.
+          The dashboard is interactive, allowing users to filter data by country
+          or online sales. Users can also click a specific year on a bar chart
+          to show data for that year. The PowerPoint presentation synthesizes
+          data from all areas and provides a more detailed analysis of sales
+          trends. It also delivers key takeaways and strategic recommendations
+          based on the data. For the best experience, both can be viewed full
+          screen by clicking the icon in the bottom-right corner.
         </p>
         <p>
           This project demonstrates my ability to not only create visually
           compelling dashboards but also to translate complex data into clear,
           valuable insights that drive business results.
         </p>
+        <h2>Power BI Dashboard</h2>
         <iframe
           title="Electronics Sales Data"
           width="1024"
           height="612"
           src="https://app.powerbi.com/view?r=eyJrIjoiODg2M2M2MDItZTllOS00ZGQwLWI5MDMtMDE5MDJiY2ZmOTEzIiwidCI6IjY5MmViNDUwLTliYWYtNDk0MS1iOTY0LTQxMjU0ODNkZWJmMiIsImMiOjh9"
+          allowFullScreen
+        ></iframe>
+        <h2>PowerPoint presentation</h2>
+        <iframe
+          src="https://1drv.ms/p/c/85919f3a6154abce/IQS4ht7Y-dX8QqbEoMjSLCqEAZkJFf4xg4NVjvxGPpkZoDs"
+          width="1024"
+          height="557"
           allowFullScreen
         ></iframe>
       </div>

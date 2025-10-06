@@ -27,12 +27,12 @@
       "link_button": "Avaa sivusto",
       "link_button_github": "Github",
       "project_data1": {
-        "name": "MAANG osakkeiden visuaalinen raportti",
+        "name": "MAANG osakkeiden visuaalinen raportti (FI)",
         "description": "Visuaalinen raportti, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan kirjallisen raportin."
       },
       "project_data2": {
-        "name": "Elektroniikkamyynnin Power BI visuaalinen raportti",
-        "description": "Power BI visuaalinen raportti, joka näyttää elektroniikkamyynnin dataa."
+        "name": "Elektroniikkamyynnin visuaalinen raportti ja esitelmä (EN)",
+        "description": "Power BI visuaalinen raportti ja PowerPoint-esitelmä, jotka näyttävät elektroniikkamyynnin dataa."
       },
       "project1": {
         "name": "Suomen maantietovisa",
