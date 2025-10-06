@@ -27,12 +27,12 @@
       "link_button": "Open Website",
       "link_button_github": "Github",
       "project_data1": {
-        "name": "MAANG Stock Dashboard",
+        "name": "MAANG Stock Dashboard (FI)",
         "description": "Dashboard that shows MAANG stock data. Report based on this data is also included."
       },
       "project_data2": {
-        "name": "Electronics Sales Power BI Dashboard",
-        "description": "Power BI dashboard that shows electronics sales data."
+        "name": "Electronics Sales Dashboard and Presentation (EN)",
+        "description": "Power BI dashboard and a PowerPoint presentation that shows electronics sales data."
       },
       "project1": {
         "name": "Finnish Map Quiz",
