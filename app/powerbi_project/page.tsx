@@ -12,7 +12,7 @@ const PowerBI = () => {
           </button>
         </Link>
         <h1 className={css.powerbi_title}>
-          Power BI dashboard: Analyzing sales for strategic growth
+          Analyzing sales for strategic growth
         </h1>
         <p>
           A dashboard created for sales managers of a fictitious global
@@ -50,11 +50,19 @@ const PowerBI = () => {
           compelling dashboards but also to translate complex data into clear,
           valuable insights that drive business results.
         </p>
+        <h2>Power BI Dashboard</h2>
         <iframe
           title="Electronics Sales Data"
           width="1024"
           height="612"
           src="https://app.powerbi.com/view?r=eyJrIjoiODg2M2M2MDItZTllOS00ZGQwLWI5MDMtMDE5MDJiY2ZmOTEzIiwidCI6IjY5MmViNDUwLTliYWYtNDk0MS1iOTY0LTQxMjU0ODNkZWJmMiIsImMiOjh9"
+          allowFullScreen
+        ></iframe>
+        <h2>PowerPoint presentation</h2>
+        <iframe
+          src="https://1drv.ms/p/c/85919f3a6154abce/IQS4ht7Y-dX8QqbEoMjSLCqEAZkJFf4xg4NVjvxGPpkZoDs"
+          width="1024"
+          height="557"
           allowFullScreen
         ></iframe>
       </div>
