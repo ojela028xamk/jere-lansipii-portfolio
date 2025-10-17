@@ -8,7 +8,10 @@ const Skills = (): JSX.Element => {
     "Excel",
     "Powerpoint",
     "SQL",
-    "Postman",
+    "Python",
+    "Airbyte",
+    "Databricks",
+    "DBT",
     "HTML",
     "CSS",
     "Typescript",
@@ -16,6 +19,7 @@ const Skills = (): JSX.Element => {
     "React",
     "Next.js",
     "Cypress",
+    "Postman",
   ];
   const designSkills = [
     "power_bi",
