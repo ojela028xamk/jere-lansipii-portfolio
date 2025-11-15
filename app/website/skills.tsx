@@ -1,5 +1,5 @@
 import css from "./skills.module.scss";
-import { FaPenRuler, FaCode } from "react-icons/fa6";
+import { FaDatabase, FaCode } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 
 const Skills = (): JSX.Element => {
@@ -38,7 +38,7 @@ const Skills = (): JSX.Element => {
         <div className={css.skill_items}>
           <div className={css.item}>
             <div className={css.item_header}>
-              <FaCode className={css.icon} />
+              <FaDatabase className={css.icon} />
               <span className={css.category}>{t("skills.data_header")}</span>
             </div>
             <ul>
@@ -51,7 +51,7 @@ const Skills = (): JSX.Element => {
           </div>
           <div className={css.item}>
             <div className={css.item_header}>
-              <FaPenRuler className={css.icon} />
+              <FaCode className={css.icon} />
               <span className={css.category}>{t("skills.app_header")}</span>
             </div>
             <ul>
