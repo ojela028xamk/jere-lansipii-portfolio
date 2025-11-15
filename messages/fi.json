@@ -8,16 +8,34 @@
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
       "header": "Minun taidot",
-      "coding_header": "Ohjelmat ja ohjelmointi",
-      "design_header": "Suunnittelu",
-      "power_bi": "Power BI",
-      "data_storytelling": "Datan tarinankerronta",
-      "data_visualization": "Datan visualisointi",
-      "graphic": "Graafinen suunnittelu",
-      "ui": "UI-suunnittelu",
-      "responsive": "Responsiivinen suunnittelu",
-      "figma": "Figma",
-      "photoshop": "Adobe Photoshop"
+      "data_header": "Tiedonhallinta ja visualisointi",
+      "app_header": "Sovelluskehitys ja digitaalinen suunnittelu",
+      "data_skills": {
+        "excel": "Excel",
+        "power_bi": "Power BI",
+        "sql": "SQL",
+        "python": "Python, Pandas",
+        "databricks": "Databricks",
+        "fivetran": "Fivetran",
+        "github": "Github, CI/CD",
+        "api": "Web API, REST API",
+        "powerpoint": "Powerpoint",
+        "data_storytelling": "Datan tarinankerronta",
+        "data_visualization": "Datan visualisointi"
+      },
+      "app_skills": {
+        "html": "HTML, CSS, Sass",
+        "javascript": "JavaScript, Typescript",
+        "react": "React, Next.js",
+        "cypress": "Cypress",
+        "postman": "Postman",
+        "figma": "Figma",
+        "ui": "UI/UX-suunnittelu",
+        "graphic": "Graafinen suunnittelu",
+        "responsive": "Responsiivinen suunnittelu",
+        "photoshop": "Adobe Photoshop",
+        "premiere": "Adobe Premiere Pro"
+      }
     },
     "projects": {
       "header": "Minun projektit",

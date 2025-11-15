@@ -8,16 +8,34 @@
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
     "skills": {
       "header": "My Skills",
-      "coding_header": "Software and coding",
-      "design_header": "Design",
-      "power_bi": "Power BI",
-      "data_storytelling": "Data Storytelling",
-      "data_visualization": "Data Visualization",
-      "graphic": "Graphics Design",
-      "ui": "UI Design",
-      "responsive": "Responsive Design",
-      "figma": "Figma",
-      "photoshop": "Adobe Photoshop"
+      "data_header": "Data management and visualization",
+      "app_header": "Software development and digital design",
+      "data_skills": {
+        "excel": "Excel",
+        "power_bi": "Power BI",
+        "sql": "SQL",
+        "python": "Python, Pandas",
+        "databricks": "Databricks",
+        "fivetran": "Fivetran",
+        "github": "Github, CI/CD",
+        "api": "Web API, REST API",
+        "powerpoint": "Powerpoint",
+        "data_storytelling": "Data storytelling",
+        "data_visualization": "Data visualization"
+      },
+      "app_skills": {
+        "html": "HTML, CSS, Sass",
+        "javascript": "JavaScript, Typescript",
+        "react": "React, Next.js",
+        "cypress": "Cypress",
+        "postman": "Postman",
+        "figma": "Figma",
+        "ui": "UI/UX design",
+        "graphic": "Graphics design",
+        "responsive": "Responsive design",
+        "photoshop": "Adobe Photoshop",
+        "premiere": "Adobe Premiere Pro"
+      }
     },
     "projects": {
       "header": "My Projects",
