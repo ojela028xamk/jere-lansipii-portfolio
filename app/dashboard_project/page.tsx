@@ -2,14 +2,17 @@ import Image from "next/image";
 import css from "./dashboard.module.scss";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 const Dashboard = () => {
+  const t = useTranslations("website");
+
   return (
     <div className={css.dashboard}>
       <div className={css.dashboard_project}>
         <Link href="/">
           <button className={css.dashboard_back_button}>
-            <FaArrowLeft className={css.icon} /> Takaisin etusivulle
+            <FaArrowLeft className={css.icon} /> {t("projects.go_back")}
           </button>
         </Link>
         <h1 className={css.dashboard_title}>

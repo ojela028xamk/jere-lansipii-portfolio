@@ -44,6 +44,7 @@
       "websites_information": "Kaikki nämä sivustot ovat responsiivisia 320px leveyteen asti.",
       "link_button": "Avaa sivusto",
       "link_button_github": "Github",
+      "go_back": "Takaisin etusivulle",
       "project_data1": {
         "name": "MAANG osakkeiden visuaalinen raportti (FI)",
         "description": "Visuaalinen raportti, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan kirjallisen raportin."

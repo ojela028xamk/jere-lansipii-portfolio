@@ -43,9 +43,7 @@ const Skills = (): JSX.Element => {
             </div>
             <ul>
               {dataSkills.map((skill) => (
-                <li key={skill}>
-                  <li key={skill}>{t(`skills.data_skills.${skill}`)}</li>
-                </li>
+                <li key={skill}>{t(`skills.data_skills.${skill}`)}</li>
               ))}
             </ul>
           </div>

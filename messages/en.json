@@ -44,6 +44,7 @@
       "websites_information": "All of these websites are responsive until 320px width.",
       "link_button": "Open Website",
       "link_button_github": "Github",
+      "go_back": "Go back to home page",
       "project_data1": {
         "name": "MAANG Stock Dashboard (FI)",
         "description": "Dashboard that shows MAANG stock data. Report based on this data is also included."
