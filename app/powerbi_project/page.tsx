@@ -1,14 +1,17 @@
 import { FaArrowLeft } from "react-icons/fa6";
 import css from "./powerbi.module.scss";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const PowerBI = () => {
+  const t = useTranslations("website");
+
   return (
     <div className={css.powerbi}>
       <div className={css.powerbi_project}>
         <Link href="/">
           <button className={css.powerbi_back_button}>
-            <FaArrowLeft className={css.icon} /> Takaisin etusivulle
+            <FaArrowLeft className={css.icon} /> {t("projects.go_back")}
           </button>
         </Link>
         <h1 className={css.powerbi_title}>

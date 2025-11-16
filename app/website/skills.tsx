@@ -1,34 +1,34 @@
 import css from "./skills.module.scss";
-import { FaPenRuler, FaCode } from "react-icons/fa6";
+import { FaDatabase, FaCode } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 
 const Skills = (): JSX.Element => {
   const t = useTranslations("website");
-  const codingSkills = [
-    "Excel",
-    "Powerpoint",
-    "SQL",
-    "Python",
-    "Fivetran",
-    "Databricks",
-    "HTML",
-    "CSS",
-    "Typescript",
-    "Sass",
-    "React",
-    "Next.js",
-    "Cypress",
-    "Postman",
-  ];
-  const designSkills = [
+  const dataSkills = [
+    "excel",
     "power_bi",
+    "sql",
+    "python",
+    "databricks",
+    "fivetran",
+    "github",
+    "api",
+    "powerpoint",
     "data_storytelling",
     "data_visualization",
-    "graphic",
-    "ui",
-    "responsive",
+  ];
+  const appSkills = [
+    "html",
+    "javascript",
+    "react",
+    "cypress",
+    "postman",
     "figma",
+    "ui",
+    "graphic",
+    "responsive",
     "photoshop",
+    "premiere",
   ];
 
   return (
@@ -38,23 +38,23 @@ const Skills = (): JSX.Element => {
         <div className={css.skill_items}>
           <div className={css.item}>
             <div className={css.item_header}>
-              <FaCode className={css.icon} />
-              <span className={css.category}>{t("skills.coding_header")}</span>
+              <FaDatabase className={css.icon} />
+              <span className={css.category}>{t("skills.data_header")}</span>
             </div>
             <ul>
-              {codingSkills.map((skill) => (
-                <li key={skill}>{skill}</li>
+              {dataSkills.map((skill) => (
+                <li key={skill}>{t(`skills.data_skills.${skill}`)}</li>
               ))}
             </ul>
           </div>
           <div className={css.item}>
             <div className={css.item_header}>
-              <FaPenRuler className={css.icon} />
-              <span className={css.category}>{t("skills.design_header")}</span>
+              <FaCode className={css.icon} />
+              <span className={css.category}>{t("skills.app_header")}</span>
             </div>
             <ul>
-              {designSkills.map((skill) => (
-                <li key={skill}>{t(`skills.${skill}`)}</li>
+              {appSkills.map((skill) => (
+                <li key={skill}>{t(`skills.app_skills.${skill}`)}</li>
               ))}
             </ul>
           </div>
