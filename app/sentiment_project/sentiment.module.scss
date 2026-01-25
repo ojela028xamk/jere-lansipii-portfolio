@@ -1,0 +1,17 @@
+@use "../main";
+
+.sentiment {
+  font-size: 1.25rem;
+  color: main.$primary-black;
+  line-height: 1.7rem;
+
+  .sentiment_project {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2em;
+
+    .sentiment_back_button {
+      @include main.back_to_index_button;
+    }
+  }
+}
