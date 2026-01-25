@@ -13,5 +13,34 @@
     .sentiment_back_button {
       @include main.back_to_index_button;
     }
+
+    .sentiment_title {
+      font-size: 3rem;
+      line-height: 2.8rem;
+    }
+
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .nss_table_container {
+      margin-top: 1em;
+      display: flex;
+      justify-content: center;
+
+      .nss_score_table_image {
+        justify-self: center;
+        max-width: 50%;
+        height: auto;
+      }
+    }
+
+    .mentions_image_grid {
+      margin-top: 1em;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.2em;
+    }
   }
 }
