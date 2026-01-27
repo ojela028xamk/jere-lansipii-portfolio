@@ -3,6 +3,7 @@ import css from "./sentiment.module.scss";
 import { FaArrowLeft } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import SentimentIntro from "./sentimentIntro";
 
 const Sentiment = () => {
   const t = useTranslations("website");
@@ -16,6 +17,7 @@ const Sentiment = () => {
           </button>
         </Link>
         <h1 className={css.sentiment_title}>Restaurant sentiment analysis</h1>
+        <SentimentIntro />
         <h2>Data structure overview</h2>
         <p>
           The final data table structure is visualized below with some examples
