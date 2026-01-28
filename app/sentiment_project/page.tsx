@@ -2,7 +2,6 @@ import Link from "next/link";
 import css from "./sentiment.module.scss";
 import { FaArrowLeft } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import SentimentIntro from "./sentimentIntro";
 import SentimentStructure from "./sentimentStructure";
 import SentimentSummary from "./sentimentSummary";
