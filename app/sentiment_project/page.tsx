@@ -4,6 +4,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import SentimentIntro from "./sentimentIntro";
+import SentimentStructure from "./sentimentStructure";
 
 const Sentiment = () => {
   const t = useTranslations("website");
@@ -18,19 +19,8 @@ const Sentiment = () => {
         </Link>
         <h1 className={css.sentiment_title}>Restaurant sentiment analysis</h1>
         <SentimentIntro />
-        <h2>Data structure overview</h2>
-        <p>
-          The final data table structure is visualized below with some examples
-          of feedback with categories and sentiment.
-        </p>
-        <Image
-          className={css.image}
-          src="/sentiment_images/data_structure.png"
-          alt="Data structure"
-          width={914}
-          height={394}
-          quality={100}
-        />
+        <SentimentStructure />
+
         <h2>Executive summary</h2>
         <div className={css.nss_table_container}>
           <Image
