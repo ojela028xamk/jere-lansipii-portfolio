@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import SentimentIntro from "./sentimentIntro";
 import SentimentStructure from "./sentimentStructure";
+import SentimentSummary from "./sentimentSummary";
 
 const Sentiment = () => {
   const t = useTranslations("website");
@@ -20,44 +21,7 @@ const Sentiment = () => {
         <h1 className={css.sentiment_title}>Restaurant sentiment analysis</h1>
         <SentimentIntro />
         <SentimentStructure />
-
-        <h2>Executive summary</h2>
-        <div className={css.nss_table_container}>
-          <Image
-            className={css.nss_score_table_image}
-            src="/sentiment_images/nss_score_table.png"
-            alt="Data structure"
-            width={1261}
-            height={712}
-            quality={100}
-          />
-        </div>
-        <div className={css.mentions_image_grid}>
-          <Image
-            className={css.image}
-            src="/sentiment_images/all_mentions.png"
-            alt="Data structure"
-            width={626}
-            height={496}
-            quality={100}
-          />
-          <Image
-            className={css.image}
-            src="/sentiment_images/1star_mentions.png"
-            alt="Data structure"
-            width={626}
-            height={496}
-            quality={100}
-          />
-          <Image
-            className={css.image}
-            src="/sentiment_images/2star_mentions.png"
-            alt="Data structure"
-            width={626}
-            height={496}
-            quality={100}
-          />
-        </div>
+        <SentimentSummary />
         <h2>Insights deep dive</h2>
         <h2>Recommendations</h2>
       </div>
