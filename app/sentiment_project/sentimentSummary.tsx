@@ -9,7 +9,7 @@ const SentimentSummary = () => {
         <Image
           className={css.nss_score_table_image}
           src="/sentiment_images/nss_score_table.png"
-          alt="Data structure"
+          alt="NSS score table"
           width={1261}
           height={712}
           quality={100}
@@ -19,7 +19,7 @@ const SentimentSummary = () => {
         <Image
           className={css.image}
           src="/sentiment_images/all_mentions.png"
-          alt="Data structure"
+          alt="All mentions"
           width={626}
           height={496}
           quality={100}
@@ -27,7 +27,7 @@ const SentimentSummary = () => {
         <Image
           className={css.image}
           src="/sentiment_images/1star_mentions.png"
-          alt="Data structure"
+          alt="1 star mentions"
           width={626}
           height={496}
           quality={100}
@@ -35,7 +35,7 @@ const SentimentSummary = () => {
         <Image
           className={css.image}
           src="/sentiment_images/2star_mentions.png"
-          alt="Data structure"
+          alt="2 star mentions"
           width={626}
           height={496}
           quality={100}

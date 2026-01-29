@@ -1,0 +1,37 @@
+.sentiment_insights_item {
+  border: 1px solid #eb5757;
+
+  h3 {
+    margin: 0;
+    padding: 0.5em;
+    background-color: #eb5757;
+    color: white;
+    text-align: center;
+  }
+
+  .item_content {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0.5em 0;
+
+    .item_text {
+      font-size: 1rem;
+
+      ul {
+        margin: 0;
+      }
+    }
+
+    .item_images {
+      display: flex;
+      gap: 0.5em;
+      justify-content: center;
+
+      .image {
+        max-width: 23%;
+        height: auto;
+        border: 1px solid lightgray;
+      }
+    }
+  }
+}
