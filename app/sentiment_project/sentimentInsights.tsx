@@ -1,0 +1,21 @@
+import css from "./sentimentInsights.module.scss";
+import SentimentInsightsItem from "./sentimentInsightsItem";
+import { sentimentInsightsList } from "./sentimentInsightsList";
+
+const SentimentInsights = () => {
+  return (
+    <div className={css.sentiment_insights}>
+      <h2>Insights deep dive</h2>
+      <p>
+        This segment uses <b>stacked area charts </b>to visualize sentiment
+        distribution (positive, neutral, negative) and <b>line charts</b> to
+        track mention frequency across 1-star, 2-star and all reviews.
+      </p>
+      {sentimentInsightsList.map((insight) => (
+        <SentimentInsightsItem key={insight.id} insight={insight} />
+      ))}
+    </div>
+  );
+};
+
+export default SentimentInsights;

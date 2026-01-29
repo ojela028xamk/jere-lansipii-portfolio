@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import SentimentIntro from "./sentimentIntro";
 import SentimentStructure from "./sentimentStructure";
 import SentimentSummary from "./sentimentSummary";
+import SentimentInsights from "./sentimentInsights";
 
 const Sentiment = () => {
   const t = useTranslations("website");
@@ -24,7 +25,7 @@ const Sentiment = () => {
         <hr />
         <SentimentSummary />
         <hr />
-        <h2>Insights deep dive</h2>
+        <SentimentInsights />
         <h2>Recommendations</h2>
       </div>
     </div>
