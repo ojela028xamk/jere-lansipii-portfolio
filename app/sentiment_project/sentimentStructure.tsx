@@ -5,7 +5,6 @@ const SentimentStructure = () => {
   return (
     <div className={css.sentiment_structure}>
       <h2>Data structure overview</h2>
-      <hr />
       <p>
         The final data table structure is visualized below with some examples of
         feedback with categories and sentiment.

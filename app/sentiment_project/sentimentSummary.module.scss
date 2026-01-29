@@ -9,7 +9,7 @@
       border: 1px solid #9a9a9a;
       padding: 0.2em;
       justify-self: center;
-      max-width: 40%;
+      max-width: 50%;
       height: auto;
     }
   }
@@ -17,13 +17,23 @@
   .mentions_image_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
     justify-items: center;
 
     .image {
-      max-width: 90%;
+      max-width: 100%;
       height: auto;
-      border: 1px solid #9a9a9a;
       padding: 0.2em;
+      border: 1px solid #9a9a9a;
+    }
+  }
+
+  .sentiment_summary_text {
+    margin-top: 1em;
+    padding: 0 1em 1em 1em;
+
+    ul {
+      margin: 0.5em 0;
     }
   }
 }

@@ -19,8 +19,11 @@ const Sentiment = () => {
         </Link>
         <h1 className={css.sentiment_title}>Restaurant sentiment analysis</h1>
         <SentimentIntro />
+        <hr />
         <SentimentStructure />
+        <hr />
         <SentimentSummary />
+        <hr />
         <h2>Insights deep dive</h2>
         <h2>Recommendations</h2>
       </div>
