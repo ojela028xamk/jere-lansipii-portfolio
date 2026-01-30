@@ -10,7 +10,7 @@ const SentimentStructure = () => {
         feedback with categories and sentiment.
       </p>
       <Image
-        className={css.image}
+        className={css.sentiment_structure_image}
         src="/sentiment_images/data_structure.png"
         alt="Data structure"
         width={914}
