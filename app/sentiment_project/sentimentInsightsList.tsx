@@ -55,9 +55,9 @@ export const sentimentInsightsList: Insight[] = [
         </ul>
       </>
     ),
-    allImage: "",
-    oneStarImage: "",
-    twoStarImage: "",
+    allImage: "/sentiment_images/service_all.png",
+    oneStarImage: "/sentiment_images/service_1star.png",
+    twoStarImage: "/sentiment_images/service_2star.png",
     mentionsImage: "",
   },
 ];
