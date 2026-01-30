@@ -115,4 +115,57 @@ export const sentimentInsightsList: Insight[] = [
     twoStarImage: "/sentiment_images/food_2star.png",
     mentionsImage: "",
   },
+  {
+    id: 3,
+    title: "Price: Declining value (3rd priority)",
+    content: (
+      <>
+        <ul>
+          <li>
+            Among all reviews negative sentiment has been increasing since 2024
+            Q4.
+          </li>
+          <ul>
+            <li>In 2025 Q4 positive sentiment is below 50%.</li>
+            <li>
+              While many love food and service, some think it’s not worth the
+              price.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Sentiment is almost all negative among 1- and 2-star ratings.</li>
+          <ul>
+            <li>
+              Compared to all reviews, mentions also increase among low star
+              ratings.
+            </li>
+            <li>
+              However, prices are still discussed way less compared to service.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+            Price can become a higher priority if these trends keep persisting.
+          </li>
+          <ul>
+            <li>
+              Right now, price is slightly lower priority below service because
+              it is not nearly as big of a topic.
+            </li>
+            <li>
+              Since 2025 Q3 mentions started to increase, especially among
+              1-star reviews. Also, since negative sentiment is increasing among
+              all reviews, prices can become a second priority in 2026.
+            </li>
+          </ul>
+        </ul>
+      </>
+    ),
+    allImage: "/sentiment_images/price_all.png",
+    oneStarImage: "/sentiment_images/price_1star.png",
+    twoStarImage: "/sentiment_images/price_2star.png",
+    mentionsImage: "",
+  },
 ];
