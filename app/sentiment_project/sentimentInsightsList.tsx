@@ -218,4 +218,44 @@ export const sentimentInsightsList: Insight[] = [
     twoStarImage: "/sentiment_images/cleanliness_2star.png",
     mentionsImage: "",
   },
+  {
+    id: 5,
+    title: "Ambience: The neutral category (last priority)",
+    content: (
+      <>
+        <ul>
+          <li>Ambience has the greatest number of neutral reviews.</li>
+          <ul>
+            <li>
+              Among all reviews ambience is slightly more neutral than negative.
+            </li>
+            <li>
+              Data has a lot of volatility among 1- and 2-star reviews with
+              different sentiments. Overall, it’s still mostly negative.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+            Considered a last priority for its neutral nature and sometimes
+            being the least discussed category.
+          </li>
+          <ul>
+            <li>
+              Among 1- and 2-star reviews mentions go down compared to all
+              reviews.
+            </li>
+            <li>
+              Ambience is still an important category. Especially since neutral
+              and negative sentiment is increasing in 2025 among all reviews.
+            </li>
+          </ul>
+        </ul>
+      </>
+    ),
+    allImage: "/sentiment_images/ambience_all.png",
+    oneStarImage: "/sentiment_images/ambience_1star.png",
+    twoStarImage: "/sentiment_images/ambience_2star.png",
+    mentionsImage: "",
+  },
 ];
