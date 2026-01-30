@@ -1,39 +1,50 @@
 .sentiment_summary {
-  .nss_table_container {
-    margin-top: 1em;
+  .sentiment_summary_nss_container {
     display: flex;
     justify-content: center;
 
-    .nss_score_table_image {
-      margin-bottom: 1em;
-      //border: 1px solid #9a9a9a;
-      padding: 0.2em;
-      justify-self: center;
+    .nss_image {
       max-width: 50%;
       height: auto;
+      border: 1px solid lightgray;
+      padding: 0.2em;
     }
   }
 
-  .mentions_image_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    justify-items: center;
+  .sentiment_summary_mentions_grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    gap: 0.5em;
 
-    .image {
-      max-width: 100%;
+    .mentions_image {
+      max-width: 30%;
       height: auto;
+      border: 1px solid lightgray;
       padding: 0.2em;
-      //border: 1px solid #9a9a9a;
     }
   }
 
   .sentiment_summary_text {
-    margin-top: 1em;
-    padding: 0 1em 1em 1em;
+    margin-top: 0.5em;
+    border: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-    ul {
-      margin: 0.5em 0;
+    .sentiment_summary_text_column {
+      padding: 0.8em;
+
+      h3 {
+        margin: 0 0 0.4em 0;
+      }
+
+      ul {
+        margin-top: 0.2em;
+      }
+    }
+
+    .sentiment_summary_text_column:first-child {
+      border-right: 1px solid lightgray;
     }
   }
 }
