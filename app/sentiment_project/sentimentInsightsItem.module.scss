@@ -12,9 +12,11 @@
   .item_content {
     display: flex;
     flex-direction: column-reverse;
-    padding: 0.5em 0;
+    padding: 0.8em;
 
     .item_text {
+      margin-top: 0.4em;
+
       ul {
         margin: 0;
       }
@@ -28,7 +30,8 @@
       .image {
         max-width: 30%;
         height: auto;
-        border: 1px solid lightgray;
+        //border: 1px solid lightgray;
+        padding: 0.2em;
       }
     }
   }

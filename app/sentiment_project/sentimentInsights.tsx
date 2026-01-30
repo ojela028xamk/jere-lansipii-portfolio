@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import css from "./sentimentInsights.module.scss";
 import SentimentInsightsItem from "./sentimentInsightsItem";
 import { sentimentInsightsList } from "./sentimentInsightsList";
@@ -12,7 +13,10 @@ const SentimentInsights = () => {
         track mention frequency across 1-star, 2-star and all reviews.
       </p>
       {sentimentInsightsList.map((insight) => (
-        <SentimentInsightsItem key={insight.id} insight={insight} />
+        <Fragment key={insight.id}>
+          <SentimentInsightsItem insight={insight} />
+          <br />
+        </Fragment>
       ))}
     </div>
   );
