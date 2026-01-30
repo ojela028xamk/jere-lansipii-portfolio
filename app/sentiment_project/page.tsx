@@ -6,6 +6,7 @@ import SentimentIntro from "./sentimentIntro";
 import SentimentStructure from "./sentimentStructure";
 import SentimentSummary from "./sentimentSummary";
 import SentimentInsights from "./sentimentInsights";
+import SentimentRecommend from "./sentimentRecommend";
 
 const Sentiment = () => {
   const t = useTranslations("website");
@@ -26,7 +27,8 @@ const Sentiment = () => {
         <SentimentSummary />
         <hr />
         <SentimentInsights />
-        <h2>Recommendations</h2>
+        <hr />
+        <SentimentRecommend />
       </div>
     </div>
   );
