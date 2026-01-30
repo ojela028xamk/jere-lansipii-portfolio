@@ -168,4 +168,54 @@ export const sentimentInsightsList: Insight[] = [
     twoStarImage: "/sentiment_images/price_2star.png",
     mentionsImage: "",
   },
+  {
+    id: 4,
+    title: "Cleanliness: The “polarizing” category (4th priority)",
+    content: (
+      <>
+        <ul>
+          <li>
+            People either love it or hate it. Cleanliness has minimal neutral
+            sentiment.
+          </li>
+          <ul>
+            <li>
+              Among 1-star reviews across the timeline it is almost all negative
+              sentiment.
+            </li>
+            <li>
+              Data is very volatile among 2-star reviews. However, it is almost
+              all negative in 2025.
+            </li>
+            <li>
+              Among all reviews in 2023 Q3 negative sentiment was at 40,99% but
+              it went down after that consistently to 19,30% in 2025 Q1.
+              However, negative sentiment increased after that and in 2025 Q3 it
+              was at 44,88%.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+            Since overall cleanliness is the least discussed category, it’s
+            considered 4th priority.
+          </li>
+          <ul>
+            <li>
+              Among 1-star reviews in 2024 cleanliness is sometimes discussed
+              more often than ambience.
+            </li>
+            <li>
+              Cleanliness is above ambience, because it’s considered a bigger
+              driver for negative sentiment.
+            </li>
+          </ul>
+        </ul>
+      </>
+    ),
+    allImage: "/sentiment_images/cleanliness_all.png",
+    oneStarImage: "/sentiment_images/cleanliness_1star.png",
+    twoStarImage: "/sentiment_images/cleanliness_2star.png",
+    mentionsImage: "",
+  },
 ];
