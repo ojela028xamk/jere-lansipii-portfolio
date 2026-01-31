@@ -25,6 +25,7 @@ const Sentiment = () => {
         <SentimentStructure />
         <hr />
         <SentimentSummary />
+        <br />
         <hr />
         <SentimentInsights />
         <hr />

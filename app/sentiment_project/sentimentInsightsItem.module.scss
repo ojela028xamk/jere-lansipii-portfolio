@@ -11,26 +11,30 @@
 
   .item_content {
     display: flex;
-    flex-direction: column-reverse;
-    padding: 0.8em;
+    align-items: flex-start;
 
     .item_text {
-      margin-top: 0.4em;
+      flex: 1;
+      padding: 0.8em;
 
       ul {
         margin: 0;
+        padding-left: 1em;
       }
     }
 
     .item_images {
-      display: flex;
-      gap: 0.5em;
-      justify-content: center;
+      flex: 1;
+      padding: 0.8em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 6px;
+      column-gap: 9px;
 
       .image {
-        max-width: 30%;
+        max-width: 98%;
         height: auto;
-        //border: 1px solid lightgray;
+        border: 1px solid lightgray;
         padding: 0.2em;
       }
     }

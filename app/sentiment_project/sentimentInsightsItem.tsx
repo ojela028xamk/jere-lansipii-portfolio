@@ -17,24 +17,32 @@ const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
             className={css.image}
             src={insight.allImage}
             alt={""}
-            width={623}
-            height={495}
+            width={645}
+            height={513}
             quality={100}
           />
           <Image
             className={css.image}
             src={insight.twoStarImage}
             alt={""}
-            width={623}
-            height={495}
+            width={645}
+            height={513}
             quality={100}
           />
           <Image
             className={css.image}
             src={insight.oneStarImage}
             alt={""}
-            width={623}
-            height={495}
+            width={645}
+            height={513}
+            quality={100}
+          />
+          <Image
+            className={css.image}
+            src={insight.mentionsImage}
+            alt={""}
+            width={645}
+            height={513}
             quality={100}
           />
         </div>
