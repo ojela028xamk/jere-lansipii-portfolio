@@ -6,6 +6,7 @@ export type Insight = {
   oneStarImage: string;
   twoStarImage: string;
   mentionsImage: string;
+  color: string;
 };
 
 export const sentimentInsightsList: Insight[] = [
@@ -59,6 +60,7 @@ export const sentimentInsightsList: Insight[] = [
     oneStarImage: "/sentiment_images/service_1star.png",
     twoStarImage: "/sentiment_images/service_2star.png",
     mentionsImage: "/sentiment_images/service_mentions.png",
+    color: "#EB5757",
   },
   {
     id: 2,
@@ -114,6 +116,7 @@ export const sentimentInsightsList: Insight[] = [
     oneStarImage: "/sentiment_images/food_1star.png",
     twoStarImage: "/sentiment_images/food_2star.png",
     mentionsImage: "/sentiment_images/food_mentions.png",
+    color: "#438FFF",
   },
   {
     id: 3,
@@ -167,6 +170,7 @@ export const sentimentInsightsList: Insight[] = [
     oneStarImage: "/sentiment_images/price_1star.png",
     twoStarImage: "/sentiment_images/price_2star.png",
     mentionsImage: "/sentiment_images/price_mentions.png",
+    color: "#FF977E",
   },
   {
     id: 4,
@@ -217,6 +221,7 @@ export const sentimentInsightsList: Insight[] = [
     oneStarImage: "/sentiment_images/cleanliness_1star.png",
     twoStarImage: "/sentiment_images/cleanliness_2star.png",
     mentionsImage: "/sentiment_images/cleanliness_mentions.png",
+    color: "#5ECBC8",
   },
   {
     id: 5,
@@ -257,5 +262,6 @@ export const sentimentInsightsList: Insight[] = [
     oneStarImage: "/sentiment_images/ambience_1star.png",
     twoStarImage: "/sentiment_images/ambience_2star.png",
     mentionsImage: "/sentiment_images/ambience_mentions.png",
+    color: "#8250C4",
   },
 ];

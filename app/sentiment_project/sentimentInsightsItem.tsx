@@ -8,8 +8,11 @@ type SentimentInsightsItemProps = {
 
 const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
   return (
-    <div className={css.sentiment_insights_item}>
-      <h3>{insight.title}</h3>
+    <div
+      className={css.sentiment_insights_item}
+      style={{ border: `1px solid ${insight.color}` }}
+    >
+      <h3 style={{ backgroundColor: `${insight.color}` }}>{insight.title}</h3>
       <div className={css.item_content}>
         <div className={css.item_text}>{insight.content}</div>
         <div className={css.item_images}>
