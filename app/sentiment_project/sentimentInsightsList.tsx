@@ -113,7 +113,7 @@ export const sentimentInsightsList: Insight[] = [
     allImage: "/sentiment_images/food_all.png",
     oneStarImage: "/sentiment_images/food_1star.png",
     twoStarImage: "/sentiment_images/food_2star.png",
-    mentionsImage: "",
+    mentionsImage: "/sentiment_images/food_mentions.png",
   },
   {
     id: 3,
@@ -166,7 +166,7 @@ export const sentimentInsightsList: Insight[] = [
     allImage: "/sentiment_images/price_all.png",
     oneStarImage: "/sentiment_images/price_1star.png",
     twoStarImage: "/sentiment_images/price_2star.png",
-    mentionsImage: "",
+    mentionsImage: "/sentiment_images/price_mentions.png",
   },
   {
     id: 4,
@@ -216,7 +216,7 @@ export const sentimentInsightsList: Insight[] = [
     allImage: "/sentiment_images/cleanliness_all.png",
     oneStarImage: "/sentiment_images/cleanliness_1star.png",
     twoStarImage: "/sentiment_images/cleanliness_2star.png",
-    mentionsImage: "",
+    mentionsImage: "/sentiment_images/cleanliness_mentions.png",
   },
   {
     id: 5,
@@ -256,6 +256,6 @@ export const sentimentInsightsList: Insight[] = [
     allImage: "/sentiment_images/ambience_all.png",
     oneStarImage: "/sentiment_images/ambience_1star.png",
     twoStarImage: "/sentiment_images/ambience_2star.png",
-    mentionsImage: "",
+    mentionsImage: "/sentiment_images/ambience_mentions.png",
   },
 ];
