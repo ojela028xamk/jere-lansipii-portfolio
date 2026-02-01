@@ -49,7 +49,6 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
-            style={{ backgroundColor: "#f5f3f5" }}
             src={"/sentiment_images/sentiment_project.png"}
             alt={"Project image"}
             width={1200}
