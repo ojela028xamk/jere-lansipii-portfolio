@@ -30,7 +30,7 @@ const PowerBI = () => {
           decision-making.
         </p>
         <p>
-          <b>Key Business Questions:</b>
+          <b>Key business questions:</b>
         </p>
         <ul>
           <li>
@@ -56,7 +56,7 @@ const PowerBI = () => {
           compelling dashboards but also to translate complex data into clear,
           valuable insights that drive business results.
         </p>
-        <h2>Power BI Dashboard</h2>
+        <h2>Power BI dashboard</h2>
         <iframe
           title="Electronics Sales Data"
           width="1024"

@@ -1,0 +1,45 @@
+@use "../responsive";
+
+.sentiment_insights_item {
+  h3 {
+    margin: 0;
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+  }
+
+  .item_content {
+    display: flex;
+    align-items: flex-start;
+
+    .item_text {
+      flex: 3;
+      padding: 0.8em;
+
+      ul {
+        margin: 0;
+        padding-left: 1em;
+      }
+    }
+
+    .item_images {
+      flex: 4;
+      padding: 0.8em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 6px;
+      column-gap: 9px;
+
+      .image {
+        max-width: 98%;
+        height: auto;
+        border: 1px solid lightgray;
+        padding: 0.2em;
+      }
+    }
+
+    @media (max-width: responsive.$laptop) {
+      flex-direction: column-reverse;
+    }
+  }
+}
