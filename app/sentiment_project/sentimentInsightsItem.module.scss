@@ -11,7 +11,7 @@
     align-items: flex-start;
 
     .item_text {
-      flex: 1;
+      flex: 3;
       padding: 0.8em;
 
       ul {
@@ -21,7 +21,7 @@
     }
 
     .item_images {
-      flex: 1;
+      flex: 4;
       padding: 0.8em;
       display: grid;
       grid-template-columns: repeat(2, 1fr);

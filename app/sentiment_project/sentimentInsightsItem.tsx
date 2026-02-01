@@ -44,8 +44,8 @@ const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
             className={css.image}
             src={insight.mentionsImage}
             alt={""}
-            width={645}
-            height={513}
+            width={655}
+            height={521}
             quality={100}
           />
         </div>
