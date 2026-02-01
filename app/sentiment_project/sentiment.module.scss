@@ -13,11 +13,6 @@
     .sentiment_back_button {
       @include main.back_to_index_button;
     }
-
-    .sentiment_title {
-      font-size: 3rem;
-      line-height: 2.8rem;
-    }
   }
 
   li {

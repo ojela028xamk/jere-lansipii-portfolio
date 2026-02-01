@@ -12,7 +12,7 @@ const SentimentIntro = () => {
         <Image
           className={css.header_image}
           src="/sentiment_images/header_image.png"
-          alt="Data structure"
+          alt="Header image"
           width={1057}
           height={408}
           quality={100}

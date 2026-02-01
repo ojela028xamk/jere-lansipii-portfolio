@@ -19,7 +19,7 @@ const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
           <Image
             className={css.image}
             src={insight.allImage}
-            alt={""}
+            alt={"Sentiment of all reviews"}
             width={645}
             height={513}
             quality={100}
@@ -27,7 +27,7 @@ const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
           <Image
             className={css.image}
             src={insight.twoStarImage}
-            alt={""}
+            alt={"Sentiment among two star reviews"}
             width={645}
             height={513}
             quality={100}
@@ -35,7 +35,7 @@ const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
           <Image
             className={css.image}
             src={insight.oneStarImage}
-            alt={""}
+            alt={"Sentiment among one star reviews"}
             width={645}
             height={513}
             quality={100}
@@ -43,7 +43,7 @@ const SentimentInsightsItem = ({ insight }: SentimentInsightsItemProps) => {
           <Image
             className={css.image}
             src={insight.mentionsImage}
-            alt={""}
+            alt={"Category mentions"}
             width={655}
             height={521}
             quality={100}
