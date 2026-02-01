@@ -1,8 +1,20 @@
+import Image from "next/image";
 import css from "./sentimentIntro.module.scss";
 
 const SentimentIntro = () => {
   return (
     <div className={css.sentiment_intro}>
+      <div className={css.sentiment_intro_header}>
+        <h1 className={css.header_title}>Restaurant sentiment analysis</h1>
+        <Image
+          className={css.header_image}
+          src="/sentiment_images/header_image.png"
+          alt="Data structure"
+          width={1057}
+          height={408}
+          quality={100}
+        />
+      </div>
       <p>
         This project synthesizes real-life Yelp customer reviews from various
         Korean restaurants into one representative model. Prepared for the

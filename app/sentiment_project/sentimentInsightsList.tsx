@@ -150,7 +150,7 @@ export const sentimentInsightsList: Insight[] = [
           </li>
           <ul>
             <li>
-              Right now, price is slightly lower priority below service because
+              Right now, price is slightly lower priority below food because
               it's not nearly as big of a topic.
             </li>
             <li>

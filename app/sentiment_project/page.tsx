@@ -19,7 +19,6 @@ const Sentiment = () => {
             <FaArrowLeft className={css.icon} /> {t("projects.go_back")}
           </button>
         </Link>
-        <h1 className={css.sentiment_title}>Restaurant sentiment analysis</h1>
         <SentimentIntro />
         <hr />
         <SentimentStructure />

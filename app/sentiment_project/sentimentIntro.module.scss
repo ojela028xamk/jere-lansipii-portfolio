@@ -1,2 +1,13 @@
 .sentiment_intro {
+  .sentiment_intro_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header_image {
+      margin: 0.2em;
+      width: 40%;
+      height: auto;
+    }
+  }
 }
