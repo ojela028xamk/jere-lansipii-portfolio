@@ -4,6 +4,11 @@
     flex-direction: column;
     align-items: center;
 
+    h1 {
+      text-align: center;
+      line-height: 1.2em;
+    }
+
     .header_image {
       margin: 0.2em;
       width: 40%;

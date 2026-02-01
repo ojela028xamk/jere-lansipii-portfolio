@@ -46,8 +46,8 @@
       "link_button_github": "Github",
       "go_back": "Go back to home page",
       "project_data1": {
-        "name": "Restaurant sentiment analysis (EN)",
-        "description": "Restaurant sentiment analysis."
+        "name": "Restaurant Sentiment Analysis (EN)",
+        "description": "Data report that analyzes real-life customer reviews from various Korean restaurants."
       },
       "project_data2": {
         "name": "Electronics Sales Dashboard and Presentation (EN)",

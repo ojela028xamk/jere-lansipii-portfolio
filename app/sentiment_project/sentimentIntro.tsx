@@ -5,7 +5,10 @@ const SentimentIntro = () => {
   return (
     <div className={css.sentiment_intro}>
       <div className={css.sentiment_intro_header}>
-        <h1>Restaurant sentiment analysis</h1>
+        <h1>
+          Sentiment analysis: Quantifying customer satisfaction in Korean
+          cuisine
+        </h1>
         <Image
           className={css.header_image}
           src="/sentiment_images/header_image.png"

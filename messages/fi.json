@@ -46,8 +46,8 @@
       "link_button_github": "Github",
       "go_back": "Takaisin etusivulle",
       "project_data1": {
-        "name": "Ravintolan sentimentanalyysi (EN)",
-        "description": "Ravintolan sentimentanalyysi."
+        "name": "Ravintolan sentimenttianalyysi (EN)",
+        "description": "Dataraportti, joka analysoi tosielämän asiakasarvosteluja korealaisista ravintoloista."
       },
       "project_data2": {
         "name": "Elektroniikkamyynnin visuaalinen raportti ja esitelmä (EN)",
