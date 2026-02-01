@@ -30,7 +30,7 @@ const PowerBI = () => {
           decision-making.
         </p>
         <p>
-          <b>Key Business Questions:</b>
+          <b>Key business questions:</b>
         </p>
         <ul>
           <li>

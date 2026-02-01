@@ -46,8 +46,8 @@
       "link_button_github": "Github",
       "go_back": "Go back to home page",
       "project_data1": {
-        "name": "MAANG Stock Dashboard (FI)",
-        "description": "Dashboard that shows MAANG stock data. Report based on this data is also included."
+        "name": "Restaurant sentiment analysis (EN)",
+        "description": "Restaurant sentiment analysis."
       },
       "project_data2": {
         "name": "Electronics Sales Dashboard and Presentation (EN)",

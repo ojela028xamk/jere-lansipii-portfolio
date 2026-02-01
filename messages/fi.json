@@ -46,8 +46,8 @@
       "link_button_github": "Github",
       "go_back": "Takaisin etusivulle",
       "project_data1": {
-        "name": "MAANG osakkeiden visuaalinen raportti (FI)",
-        "description": "Visuaalinen raportti, joka näyttää MAANG osakkeiden dataa. Projekti sisältää myös dataan pohjautuvan kirjallisen raportin."
+        "name": "Ravintolan sentimentanalyysi (EN)",
+        "description": "Ravintolan sentimentanalyysi."
       },
       "project_data2": {
         "name": "Elektroniikkamyynnin visuaalinen raportti ja esitelmä (EN)",

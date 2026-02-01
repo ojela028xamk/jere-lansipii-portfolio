@@ -49,6 +49,26 @@ const Projects = (): JSX.Element => {
         <div className={css.project_card}>
           <Image
             className={css.project_image}
+            style={{ backgroundColor: "#f5f3f5" }}
+            src={"/sentiment_images/sentiment_project.png"}
+            alt={"Project image"}
+            width={1200}
+            height={545}
+            quality={50}
+          />
+          <span className={css.project_name}>
+            {t("projects.project_data1.name")}
+          </span>
+          <p className={css.project_description}>
+            {t("projects.project_data1.description")}
+          </p>
+          <Link className={css.button_project} href={"/sentiment_project"}>
+            {t("projects.link_button")}
+          </Link>
+        </div>
+        <div className={css.project_card}>
+          <Image
+            className={css.project_image}
             src={"/powerbi_dashboard.PNG"}
             alt={"Project image"}
             width={1200}
@@ -62,25 +82,6 @@ const Projects = (): JSX.Element => {
             {t("projects.project_data2.description")}
           </p>
           <Link className={css.button_project} href={"/powerbi_project"}>
-            {t("projects.link_button")}
-          </Link>
-        </div>
-        <div className={css.project_card}>
-          <Image
-            className={css.project_image}
-            src={"/excel_dashboard.PNG"}
-            alt={"Project image"}
-            width={1200}
-            height={545}
-            quality={50}
-          />
-          <span className={css.project_name}>
-            {t("projects.project_data1.name")}
-          </span>
-          <p className={css.project_description}>
-            {t("projects.project_data1.description")}
-          </p>
-          <Link className={css.button_project} href={"/dashboard_project"}>
             {t("projects.link_button")}
           </Link>
         </div>
