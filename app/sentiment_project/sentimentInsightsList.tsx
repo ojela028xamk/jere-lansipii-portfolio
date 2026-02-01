@@ -16,10 +16,7 @@ export const sentimentInsightsList: Insight[] = [
     content: (
       <>
         <ul>
-          <li>
-            Among all reviews there is volatility of negative sentiment across
-            the timeline.
-          </li>
+          <li>Among all reviews there is volatility of negative sentiment.</li>
           <ul>
             <li>
               Negative sentiment reached its second highest peak in 2023 Q4
@@ -36,7 +33,7 @@ export const sentimentInsightsList: Insight[] = [
           <ul>
             <li>This is especially true in 2024 and first half of 2023.</li>
             <li>
-              During 2025 negative sentiment started to go down a bit with some
+              During 2025 negative sentiment started to go down with some
               positive and neutral sentiment increasing instead.
             </li>
           </ul>
@@ -69,8 +66,8 @@ export const sentimentInsightsList: Insight[] = [
       <>
         <ul>
           <li>
-            Food is a category that has the most positive sentiment, and it is
-            the most discussed category.
+            Food has the most positive sentiment and it's the most discussed
+            category.
           </li>
           <ul>
             <li>
@@ -91,13 +88,12 @@ export const sentimentInsightsList: Insight[] = [
         <ul>
           <li>
             Since food is overall the most discussed category with good amount
-            of negative sentiment among 1- and 2-star reviews, it’s considered
-            the second priority.
+            of negative sentiment, it’s considered the second priority.
           </li>
           <ul>
             <li>
               Among 1- and 2-star reviews, after 2024 Q2 negative sentiment
-              started to go down a bit.
+              started to go down.
             </li>
             <li>
               However, among all reviews negative sentiment started to increase
@@ -126,7 +122,7 @@ export const sentimentInsightsList: Insight[] = [
         <ul>
           <li>
             Among all reviews negative sentiment has been increasing since 2024
-            Q4.
+            Q3.
           </li>
           <ul>
             <li>In 2025 Q4 positive sentiment is below 50%.</li>
@@ -137,7 +133,7 @@ export const sentimentInsightsList: Insight[] = [
           </ul>
         </ul>
         <ul>
-          <li>Sentiment is almost all negative among 1- and 2-star ratings.</li>
+          <li>Sentiment is almost all negative among 1- and 2-star reviews.</li>
           <ul>
             <li>
               Compared to all reviews, mentions also increase among low star
@@ -155,7 +151,7 @@ export const sentimentInsightsList: Insight[] = [
           <ul>
             <li>
               Right now, price is slightly lower priority below service because
-              it is not nearly as big of a topic.
+              it's not nearly as big of a topic.
             </li>
             <li>
               Since 2025 Q3 mentions started to increase, especially among
@@ -183,12 +179,9 @@ export const sentimentInsightsList: Insight[] = [
             sentiment.
           </li>
           <ul>
+            <li>Among 1-star reviews it's almost all negative sentiment.</li>
             <li>
-              Among 1-star reviews across the timeline it is almost all negative
-              sentiment.
-            </li>
-            <li>
-              Data is very volatile among 2-star reviews. However, it is almost
+              Data is very volatile among 2-star reviews. However, it's almost
               all negative in 2025.
             </li>
             <li>
@@ -232,7 +225,8 @@ export const sentimentInsightsList: Insight[] = [
           <li>Ambience has the greatest number of neutral reviews.</li>
           <ul>
             <li>
-              Among all reviews ambience is slightly more neutral than negative.
+              Among all reviews sentiment is slightly more neutral than
+              negative.
             </li>
             <li>
               Data has a lot of volatility among 1- and 2-star reviews with

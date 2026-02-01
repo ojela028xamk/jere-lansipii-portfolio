@@ -59,27 +59,27 @@ const SentimentSummary = () => {
           <ul>
             <li>
               Among 1-star reviews service is a big driver for negative
-              sentiment, almost being all negative in some time periods. It is
+              sentiment, almost being all negative in some time periods. it's
               also the most mentioned category between 2024 Q4 – 2025 Q3.
             </li>
             <li>
               Among 2-star reviews there is volatility on how often service is
-              discussed, but overall, it is still the second most mentioned
+              discussed, but overall, it's still the second most mentioned
               category with plenty of negative sentiment.
             </li>
             <li>
-              When service fails, it is the primary driver of lowest ratings.
+              When service fails, it's the primary driver of lowest ratings.
             </li>
           </ul>
           <b>Food (2nd priority):</b>
           <ul>
             <li>Overall, the most discussed category.</li>
             <li>
-              Since food is a common topic with negative sentiment, it is
+              Since food is a common topic with negative sentiment, it's
               considered 2nd priority.
             </li>
             <li>
-              Food is slightly below service, because it is not as much of a
+              Food is slightly below service, because it's not as much of a
               negative driver.
             </li>
           </ul>
@@ -88,7 +88,7 @@ const SentimentSummary = () => {
           <b> Price (3rd priority):</b>
           <ul>
             <li>
-              Sentiment is mostly negative and overall, it is the 3rd most
+              Sentiment is mostly negative and overall, it's the 3rd most
               discussed category.
             </li>
             <li>
@@ -96,7 +96,7 @@ const SentimentSummary = () => {
               food) does not justify the cost.
             </li>
             <li>
-              Although price is a big driver for negative sentiment, it is
+              Although price is a big driver for negative sentiment, it's
               discussed way less than food and service, making it a slightly
               lower priority.
             </li>
@@ -108,10 +108,10 @@ const SentimentSummary = () => {
               among 2-star reviews.
             </li>
             <li>
-              Least discussed category among 2-star reviews but it is discussed
+              Least discussed category among 2-star reviews but it's discussed
               more among 1-star reviews.
             </li>
-            <li> For reasons above it is the 4th priority.</li>
+            <li> For reasons above it's the 4th priority.</li>
           </ul>
           <b>Ambience (last priority):</b>
           <ul>
