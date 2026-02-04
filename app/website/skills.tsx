@@ -24,11 +24,11 @@ const Skills = (): JSX.Element => {
     "cypress",
     "postman",
     "figma",
+    "canva",
+    "capcut",
     "ui",
     "graphic",
     "responsive",
-    "photoshop",
-    "premiere",
   ];
 
   return (

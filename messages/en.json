@@ -30,11 +30,11 @@
         "cypress": "Cypress",
         "postman": "Postman",
         "figma": "Figma",
+        "canva": "Canva",
+        "capcut": "CapCut",
         "ui": "UI/UX design",
         "graphic": "Graphics design",
-        "responsive": "Responsive design",
-        "photoshop": "Adobe Photoshop",
-        "premiere": "Adobe Premiere Pro"
+        "responsive": "Responsive design"
       }
     },
     "projects": {

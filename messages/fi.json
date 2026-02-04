@@ -30,11 +30,11 @@
         "cypress": "Cypress",
         "postman": "Postman",
         "figma": "Figma",
+        "canva": "Canva",
+        "capcut": "CapCut",
         "ui": "UI/UX-suunnittelu",
         "graphic": "Graafinen suunnittelu",
-        "responsive": "Responsiivinen suunnittelu",
-        "photoshop": "Adobe Photoshop",
-        "premiere": "Adobe Premiere Pro"
+        "responsive": "Responsiivinen suunnittelu"
       }
     },
     "projects": {
