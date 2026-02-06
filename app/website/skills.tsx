@@ -9,7 +9,7 @@ const Skills = (): JSX.Element => {
     "power_bi",
     "sql",
     "python",
-    "databricks",
+    "bigquery",
     "fivetran",
     "github",
     "api",
@@ -38,23 +38,23 @@ const Skills = (): JSX.Element => {
         <div className={css.skill_items}>
           <div className={css.item}>
             <div className={css.item_header}>
-              <FaDatabase className={css.icon} />
-              <span className={css.category}>{t("skills.data_header")}</span>
-            </div>
-            <ul>
-              {dataSkills.map((skill) => (
-                <li key={skill}>{t(`skills.data_skills.${skill}`)}</li>
-              ))}
-            </ul>
-          </div>
-          <div className={css.item}>
-            <div className={css.item_header}>
               <FaCode className={css.icon} />
               <span className={css.category}>{t("skills.app_header")}</span>
             </div>
             <ul>
               {appSkills.map((skill) => (
                 <li key={skill}>{t(`skills.app_skills.${skill}`)}</li>
+              ))}
+            </ul>
+          </div>
+          <div className={css.item}>
+            <div className={css.item_header}>
+              <FaDatabase className={css.icon} />
+              <span className={css.category}>{t("skills.data_header")}</span>
+            </div>
+            <ul>
+              {dataSkills.map((skill) => (
+                <li key={skill}>{t(`skills.data_skills.${skill}`)}</li>
               ))}
             </ul>
           </div>

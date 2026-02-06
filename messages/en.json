@@ -1,8 +1,8 @@
 {
   "website": {
     "header": {
-      "title": "Data Analyst & Software Developer",
-      "description": "I am a data analyst and an IT professional with a Bachelor of Business Administration degree. I build automated solutions that include data pipelines, ETL/ELT processes and data visualization. Through data storytelling and visualization, I provide insights and reports that facilitate decision-making for client companies. I have prior work experience in working with data, software development and graphic design.",
+      "title": "Software Developer & Data Analyst",
+      "description": "I am a software developer, data analyst, and IT professional with a Bachelor of Business Administration degree. I build easy-to-use and clear websites that work on many different devices. I also build automated data solutions that include data pipelines, ETL/ELT processes, and data visualization. Through data storytelling and visualization, I provide insights and reports that facilitate the decision-making of client companies. I have previous work experience in software development, working with data, and graphic design.",
       "open_cv": "Open CV"
     },
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
@@ -15,7 +15,7 @@
         "power_bi": "Power BI",
         "sql": "SQL",
         "python": "Python, Pandas",
-        "databricks": "Databricks",
+        "bigquery": "Google BigQuery",
         "fivetran": "Fivetran",
         "github": "Github, CI/CD",
         "api": "Web API, REST API",
