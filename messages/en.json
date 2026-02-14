@@ -18,7 +18,7 @@
         "bigquery": "Google BigQuery",
         "fivetran": "Fivetran",
         "github": "Github, CI/CD",
-        "api": "Web API, REST API",
+        "api": "API",
         "powerpoint": "Powerpoint",
         "data_storytelling": "Data storytelling",
         "data_visualization": "Data visualization"
