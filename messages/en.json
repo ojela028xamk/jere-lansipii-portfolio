@@ -16,6 +16,7 @@
         "sql": "SQL",
         "python": "Python, Pandas",
         "bigquery": "Google BigQuery",
+        "google_analytics": "Google Analytics",
         "fivetran": "Fivetran",
         "github": "Github, CI/CD",
         "api": "API",
