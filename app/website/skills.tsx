@@ -10,6 +10,7 @@ const Skills = (): JSX.Element => {
     "sql",
     "python",
     "bigquery",
+    "google_analytics",
     "fivetran",
     "github",
     "api",
