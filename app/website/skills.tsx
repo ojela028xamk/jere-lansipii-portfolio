@@ -9,6 +9,7 @@ const Skills = (): JSX.Element => {
     "power_bi",
     "sql",
     "python",
+    "databricks",
     "bigquery",
     "google_analytics",
     "fivetran",
