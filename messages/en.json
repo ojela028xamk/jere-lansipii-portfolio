@@ -15,6 +15,7 @@
         "power_bi": "Power BI",
         "sql": "SQL",
         "python": "Python, Pandas",
+        "databricks": "Databricks",
         "bigquery": "Google BigQuery",
         "google_analytics": "Google Analytics",
         "fivetran": "Fivetran",
