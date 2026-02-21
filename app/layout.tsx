@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Jere Länsipii Portfolio",
@@ -19,7 +20,18 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={montserrat.className}>
+      <GoogleTagManager gtmId="GTM-T9QNZPT7" />
       <body style={{ margin: 0 }}>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T9QNZPT7"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
