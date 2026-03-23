@@ -2,14 +2,17 @@
   "website": {
     "header": {
       "title": "Digimarkkinoija, sovelluskehittäjä ja data-analyytikko",
-      "description": "Olen digimarkkinoija, sovelluskehittäjä ja data-analyytikko sekä tietotekniikan moniosaaja tradenomin koulutuksella. Rakennan helppokäyttöisiä ja selkeitä verkkosivustoja, jotka toimivat monilla eri laitteilla. Rakennan myös automatisoituja dataratkaisuja, jotka sisältävät dataputkia, ETL/ELT-prosesseja sekä datan visualisointia. Datan tarinankerronnalla ja visualisoinnilla tarjoan havaintoja ja raportteja, jotka edesauttavat asiakasyrityksien päätöksentekoa. Minulla on aikaisempaa työkokemusta sovelluskehityksestä, datan parissa työskentelystä ja graafisesta suunnittelusta.",
+      "description": "Olen digimarkkinoija, sovelluskehittäjä ja data-analyytikko sekä tietotekniikan moniosaaja tradenomin koulutuksella. Minulla on aikaisempaa työkokemusta sovelluskehityksestä, datan parissa työskentelystä ja UI/UX-suunnittelusta.",
+      "solution1": "Rakennan helppokäyttöisiä ja selkeitä verkkosivustoja, jotka toimivat monilla eri laitteilla.",
+      "solution2": "Rakennan automatisoituja dataratkaisuja, jotka sisältävät dataputkia, ETL/ELT-prosesseja ja datan visualisointia.",
+      "solution3": "Datan tarinankerronnalla ja visualisoinnilla tarjoan havaintoja ja raportteja, jotka edesauttavat asiakasyrityksien päätöksentekoa.",
       "open_cv": "Avaa CV"
     },
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
       "header": "Minun taidot",
-      "data_header": "Tiedonhallinta ja visualisointi",
-      "app_header": "Sovelluskehitys ja digitaalinen suunnittelu",
+      "data_header": "Data- ja web-analytiikka",
+      "app_header": "Tuotekehitys ja suunnittelu",
       "data_skills": {
         "excel": "Excel",
         "power_bi": "Power BI",
@@ -18,9 +21,7 @@
         "databricks": "Databricks",
         "bigquery": "Google BigQuery",
         "google_analytics": "Google Analytics",
-        "fivetran": "Fivetran",
-        "github": "Github, CI/CD",
-        "api": "API",
+        "google_tag": "Google Tag Manager",
         "powerpoint": "Powerpoint",
         "data_storytelling": "Datan tarinankerronta",
         "data_visualization": "Datan visualisointi"
@@ -29,14 +30,14 @@
         "html": "HTML, CSS, Sass",
         "javascript": "JavaScript, Typescript",
         "react": "React, Next.js",
-        "cypress": "Cypress",
-        "postman": "Postman",
         "figma": "Figma",
         "canva": "Canva",
         "capcut": "CapCut",
         "ui": "UI/UX-suunnittelu",
         "graphic": "Graafinen suunnittelu",
-        "responsive": "Responsiivinen suunnittelu"
+        "responsive": "Responsiivinen suunnittelu",
+        "github": "Github, CI/CD",
+        "api": "API:t"
       }
     },
     "projects": {
