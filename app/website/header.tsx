@@ -15,6 +15,11 @@ const Header = (): JSX.Element => {
             <h2>{t("header.title")}</h2>
             <h1>JERE LÄNSIPII</h1>
             <p>{t("header.description")}</p>
+            <ul>
+              <li>{t("header.solution1")}</li>
+              <li>{t("header.solution2")}</li>
+              <li>{t("header.solution3")}</li>
+            </ul>
           </div>
           <div className={css.buttons}>
             {/*<Link
