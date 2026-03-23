@@ -8,8 +8,8 @@
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
       "header": "Minun taidot",
-      "data_header": "Tiedonhallinta ja visualisointi",
-      "app_header": "Sovelluskehitys ja digitaalinen suunnittelu",
+      "data_header": "Data- ja web-analytiikka",
+      "app_header": "Tuotekehitys ja suunnittelu",
       "data_skills": {
         "excel": "Excel",
         "power_bi": "Power BI",
@@ -18,9 +18,7 @@
         "databricks": "Databricks",
         "bigquery": "Google BigQuery",
         "google_analytics": "Google Analytics",
-        "fivetran": "Fivetran",
-        "github": "Github, CI/CD",
-        "api": "API",
+        "google_tag": "Google Tag Manager",
         "powerpoint": "Powerpoint",
         "data_storytelling": "Datan tarinankerronta",
         "data_visualization": "Datan visualisointi"
@@ -29,14 +27,14 @@
         "html": "HTML, CSS, Sass",
         "javascript": "JavaScript, Typescript",
         "react": "React, Next.js",
-        "cypress": "Cypress",
-        "postman": "Postman",
         "figma": "Figma",
         "canva": "Canva",
         "capcut": "CapCut",
         "ui": "UI/UX-suunnittelu",
         "graphic": "Graafinen suunnittelu",
-        "responsive": "Responsiivinen suunnittelu"
+        "responsive": "Responsiivinen suunnittelu",
+        "github": "Github, CI/CD",
+        "api": "API:t"
       }
     },
     "projects": {
