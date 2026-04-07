@@ -66,35 +66,39 @@ const Projects = (): JSX.Element => {
                 height={545}
                 quality={50}
               />
-              <span className={css.project_name}>
-                {t(`projects.${project.translateKey}.name`)}
-              </span>
-              {project.categories.map((category) => (
-                <span key={category} className={css.project_category}>
-                  {t(`projects.${category}`)}
+              <div className={css.project_content}>
+                <span className={css.project_name}>
+                  {t(`projects.${project.translateKey}.name`)}
                 </span>
-              ))}
-              <p className={css.project_description}>
-                {t(`projects.${project.translateKey}.description`)}
-              </p>
-              <Link
-                className={css.button_project}
-                href={project.link}
-                target="_blank"
-              >
-                {t("projects.button_website")}
-                <IoOpenOutline className={css.button_icon} />
-              </Link>
-              {project.link_info && (
+                <div className={css.project_categories}>
+                  {project.categories.map((category) => (
+                    <span key={category} className={css.project_category}>
+                      {t(`projects.${category}`)}
+                    </span>
+                  ))}
+                </div>
+                <p className={css.project_description}>
+                  {t(`projects.${project.translateKey}.description`)}
+                </p>
                 <Link
                   className={css.button_project}
-                  href={project.link_info}
+                  href={project.link}
                   target="_blank"
                 >
-                  {t("projects.button_info")}
-                  <FiTool className={css.button_icon} />
+                  {t("projects.button_website")}
+                  <IoOpenOutline className={css.button_icon} />
                 </Link>
-              )}
+                {project.link_info && (
+                  <Link
+                    className={css.button_project}
+                    href={project.link_info}
+                    target="_blank"
+                  >
+                    {t("projects.button_info")}
+                    <FiTool className={css.button_icon} />
+                  </Link>
+                )}
+              </div>
             </div>
           ))}
         </div>
