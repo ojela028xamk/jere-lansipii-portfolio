@@ -42,35 +42,28 @@
     },
     "projects": {
       "header": "My Projects",
-      "data_header": "Data Analyst Projects",
-      "websites_header": "Websites",
       "websites_information": "All of these websites are responsive until 320px width.",
-      "link_button": "Open Website",
-      "link_button_github": "Github",
+      "button_website": "Open website",
+      "button_info": "Technical information",
+      "category_data": "Data analysis",
+      "category_website": "Website",
+      "category_ai": "AI",
       "go_back": "Go back to home page",
-      "project_data1": {
-        "name": "Restaurant Sentiment Analysis (EN)",
-        "description": "Data report that analyzes real-life customer reviews from various Korean restaurants."
-      },
-      "project_data2": {
-        "name": "Electronics Sales Dashboard and Presentation (EN)",
-        "description": "Power BI dashboard and a PowerPoint presentation that shows electronics sales data."
-      },
       "project1": {
-        "name": "Finnish Map Quiz",
-        "description": "Website that tests users Finnish geography knowledge."
+        "name": "Sentiment analysis: Evaluating customer feedback to support decision making (EN)",
+        "description": "Data report analyzing Yelp customer reviews of various Korean restaurants. Project utilizes Natural Language Processing (NLP) to classify customer reviews into different sentiments (positive, neutral, negative) and categories (e.g., food, price)."
       },
       "project2": {
-        "name": "Band Template",
-        "description": "Website template for a metal/rock/punk band."
+        "name": "Power BI & PowerPoint: Insights through data visualization and storytelling (EN)",
+        "description": "This project translates electronics sales data to generate insights using a dashboard and a slide presentation."
       },
       "project3": {
-        "name": "Guitar Dictionary",
-        "description": "On this website user can read and learn English and Finnish guitar terminology."
+        "name": "Website template for a band with heavy sound",
+        "description": "Website utilizes stock photos and AI for text content generation. Website implementation, image editing and video editing are done by me."
       },
       "project4": {
-        "name": "Movie Quiz",
-        "description": "Movie Quiz is a web application that allows user to test their knowledge of movies."
+        "name": "Guitar dictionary",
+        "description": "On this website user can read and learn English and Finnish guitar terminology."
       }
     },
     "contact_header": "Stay Connected"

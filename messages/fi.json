@@ -42,35 +42,28 @@
     },
     "projects": {
       "header": "Minun projektit",
-      "data_header": "Data-analyysiprojektit",
-      "websites_header": "Verkkosivustot",
       "websites_information": "Kaikki nämä sivustot ovat responsiivisia 320px leveyteen asti.",
-      "link_button": "Avaa sivusto",
-      "link_button_github": "Github",
+      "button_website": "Avaa sivusto",
+      "button_info": "Tekniset tiedot",
+      "category_data": "Data-analytiikka",
+      "category_website": "Verkkosivusto",
+      "category_ai": "Tekoäly",
       "go_back": "Takaisin etusivulle",
-      "project_data1": {
-        "name": "Ravintolan sentimenttianalyysi (EN)",
-        "description": "Dataraportti, joka analysoi tosielämän asiakasarvosteluja korealaisista ravintoloista."
-      },
-      "project_data2": {
-        "name": "Elektroniikkamyynnin visuaalinen raportti ja esitelmä (EN)",
-        "description": "Power BI visuaalinen raportti ja PowerPoint-esitelmä, jotka näyttävät elektroniikkamyynnin dataa."
-      },
       "project1": {
-        "name": "Suomen maantietovisa",
-        "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
+        "name": "Sentimenttianalyysi: Asiakaspalautteen arviointi päätöksenteon tueksi (EN)",
+        "description": "Dataraportti, joka analysoi Yelpin asiakasarvosteluja erilaisista korealaisista ravintoloista. Projektissa hyödynnetään luonnollisen kielen käsittelyä (NLP), jonka avulla asiakasarvosteluja luokitellaan eri tunnetiloihin (positiivinen, neutraali, negatiivinen) sekä kategorioihin (esim. ruoka, hinta)."
       },
       "project2": {
-        "name": "Mallisivusto bändille",
-        "description": "Mallisivusto tai pohja metalli/rock/punk-bändille."
+        "name": "Power BI ja PowerPoint: Havaintoja datan visualisoinnilla ja tarinankerronnalla (EN)",
+        "description": "Tämä projekti soveltaa elektroniikkamyynnin dataa havainnoiksi koontinäytön ja diaesityksen avulla."
       },
       "project3": {
-        "name": "Kitaran sanakirja",
-        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
+        "name": "Verkkosivustopohja raskaan musiikin bändille",
+        "description": "Sivustossa hyödynnetään kuvapankkeja ja tekoälyä tekstisisällön luomiseen. Sivuston toteutus, kuvankäsittely ja videoeditointi on tehty minun toimesta."
       },
       "project4": {
-        "name": "Elokuvatietovisa",
-        "description": "Tämä on sivusto, jossa käyttäjä voi testata elokuvatietämystään."
+        "name": "Kitaran sanakirja",
+        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
       }
     },
     "contact_header": "Ollaan yhteydessä"
