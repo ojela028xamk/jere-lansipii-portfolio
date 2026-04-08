@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { DiGithubBadge } from "react-icons/di";
 import { FiTool } from "react-icons/fi";
 import { IoOpenOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa6";
 
 type Project = {
   translateKey: string;
@@ -19,14 +20,13 @@ const projects: Project[] = [
     translateKey: "project1",
     categories: ["category_data", "category_ai"],
     image: "/sentiment_images/sentiment_project.png",
-    link: "https://jere-lansipii-portfolio.vercel.app/sentiment_project",
-    link_info: "https://github.com/ojela028xamk/guitar-dictionary",
+    link: "/sentiment_project",
   },
   {
     translateKey: "project2",
     categories: ["category_data"],
     image: "/powerbi_dashboard.PNG",
-    link: "https://jere-lansipii-portfolio.vercel.app/powerbi_project",
+    link: "/powerbi_project",
   },
   {
     translateKey: "project3",
@@ -52,7 +52,7 @@ const Projects = (): JSX.Element => {
       <div className={css.projects_content}>
         <h1>{t("projects.header")}</h1>
         <div className={css.project_items}>
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <div key={project.translateKey} className={css.project_card}>
               <Image
                 className={css.project_image}
@@ -83,7 +83,7 @@ const Projects = (): JSX.Element => {
                 <Link
                   className={css.button_project}
                   href={project.link}
-                  target="_blank"
+                  target={index === 2 || index === 3 ? "_blank" : "_self"}
                 >
                   {t("projects.button_website")}
                   <IoOpenOutline className={css.button_icon} />
@@ -94,8 +94,8 @@ const Projects = (): JSX.Element => {
                     href={project.link_info}
                     target="_blank"
                   >
-                    {t("projects.button_info")}
-                    <FiTool className={css.button_icon} />
+                    {t("projects.button_github")}
+                    <FaGithub className={css.button_icon} />
                   </Link>
                 )}
               </div>
