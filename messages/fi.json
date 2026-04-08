@@ -62,8 +62,8 @@
         "description": "Sivustossa hyödynnetään kuvapankkeja ja tekoälyä tekstisisällön luomiseen. Sivuston toteutus, kuvankäsittely ja videoeditointi on tehty minun toimesta."
       },
       "project4": {
-        "name": "Kitaran sanakirja",
-        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
+        "name": "Englanti-Suomi sanakirja kitaristeille",
+        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi. Kuvia ja vektoreita on hyödynnetty eri sivustoista ja sivuston toteutus sekä kuvankäsittely on tehty minun toimesta."
       }
     },
     "contact_header": "Ollaan yhteydessä"

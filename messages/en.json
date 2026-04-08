@@ -62,8 +62,8 @@
         "description": "Website utilizes stock photos and AI for text content generation. Website implementation, image editing and video editing are done by me."
       },
       "project4": {
-        "name": "Guitar dictionary",
-        "description": "On this website user can read and learn English and Finnish guitar terminology."
+        "name": "English-Finnish dictionary for guitarists",
+        "description": "On this site, the user can learn guitar vocabulary in English and Finnish. Images and vectors from various sites are utilized and the implementation of the site as well as the image editing are done by me."
       }
     },
     "contact_header": "Stay Connected"
