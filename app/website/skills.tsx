@@ -25,6 +25,18 @@ const solutions: Solution[] = [
     ],
   },
   {
+    title: "skills.solution3.title",
+    description: "skills.solution3.description",
+    icon: <FaPencilAlt className={css.icon} />,
+    skills: [
+      "skills.skill.graphic",
+      "skills.skill.ui",
+      "skills.skill.figma",
+      "skills.skill.canva",
+      "skills.skill.capcut",
+    ],
+  },
+  {
     title: "skills.solution2.title",
     description: "skills.solution2.description",
     icon: <FaDatabase className={css.icon} />,
@@ -38,18 +50,6 @@ const solutions: Solution[] = [
       "skills.skill.google_analytics",
       "skills.skill.google_tag",
       "skills.skill.powerpoint",
-    ],
-  },
-  {
-    title: "skills.solution3.title",
-    description: "skills.solution3.description",
-    icon: <FaPencilAlt className={css.icon} />,
-    skills: [
-      "skills.skill.graphic",
-      "skills.skill.ui",
-      "skills.skill.figma",
-      "skills.skill.canva",
-      "skills.skill.capcut",
     ],
   },
   {
