@@ -10,23 +10,26 @@
     },
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
-      "header": "Minun taidot",
+      "header": "Minun ratkaisut",
+      "solution1": {
+        "title": "Frontend-ohjelmointi ja verkkosivustot",
+        "description": "Rakennan helppokäyttöisiä ja selkeitä verkkosivustoja, jotka ovat myös mobiiliystävällisiä. Hyödynnän myös erilaisia ohjelmointirajapintoja verkkosivustoilla ja data-alustoilla."
+      },
+      "solution2": {
+        "title": "Data- ja verkkoanalytiikka",
+        "description": "Rakennan automatisoituja dataratkaisuja, jotka sisältävät dataputkia, ETL/ELT-prosesseja ja datan visualisointia. Datan tarinankerronnalla tarjoan havaintoja ja raportteja, jotka edesauttavat asiakkaiden päätöksentekoa."
+      },
+      "solution3": {
+        "title": "Sisällöntuotanto ja suunnittelu",
+        "description": "Erilaiset suunnittelutavat tukevat minua luomaan näyttäviä ja selkeitä verkkosivustoja sekä datamateriaaleja, kuten koontinäytöt ja kaaviot. Luon sisältöä myös kuvankäsittelyllä ja videoeditoinnilla."
+      },
+      "solution4": {
+        "title": "Tekoäly",
+        "description": "Olen käyttänyt tekoälyä monissa eri alueissa, kuten ohjelmoinnissa, data- ja sentimenttianalytiikassa."
+      },
       "data_header": "Data- ja web-analytiikka",
       "app_header": "Tuotekehitys ja suunnittelu",
-      "data_skills": {
-        "excel": "Excel",
-        "power_bi": "Power BI",
-        "sql": "SQL",
-        "python": "Python, Pandas",
-        "databricks": "Databricks",
-        "bigquery": "Google BigQuery",
-        "google_analytics": "Google Analytics",
-        "google_tag": "Google Tag Manager",
-        "powerpoint": "Powerpoint",
-        "data_storytelling": "Datan tarinankerronta",
-        "data_visualization": "Datan visualisointi"
-      },
-      "app_skills": {
+      "skill": {
         "html": "HTML, CSS, Sass",
         "javascript": "JavaScript, Typescript",
         "react": "React, Next.js",
@@ -37,7 +40,20 @@
         "graphic": "Graafinen suunnittelu",
         "responsive": "Responsiivinen suunnittelu",
         "github": "Github, CI/CD",
-        "api": "API:t"
+        "api": "API:t",
+        "excel": "Excel",
+        "power_bi": "Power BI",
+        "sql": "SQL",
+        "pandas": "Pandas (Python)",
+        "databricks": "Databricks",
+        "bigquery": "Google BigQuery",
+        "google_analytics": "Google Analytics",
+        "google_tag": "Google Tag Manager",
+        "powerpoint": "Powerpoint",
+        "gemini": "Google Gemini",
+        "vertex": "Google Vertex AI",
+        "windsurf": "Windsurf",
+        "builder": "Builder.io"
       }
     },
     "projects": {

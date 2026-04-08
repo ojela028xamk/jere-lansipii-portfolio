@@ -10,23 +10,26 @@
     },
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
     "skills": {
-      "header": "My Skills",
+      "header": "My solutions",
+      "solution1": {
+        "title": "Frontend development & websites",
+        "description": "I build user-friendly and clear websites that are also mobile-friendly. I also integrate various APIs into websites and data platforms."
+      },
+      "solution2": {
+        "title": "Data and web analytics",
+        "description": "I build automated data solutions including data pipelines, ETL/ELT processes, and data visualization. Through data storytelling, I provide insights and reports that support client decision-making."
+      },
+      "solution3": {
+        "title": "Content creation & design",
+        "description": "Various design methodologies support me in creating visually appealing and clear websites, as well as data materials like dashboards and charts. I also create content through image processing and video editing."
+      },
+      "solution4": {
+        "title": "Artificial Intelligence",
+        "description": "I have utilized AI across multiple domains, such as programming, data analysis, and sentiment analysis."
+      },
       "data_header": "Data & Web Analytics",
       "app_header": "Product Development & Design",
-      "data_skills": {
-        "excel": "Excel",
-        "power_bi": "Power BI",
-        "sql": "SQL",
-        "python": "Python, Pandas",
-        "databricks": "Databricks",
-        "bigquery": "Google BigQuery",
-        "google_analytics": "Google Analytics",
-        "google_tag": "Google Tag Manager",
-        "powerpoint": "Powerpoint",
-        "data_storytelling": "Data storytelling",
-        "data_visualization": "Data visualization"
-      },
-      "app_skills": {
+      "skill": {
         "html": "HTML, CSS, Sass",
         "javascript": "JavaScript, Typescript",
         "react": "React, Next.js",
@@ -34,10 +37,23 @@
         "canva": "Canva",
         "capcut": "CapCut",
         "ui": "UI/UX design",
-        "graphic": "Graphics design",
+        "graphic": "Graphic design",
         "responsive": "Responsive design",
         "github": "Github, CI/CD",
-        "api": "APIs"
+        "api": "API:t",
+        "excel": "Excel",
+        "power_bi": "Power BI",
+        "sql": "SQL",
+        "pandas": "Pandas (Python)",
+        "databricks": "Databricks",
+        "bigquery": "Google BigQuery",
+        "google_analytics": "Google Analytics",
+        "google_tag": "Google Tag Manager",
+        "powerpoint": "Powerpoint",
+        "gemini": "Google Gemini",
+        "vertex": "Google Vertex AI",
+        "windsurf": "Windsurf",
+        "builder": "Builder.io"
       }
     },
     "projects": {
