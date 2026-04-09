@@ -17,15 +17,15 @@
       },
       "solution2": {
         "title": "Data and web analytics",
-        "description": "I build automated data solutions including data pipelines, ETL/ELT processes, and data visualization. Through data storytelling, I provide insights and reports that support client decision-making."
+        "description": "I build automated data solutions that include data pipelines, ETL/ELT processes and data visualization. Through data storytelling, I provide insights and reports that support client decision-making."
       },
       "solution3": {
         "title": "Content creation & design",
-        "description": "Various design methodologies support me in creating visually appealing and clear websites, as well as data materials like dashboards and charts. I also create content through image processing and video editing."
+        "description": "Various design methodologies support me in creating visually appealing and clear websites as well as data materials like dashboards and charts. I also create content through image editing and video editing."
       },
       "solution4": {
         "title": "Artificial Intelligence",
-        "description": "I have utilized AI across multiple domains, such as programming, data analysis, and sentiment analysis."
+        "description": "I have utilized AI across multiple domains, such as programming, data analysis and sentiment analysis."
       },
       "data_header": "Data & Web Analytics",
       "app_header": "Product Development & Design",
@@ -58,7 +58,6 @@
     },
     "projects": {
       "header": "My Projects",
-      "websites_information": "All of these websites are responsive until 320px width.",
       "button_website": "Open website",
       "button_github": "Github",
       "category_data": "Data analysis",

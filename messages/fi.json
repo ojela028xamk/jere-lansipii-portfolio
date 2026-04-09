@@ -58,7 +58,6 @@
     },
     "projects": {
       "header": "Minun projektit",
-      "websites_information": "Kaikki nämä sivustot ovat responsiivisia 320px leveyteen asti.",
       "button_website": "Avaa sivusto",
       "button_github": "Github",
       "category_data": "Data-analytiikka",
