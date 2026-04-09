@@ -23,17 +23,17 @@ const projects: Project[] = [
     link: "/sentiment_project",
   },
   {
+    translateKey: "project2",
+    categories: ["category_data"],
+    image: "/powerbi_dashboard.PNG",
+    link: "/powerbi_project",
+  },
+  {
     translateKey: "project3",
     categories: ["category_website", "category_ai"],
     image: "/band_template.png",
     link: "https://metal-band-template.vercel.app/",
     link_info: "https://github.com/ojela028xamk/metal-band-template",
-  },
-  {
-    translateKey: "project2",
-    categories: ["category_data"],
-    image: "/powerbi_dashboard.PNG",
-    link: "/powerbi_project",
   },
   {
     translateKey: "project4",
