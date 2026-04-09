@@ -1,11 +1,8 @@
 {
   "website": {
     "header": {
-      "title": "Digital Marketer, Software Developer & Data Analyst",
-      "description": "I am a digital marketer, software developer and data analyst as well as IT professional with a Bachelor of Business Administration degree. I have previous work experience in software development, working with data, and UI/UX design.",
-      "solution1": "I build easy-to-use and clear websites that work on many different devices.",
-      "solution2": "I build automated data solutions that include data pipelines, ETL/ELT processes, and data visualization.",
-      "solution3": "Through data storytelling and visualization, I provide insights and reports that facilitate the decision-making of client companies.",
+      "title": "Marketing Developer",
+      "description": "I am a marketing developer as well as IT professional with a Bachelor of Business Administration degree. I have previous work experience in software development, building websites and working with data.\n\nI act as a bridge between communication and technical tools. I build comprehensive solutions using programming, data analytics and digital marketing.",
       "open_cv": "Open CV"
     },
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
@@ -57,7 +54,7 @@
       }
     },
     "projects": {
-      "header": "My Projects",
+      "header": "My projects",
       "button_website": "Open website",
       "button_github": "Github",
       "category_data": "Data analysis",
@@ -81,6 +78,6 @@
         "description": "On this site, the user can learn guitar vocabulary in English and Finnish. Images and vectors from various sites are utilized and the implementation of the site as well as the image editing are done by me."
       }
     },
-    "contact_header": "Stay Connected"
+    "contact_header": "Stay connected"
   }
 }

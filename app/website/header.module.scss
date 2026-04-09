@@ -18,7 +18,8 @@
 
     .header_content_left {
       flex: 3;
-      padding: main.$content-padding;
+      padding: 2rem;
+      align-self: center;
 
       .text {
         h2 {
