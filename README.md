@@ -9,7 +9,7 @@ Website is in both finnish and english.
 
 - HTML, CSS, Sass
 - JavaScript, TypeScript
-- Next.js
+- React, Next.js
 - Next-intl
 - Figma
 - Pixlr
