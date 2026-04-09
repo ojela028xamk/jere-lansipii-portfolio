@@ -1,32 +1,32 @@
 {
   "website": {
     "header": {
-      "title": "Digimarkkinoija, sovelluskehittäjä ja data-analyytikko",
-      "description": "Olen digimarkkinoija, sovelluskehittäjä ja data-analyytikko sekä tietotekniikan moniosaaja tradenomin koulutuksella. Minulla on aikaisempaa työkokemusta sovelluskehityksestä, datan parissa työskentelystä ja UI/UX-suunnittelusta.",
-      "solution1": "Rakennan helppokäyttöisiä ja selkeitä verkkosivustoja, jotka toimivat monilla eri laitteilla.",
-      "solution2": "Rakennan automatisoituja dataratkaisuja, jotka sisältävät dataputkia, ETL/ELT-prosesseja ja datan visualisointia.",
-      "solution3": "Datan tarinankerronnalla ja visualisoinnilla tarjoan havaintoja ja raportteja, jotka edesauttavat asiakasyrityksien päätöksentekoa.",
+      "title": "Markkinointikehittäjä",
+      "description": "Olen markkinointikehittäjä sekä tietotekniikan moniosaaja tradenomin koulutuksella. Minulla on aikaisempaa työkokemusta sovelluskehityksestä, verkkosivustojen rakentamisesta ja datan parissa työskentelystä.\n\nToimin siltana viestinnän ja teknisen puolen välillä. Rakennan kokonaisia ratkaisuja ohjelmoinnilla, data-analytiikalla ja digimarkkinoinnilla.",
       "open_cv": "Avaa CV"
     },
     "experience": "Jere osoitti hyvää visuaalista silmää, kuten myös käyttöliittymä- ja käyttökokemussuunnittelun tietämystä. Hänen kanssa oli myös helppo kommunikoida. Minulla oli selkeä visio siitä mitä halusin. Jere toteutti tämän, kuten myös merkittävästi paransi sitä. Suosittelen!",
     "skills": {
-      "header": "Minun taidot",
+      "header": "Minun ratkaisut",
+      "solution1": {
+        "title": "Frontend-ohjelmointi ja verkkosivustot",
+        "description": "Rakennan helppokäyttöisiä ja selkeitä verkkosivustoja, jotka ovat myös mobiiliystävällisiä. Hyödynnän myös erilaisia ohjelmointirajapintoja verkkosivustoilla ja data-alustoilla."
+      },
+      "solution2": {
+        "title": "Data- ja verkkoanalytiikka",
+        "description": "Rakennan automatisoituja dataratkaisuja, jotka sisältävät dataputkia, ETL/ELT-prosesseja ja datan visualisointia. Datan tarinankerronnalla tarjoan havaintoja ja raportteja, jotka edesauttavat asiakkaiden päätöksentekoa."
+      },
+      "solution3": {
+        "title": "Sisällöntuotanto ja suunnittelu",
+        "description": "Erilaiset suunnittelutavat tukevat minua luomaan näyttäviä ja selkeitä verkkosivustoja sekä datamateriaaleja, kuten koontinäytöt ja kaaviot. Luon sisältöä myös kuvankäsittelyllä ja videoeditoinnilla."
+      },
+      "solution4": {
+        "title": "Tekoäly",
+        "description": "Olen käyttänyt tekoälyä monissa eri alueissa, kuten ohjelmoinnissa, data- ja sentimenttianalytiikassa."
+      },
       "data_header": "Data- ja web-analytiikka",
       "app_header": "Tuotekehitys ja suunnittelu",
-      "data_skills": {
-        "excel": "Excel",
-        "power_bi": "Power BI",
-        "sql": "SQL",
-        "python": "Python, Pandas",
-        "databricks": "Databricks",
-        "bigquery": "Google BigQuery",
-        "google_analytics": "Google Analytics",
-        "google_tag": "Google Tag Manager",
-        "powerpoint": "Powerpoint",
-        "data_storytelling": "Datan tarinankerronta",
-        "data_visualization": "Datan visualisointi"
-      },
-      "app_skills": {
+      "skill": {
         "html": "HTML, CSS, Sass",
         "javascript": "JavaScript, Typescript",
         "react": "React, Next.js",
@@ -37,40 +37,45 @@
         "graphic": "Graafinen suunnittelu",
         "responsive": "Responsiivinen suunnittelu",
         "github": "Github, CI/CD",
-        "api": "API:t"
+        "api": "API:t",
+        "excel": "Excel",
+        "power_bi": "Power BI",
+        "sql": "SQL",
+        "pandas": "Pandas (Python)",
+        "databricks": "Databricks",
+        "bigquery": "Google BigQuery",
+        "google_analytics": "Google Analytics",
+        "google_tag": "Google Tag Manager",
+        "powerpoint": "Powerpoint",
+        "gemini": "Google Gemini",
+        "vertex": "Google Vertex AI",
+        "windsurf": "Windsurf",
+        "builder": "Builder.io"
       }
     },
     "projects": {
       "header": "Minun projektit",
-      "data_header": "Data-analyysiprojektit",
-      "websites_header": "Verkkosivustot",
-      "websites_information": "Kaikki nämä sivustot ovat responsiivisia 320px leveyteen asti.",
-      "link_button": "Avaa sivusto",
-      "link_button_github": "Github",
+      "button_website": "Avaa sivusto",
+      "button_github": "Github",
+      "category_data": "Data-analytiikka",
+      "category_website": "Verkkosivusto",
+      "category_ai": "Tekoäly",
       "go_back": "Takaisin etusivulle",
-      "project_data1": {
-        "name": "Ravintolan sentimenttianalyysi (EN)",
-        "description": "Dataraportti, joka analysoi tosielämän asiakasarvosteluja korealaisista ravintoloista."
-      },
-      "project_data2": {
-        "name": "Elektroniikkamyynnin visuaalinen raportti ja esitelmä (EN)",
-        "description": "Power BI visuaalinen raportti ja PowerPoint-esitelmä, jotka näyttävät elektroniikkamyynnin dataa."
-      },
       "project1": {
-        "name": "Suomen maantietovisa",
-        "description": "Sivusto, joka testaa käyttäjän Suomen maantietoa."
+        "name": "Sentimenttianalyysi: Asiakaspalautteen arviointi päätöksenteon tueksi (EN)",
+        "description": "Dataraportti, joka analysoi Yelpin asiakasarvosteluja erilaisista korealaisista ravintoloista. Projektissa hyödynnetään luonnollisen kielen käsittelyä (NLP), jonka avulla asiakasarvosteluja luokitellaan eri tunnetiloihin (positiivinen, neutraali, negatiivinen) sekä kategorioihin (esim. ruoka, hinta)."
       },
       "project2": {
-        "name": "Mallisivusto bändille",
-        "description": "Mallisivusto tai pohja metalli/rock/punk-bändille."
+        "name": "Power BI ja PowerPoint: Havaintoja datan visualisoinnilla ja tarinankerronnalla (EN)",
+        "description": "Tämä projekti soveltaa elektroniikkamyynnin dataa havainnoiksi koontinäytön ja diaesityksen avulla."
       },
       "project3": {
-        "name": "Kitaran sanakirja",
-        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi."
+        "name": "Verkkosivustopohja raskaan musiikin bändille",
+        "description": "Sivustossa hyödynnetään kuvapankkeja ja tekoälyä tekstisisällön luomiseen. Sivuston toteutus, kuvankäsittely ja videoeditointi on tehty minun toimesta."
       },
       "project4": {
-        "name": "Elokuvatietovisa",
-        "description": "Tämä on sivusto, jossa käyttäjä voi testata elokuvatietämystään."
+        "name": "Englanti-Suomi sanakirja kitaristeille",
+        "description": "Tällä sivustolla käyttäjä voi opetella kitaran sanastoa englanniksi ja suomeksi. Kuvia ja vektoreita on hyödynnetty eri sivustoista ja sivuston toteutus sekä kuvankäsittely on tehty minun toimesta."
       }
     },
     "contact_header": "Ollaan yhteydessä"

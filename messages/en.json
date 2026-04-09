@@ -1,32 +1,32 @@
 {
   "website": {
     "header": {
-      "title": "Digital Marketer, Software Developer & Data Analyst",
-      "description": "I am a digital marketer, software developer and data analyst as well as IT professional with a Bachelor of Business Administration degree. I have previous work experience in software development, working with data, and UI/UX design.",
-      "solution1": "I build easy-to-use and clear websites that work on many different devices.",
-      "solution2": "I build automated data solutions that include data pipelines, ETL/ELT processes, and data visualization.",
-      "solution3": "Through data storytelling and visualization, I provide insights and reports that facilitate the decision-making of client companies.",
+      "title": "Marketing Developer",
+      "description": "I am a marketing developer as well as IT professional with a Bachelor of Business Administration degree. I have previous work experience in software development, building websites and working with data.\n\nI act as a bridge between communication and technical tools. I build comprehensive solutions using programming, data analytics and digital marketing.",
       "open_cv": "Open CV"
     },
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
     "skills": {
-      "header": "My Skills",
+      "header": "My solutions",
+      "solution1": {
+        "title": "Frontend development & websites",
+        "description": "I build user-friendly and clear websites that are also mobile-friendly. I also integrate various APIs into websites and data platforms."
+      },
+      "solution2": {
+        "title": "Data and web analytics",
+        "description": "I build automated data solutions that include data pipelines, ETL/ELT processes and data visualization. Through data storytelling, I provide insights and reports that support client decision-making."
+      },
+      "solution3": {
+        "title": "Content creation & design",
+        "description": "Various design methodologies support me in creating visually appealing and clear websites as well as data materials like dashboards and charts. I also create content through image editing and video editing."
+      },
+      "solution4": {
+        "title": "Artificial Intelligence",
+        "description": "I have utilized AI across multiple domains, such as programming, data analysis and sentiment analysis."
+      },
       "data_header": "Data & Web Analytics",
       "app_header": "Product Development & Design",
-      "data_skills": {
-        "excel": "Excel",
-        "power_bi": "Power BI",
-        "sql": "SQL",
-        "python": "Python, Pandas",
-        "databricks": "Databricks",
-        "bigquery": "Google BigQuery",
-        "google_analytics": "Google Analytics",
-        "google_tag": "Google Tag Manager",
-        "powerpoint": "Powerpoint",
-        "data_storytelling": "Data storytelling",
-        "data_visualization": "Data visualization"
-      },
-      "app_skills": {
+      "skill": {
         "html": "HTML, CSS, Sass",
         "javascript": "JavaScript, Typescript",
         "react": "React, Next.js",
@@ -34,45 +34,50 @@
         "canva": "Canva",
         "capcut": "CapCut",
         "ui": "UI/UX design",
-        "graphic": "Graphics design",
+        "graphic": "Graphic design",
         "responsive": "Responsive design",
         "github": "Github, CI/CD",
-        "api": "APIs"
+        "api": "APIs",
+        "excel": "Excel",
+        "power_bi": "Power BI",
+        "sql": "SQL",
+        "pandas": "Pandas (Python)",
+        "databricks": "Databricks",
+        "bigquery": "Google BigQuery",
+        "google_analytics": "Google Analytics",
+        "google_tag": "Google Tag Manager",
+        "powerpoint": "Powerpoint",
+        "gemini": "Google Gemini",
+        "vertex": "Google Vertex AI",
+        "windsurf": "Windsurf",
+        "builder": "Builder.io"
       }
     },
     "projects": {
-      "header": "My Projects",
-      "data_header": "Data Analyst Projects",
-      "websites_header": "Websites",
-      "websites_information": "All of these websites are responsive until 320px width.",
-      "link_button": "Open Website",
-      "link_button_github": "Github",
+      "header": "My projects",
+      "button_website": "Open website",
+      "button_github": "Github",
+      "category_data": "Data analysis",
+      "category_website": "Website",
+      "category_ai": "AI",
       "go_back": "Go back to home page",
-      "project_data1": {
-        "name": "Restaurant Sentiment Analysis (EN)",
-        "description": "Data report that analyzes real-life customer reviews from various Korean restaurants."
-      },
-      "project_data2": {
-        "name": "Electronics Sales Dashboard and Presentation (EN)",
-        "description": "Power BI dashboard and a PowerPoint presentation that shows electronics sales data."
-      },
       "project1": {
-        "name": "Finnish Map Quiz",
-        "description": "Website that tests users Finnish geography knowledge."
+        "name": "Sentiment analysis: Evaluating customer feedback to support decision making (EN)",
+        "description": "Data report analyzing Yelp customer reviews of various Korean restaurants. Project utilizes Natural Language Processing (NLP) to classify customer reviews into different sentiments (positive, neutral, negative) and categories (e.g., food, price)."
       },
       "project2": {
-        "name": "Band Template",
-        "description": "Website template for a metal/rock/punk band."
+        "name": "Power BI & PowerPoint: Insights through data visualization and storytelling (EN)",
+        "description": "This project translates electronics sales data to generate insights using a dashboard and a slide presentation."
       },
       "project3": {
-        "name": "Guitar Dictionary",
-        "description": "On this website user can read and learn English and Finnish guitar terminology."
+        "name": "Website template for a band with heavy sound",
+        "description": "Website utilizes stock photos and AI for text content generation. Website implementation, image editing and video editing are done by me."
       },
       "project4": {
-        "name": "Movie Quiz",
-        "description": "Movie Quiz is a web application that allows user to test their knowledge of movies."
+        "name": "English-Finnish dictionary for guitarists",
+        "description": "On this site, the user can learn guitar vocabulary in English and Finnish. Images and vectors from various sites are utilized and the implementation of the site as well as the image editing are done by me."
       }
     },
-    "contact_header": "Stay Connected"
+    "contact_header": "Stay connected"
   }
 }

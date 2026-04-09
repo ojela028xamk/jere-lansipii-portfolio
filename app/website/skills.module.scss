@@ -7,7 +7,7 @@
   .skills_content {
     margin: auto;
     padding: main.$content-padding;
-    max-width: 960px;
+    max-width: 1200px;
 
     h1 {
       @include main.content_header;
@@ -15,12 +15,16 @@
     }
 
     .skill_items {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2em;
+      column-count: 2;
+      column-gap: 1em;
+
+      @media (max-width: 960px) {
+        column-count: 1;
+      }
 
       .item {
-        flex: 1;
+        break-inside: avoid;
+        margin-bottom: 1em;
         text-align: left;
         background-color: main.$secondary-black;
         padding: 1.8em;
@@ -32,7 +36,7 @@
 
           .icon {
             margin-right: 0.4em;
-            font-size: clamp(1.6em, 6vw, 2.5em);
+            font-size: main.$title;
             padding: 0.3em;
             background-color: main.$pink;
             border-radius: 2em;
@@ -40,13 +44,18 @@
           }
 
           .category {
-            font-size: clamp(1.4em, 5vw, 1.6em);
+            font-size: main.$title;
           }
         }
 
+        p,
         ul {
-          font-size: 1.3em;
+          font-size: main.$paragraph;
+        }
+
+        ul {
           line-height: 1.5em;
+          margin-bottom: 0;
         }
       }
     }

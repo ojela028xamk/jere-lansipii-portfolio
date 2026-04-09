@@ -3,38 +3,44 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { DiGithubBadge } from "react-icons/di";
+import { FiTool } from "react-icons/fi";
+import { IoOpenOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa6";
 
 type Project = {
   translateKey: string;
+  categories: string[];
   image: string;
   link: string;
-  link_github: string;
+  link_info?: string;
 };
 
 const projects: Project[] = [
   {
     translateKey: "project1",
-    image: "/finnish_map_quiz.PNG",
-    link: "https://finland-map-quiz.vercel.app/",
-    link_github: "https://github.com/ojela028xamk/finland-map-quiz",
-  },
-  {
-    translateKey: "project2",
-    image: "/band_template.png",
-    link: "https://metal-band-template.vercel.app/",
-    link_github: "https://github.com/ojela028xamk/metal-band-template",
+    categories: ["category_data", "category_ai"],
+    image: "/sentiment_images/sentiment_project.png",
+    link: "/sentiment_project",
   },
   {
     translateKey: "project3",
-    image: "/guitar_dictionary.png",
-    link: "https://guitar-dictionary.vercel.app/",
-    link_github: "https://github.com/ojela028xamk/guitar-dictionary",
+    categories: ["category_website", "category_ai"],
+    image: "/band_template.png",
+    link: "https://metal-band-template.vercel.app/",
+    link_info: "https://github.com/ojela028xamk/metal-band-template",
+  },
+  {
+    translateKey: "project2",
+    categories: ["category_data"],
+    image: "/powerbi_dashboard.PNG",
+    link: "/powerbi_project",
   },
   {
     translateKey: "project4",
-    image: "/movie_quiz.png",
-    link: "https://ojela028xamk.github.io/movie-quiz/",
-    link_github: "https://github.com/ojela028xamk/movie-quiz",
+    categories: ["category_website"],
+    image: "/guitar_dictionary.png",
+    link: "https://guitar-dictionary.vercel.app/",
+    link_info: "https://github.com/ojela028xamk/guitar-dictionary",
   },
 ];
 
@@ -45,49 +51,8 @@ const Projects = (): JSX.Element => {
     <div className={css.projects}>
       <div className={css.projects_content}>
         <h1>{t("projects.header")}</h1>
-        <h2>{t("projects.data_header")}</h2>
-        <div className={css.project_card}>
-          <Image
-            className={css.project_image}
-            src={"/sentiment_images/sentiment_project.png"}
-            alt={"Project image"}
-            width={1200}
-            height={545}
-            quality={50}
-          />
-          <span className={css.project_name}>
-            {t("projects.project_data1.name")}
-          </span>
-          <p className={css.project_description}>
-            {t("projects.project_data1.description")}
-          </p>
-          <Link className={css.button_project} href={"/sentiment_project"}>
-            {t("projects.link_button")}
-          </Link>
-        </div>
-        <div className={css.project_card}>
-          <Image
-            className={css.project_image}
-            src={"/powerbi_dashboard.PNG"}
-            alt={"Project image"}
-            width={1200}
-            height={545}
-            quality={50}
-          />
-          <span className={css.project_name}>
-            {t("projects.project_data2.name")}
-          </span>
-          <p className={css.project_description}>
-            {t("projects.project_data2.description")}
-          </p>
-          <Link className={css.button_project} href={"/powerbi_project"}>
-            {t("projects.link_button")}
-          </Link>
-        </div>
-        <h2>{t("projects.websites_header")}</h2>
-        <p>{t("projects.websites_information")}</p>
         <div className={css.project_items}>
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <div key={project.translateKey} className={css.project_card}>
               <Image
                 className={css.project_image}
@@ -101,27 +66,39 @@ const Projects = (): JSX.Element => {
                 height={545}
                 quality={50}
               />
-              <span className={css.project_name}>
-                {t(`projects.${project.translateKey}.name`)}
-              </span>
-              <p className={css.project_description}>
-                {t(`projects.${project.translateKey}.description`)}
-              </p>
-              <Link
-                className={css.button_project}
-                href={project.link}
-                target="_blank"
-              >
-                {t("projects.link_button")}
-              </Link>
-              <Link
-                className={css.button_project}
-                href={project.link_github}
-                target="_blank"
-              >
-                {t("projects.link_button_github")}
-                <DiGithubBadge className={css.button_icon} />
-              </Link>
+              <div className={css.project_content}>
+                <span className={css.project_name}>
+                  {t(`projects.${project.translateKey}.name`)}
+                </span>
+                <div className={css.project_categories}>
+                  {project.categories.map((category) => (
+                    <span key={category} className={css.project_category}>
+                      {t(`projects.${category}`)}
+                    </span>
+                  ))}
+                </div>
+                <p className={css.project_description}>
+                  {t(`projects.${project.translateKey}.description`)}
+                </p>
+                <Link
+                  className={css.button_project}
+                  href={project.link}
+                  target={index === 1 || index === 3 ? "_blank" : "_self"}
+                >
+                  {t("projects.button_website")}
+                  <IoOpenOutline className={css.button_icon} />
+                </Link>
+                {project.link_info && (
+                  <Link
+                    className={css.button_project}
+                    href={project.link_info}
+                    target="_blank"
+                  >
+                    {t("projects.button_github")}
+                    <FaGithub className={css.button_icon} />
+                  </Link>
+                )}
+              </div>
             </div>
           ))}
         </div>
