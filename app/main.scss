@@ -6,12 +6,13 @@ $pink: #ec368d;
 $white: #f5f3f5;
 
 // Structure
-$content-padding: 2em;
-$paragraph: 1.3em;
+$content-padding: 2rem 1rem;
+$title: 1.6rem;
+$paragraph: 1.2rem;
 
 @mixin content_header {
-  margin: 0 0 0.5em 0;
-  font-size: 2.8em;
+  margin: 0 0 2rem 0;
+  font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
 }

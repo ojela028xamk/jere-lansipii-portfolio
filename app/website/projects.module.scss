@@ -46,7 +46,7 @@
           padding: 0.8em 0.5em 0 0.5em;
 
           .project_name {
-            font-size: 1.7rem;
+            font-size: main.$title;
           }
 
           .project_categories {
@@ -57,7 +57,7 @@
               margin: 1em 0.5em 0 0;
               border: 1px solid main.$white;
               width: fit-content;
-              font-size: 1.2rem;
+              font-size: main.$paragraph;
               border-radius: 0.5em;
               padding: 0.3em 0.5em;
             }
@@ -65,7 +65,7 @@
 
           .project_description {
             text-align: left;
-            font-size: 1.3rem;
+            font-size: main.$paragraph;
             margin-bottom: 1em;
           }
 

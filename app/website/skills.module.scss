@@ -36,7 +36,7 @@
 
           .icon {
             margin-right: 0.4em;
-            font-size: clamp(1.6em, 6vw, 2.5em);
+            font-size: main.$title;
             padding: 0.3em;
             background-color: main.$pink;
             border-radius: 2em;
@@ -44,16 +44,16 @@
           }
 
           .category {
-            font-size: clamp(1.4em, 5vw, 1.6em);
+            font-size: main.$title;
           }
         }
 
-        p {
-          font-size: 1.3rem;
+        p,
+        ul {
+          font-size: main.$paragraph;
         }
 
         ul {
-          font-size: 1.3em;
           line-height: 1.5em;
           margin-bottom: 0;
         }
