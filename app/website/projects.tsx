@@ -83,7 +83,7 @@ const Projects = (): JSX.Element => {
                 <Link
                   className={css.button_project}
                   href={project.link}
-                  target={index === 1 || index === 3 ? "_blank" : "_self"}
+                  target={index === 2 || index === 3 ? "_blank" : "_self"}
                 >
                   {t("projects.button_website")}
                   <IoOpenOutline className={css.button_icon} />
