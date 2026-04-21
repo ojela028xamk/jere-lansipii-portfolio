@@ -44,7 +44,6 @@ const solutions: Solution[] = [
       "skills.skill.excel",
       "skills.skill.power_bi",
       "skills.skill.sql",
-      "skills.skill.pandas",
       "skills.skill.databricks",
       "skills.skill.bigquery",
       "skills.skill.google_analytics",
