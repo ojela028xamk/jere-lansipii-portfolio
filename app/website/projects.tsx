@@ -28,7 +28,7 @@ const projects: Project[] = [
     image: "/powerbi_dashboard.PNG",
     link: "/powerbi_project",
   },
-  {
+  /*{
     translateKey: "project3",
     categories: ["category_website", "category_ai"],
     image: "/band_template.png",
@@ -41,7 +41,7 @@ const projects: Project[] = [
     image: "/guitar_dictionary.png",
     link: "https://guitar-dictionary.vercel.app/",
     link_info: "https://github.com/ojela028xamk/guitar-dictionary",
-  },
+  },*/
 ];
 
 const Projects = (): JSX.Element => {
