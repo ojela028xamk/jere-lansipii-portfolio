@@ -20,6 +20,7 @@ const solutions: Solution[] = [
       "skills.skill.javascript",
       "skills.skill.react",
       "skills.skill.responsive",
+      "skills.skill.seo",
       "skills.skill.github",
       "skills.skill.api",
     ],
