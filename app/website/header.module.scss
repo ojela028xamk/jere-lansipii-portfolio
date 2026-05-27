@@ -79,12 +79,16 @@ $text-margin: 0.8em 0;
 
     .header_content_right {
       flex: 2;
-      align-self: center;
+      align-content: center;
 
-      .image {
-        margin: 1em;
-        width: 90%;
+      .header_content_right_icon {
+        width: 100%;
         height: auto;
+        color: main.$pink;
+
+        @media (max-width: responsive.$tablet) {
+          display: none;
+        }
       }
     }
   }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import css from "./header.module.scss";
 import { useTranslations } from "next-intl";
 import LanguageSwitch from "./languageSwitch";
+import { GrTechnology } from "react-icons/gr";
 
 const Header = (): JSX.Element => {
   const t = useTranslations("website");
@@ -84,7 +85,8 @@ const Header = (): JSX.Element => {
           </div>
         </div>
         <div className={css.header_content_right}>
-          <Image
+          <GrTechnology className={css.header_content_right_icon} />
+          {/*<Image
             className={css.image}
             src="/avatar.png"
             alt="Jere Länsipii Avatar"
@@ -92,7 +94,7 @@ const Header = (): JSX.Element => {
             height={582}
             priority
             quality={100}
-          />
+          />*/}
         </div>
       </div>
     </div>
