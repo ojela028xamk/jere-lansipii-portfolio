@@ -1,30 +1,33 @@
+"use client";
 import Image from "next/image";
 import css from "./header.module.scss";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import LanguageSwitch from "./languageSwitch";
 
 const Header = (): JSX.Element => {
   const t = useTranslations("website");
 
+  const scrollToSection = () => {
+    const element = document.getElementById("contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className={css.header}>
       <div className={css.header_content}>
         <div className={css.header_content_left}>
+          <LanguageSwitch />
           <div className={css.text}>
-            <h2>{t("header.title")}</h2>
-            <h1>JERE LÄNSIPII</h1>
+            <h1>{t("header.title")}</h1>
             <p>{t("header.description")}</p>
           </div>
           <div className={css.buttons}>
+            <button className={css.button_contact} onClick={scrollToSection}>
+              {t("header.contact")}
+            </button>
             {/*<Link
-              className={css.button_cv}
-              href="https://drive.google.com/file/d/1lW8POtjbSFBUgkzlg0tzgyOiHAW1PIUB/view?usp=drive_link"
-              target="_blank"
-            >
-              {t("header.open_cv")}
-            </Link>*/}
-            <Link
               href="https://linkedin.com/in/jere-länsipii-60b1a3217"
               target="_blank"
             >
@@ -48,17 +51,45 @@ const Header = (): JSX.Element => {
                 priority
                 quality={50}
               />
-            </Link>
+            </Link>*/}
+          </div>
+          <div className={css.job_logos}>
+            <Image
+              className={css.job_logo}
+              src="/booosted.png"
+              alt="Booosted logo"
+              width={300}
+              height={62}
+              priority
+              quality={50}
+            />
+            <Image
+              className={css.job_logo}
+              src="/wheelq.png"
+              alt="WheelQ logo"
+              width={514}
+              height={134}
+              priority
+              quality={50}
+            />
+            <Image
+              className={css.job_logo}
+              src="/mipro.png"
+              alt="Mipro logo"
+              width={2048}
+              height={342}
+              priority
+              quality={50}
+            />
           </div>
         </div>
         <div className={css.header_content_right}>
-          <LanguageSwitch />
           <Image
             className={css.image}
             src="/avatar.png"
             alt="Jere Länsipii Avatar"
-            width={764}
-            height={786}
+            width={565}
+            height={582}
             priority
             quality={100}
           />

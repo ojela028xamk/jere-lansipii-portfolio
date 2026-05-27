@@ -5,7 +5,7 @@ const Contact = (): JSX.Element => {
   const t = useTranslations("website");
 
   return (
-    <div className={css.contact}>
+    <div className={css.contact} id="contact">
       <div className={css.contact_content}>
         <h1>{t("contact_header")}</h1>
         <div className={css.contact_items}>
