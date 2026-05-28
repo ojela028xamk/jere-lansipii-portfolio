@@ -16,13 +16,13 @@ const solutions: Solution[] = [
   {
     title: "skills.solution1.title",
     description: "skills.solution1.description",
-    image: "/sentiment_images/sentiment_project.png",
+    image: "/skill_images/skill_website.png",
     skills: ["skills.skill.react", "skills.skill.api", "skills.skill.seo"],
   },
   {
     title: "skills.solution3.title",
     description: "skills.solution3.description",
-    image: "/sentiment_images/sentiment_project.png",
+    image: "/skill_images/skill_content.png",
     skills: [
       "skills.skill.graphic",
       "skills.skill.wireframe",
@@ -32,7 +32,7 @@ const solutions: Solution[] = [
   {
     title: "skills.solution2.title",
     description: "skills.solution2.description",
-    image: "/sentiment_images/sentiment_project.png",
+    image: "/skill_images/skill_data.png",
     skills: [
       "skills.skill.databricks",
       "skills.skill.power_bi",
@@ -42,7 +42,7 @@ const solutions: Solution[] = [
   {
     title: "skills.solution4.title",
     description: "skills.solution4.description",
-    image: "/sentiment_images/sentiment_project.png",
+    image: "/skill_images/skill_ai.png",
     skills: ["skills.skill.prompt", "skills.skill.info", "skills.skill.agent"],
   },
 ];
