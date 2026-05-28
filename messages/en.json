@@ -48,7 +48,7 @@
       "category_data": "Data analysis",
       "category_website": "Website",
       "category_ai": "AI",
-      "go_back": "Go back to home page",
+      "go_back": "Back to home page",
       "project1": {
         "name": "Sentiment analysis: Evaluating customer feedback to support decision making (EN)",
         "description": "Data report analyzing Yelp customer reviews of various Korean restaurants. Project utilizes Natural Language Processing (NLP) to classify customer reviews into different sentiments (positive, neutral, negative) and categories (e.g., food, price)."

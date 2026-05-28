@@ -1,0 +1,15 @@
+@use "../main";
+
+.return_button {
+  background-color: main.$primary-black;
+
+  .return_button_container {
+    padding: 1em;
+    max-width: 1200px;
+    margin: auto;
+
+    .container_button {
+      @include main.back_to_index_button;
+    }
+  }
+}
