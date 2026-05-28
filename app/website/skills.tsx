@@ -2,11 +2,13 @@ import css from "./skills.module.scss";
 import { FaDatabase, FaCode, FaRobot } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 import { FaPencilAlt } from "react-icons/fa";
+import Image from "next/image";
+import { Fragment } from "react/jsx-runtime";
 
 type Solution = {
   title: string;
   description: string;
-  icon: JSX.Element;
+  image: string;
   skills: string[];
 };
 
@@ -14,54 +16,34 @@ const solutions: Solution[] = [
   {
     title: "skills.solution1.title",
     description: "skills.solution1.description",
-    icon: <FaCode className={css.icon} />,
-    skills: [
-      "skills.skill.html",
-      "skills.skill.javascript",
-      "skills.skill.react",
-      "skills.skill.responsive",
-      "skills.skill.seo",
-      "skills.skill.github",
-      "skills.skill.api",
-    ],
+    image: "/sentiment_images/sentiment_project.png",
+    skills: ["skills.skill.react", "skills.skill.api", "skills.skill.seo"],
   },
   {
     title: "skills.solution3.title",
     description: "skills.solution3.description",
-    icon: <FaPencilAlt className={css.icon} />,
+    image: "/sentiment_images/sentiment_project.png",
     skills: [
       "skills.skill.graphic",
-      "skills.skill.ui",
-      "skills.skill.figma",
-      "skills.skill.canva",
-      "skills.skill.capcut",
+      "skills.skill.wireframe",
+      "skills.skill.edit",
     ],
   },
   {
     title: "skills.solution2.title",
     description: "skills.solution2.description",
-    icon: <FaDatabase className={css.icon} />,
+    image: "/sentiment_images/sentiment_project.png",
     skills: [
-      "skills.skill.excel",
-      "skills.skill.power_bi",
-      "skills.skill.sql",
       "skills.skill.databricks",
-      "skills.skill.bigquery",
-      "skills.skill.google_analytics",
-      "skills.skill.google_tag",
-      "skills.skill.powerpoint",
+      "skills.skill.power_bi",
+      "skills.skill.web_analytics",
     ],
   },
   {
     title: "skills.solution4.title",
     description: "skills.solution4.description",
-    icon: <FaRobot className={css.icon} />,
-    skills: [
-      "skills.skill.gemini",
-      "skills.skill.vertex",
-      "skills.skill.windsurf",
-      "skills.skill.builder",
-    ],
+    image: "/sentiment_images/sentiment_project.png",
+    skills: ["skills.skill.prompt", "skills.skill.info", "skills.skill.agent"],
   },
 ];
 const Skills = (): JSX.Element => {
@@ -74,16 +56,27 @@ const Skills = (): JSX.Element => {
         <div className={css.skill_items}>
           {solutions.map((solution) => (
             <div key={solution.title} className={css.item}>
-              <div className={css.item_header}>
-                {solution.icon}
-                <span className={css.category}>{t(solution.title)}</span>
+              <Image
+                className={css.item_image}
+                src={
+                  solution.image
+                    ? solution.image
+                    : "https://ralfvanveen.com/wp-content/uploads//2021/06/Placeholder-_-Begrippenlijst.svg"
+                }
+                alt={"Project image"}
+                width={1200}
+                height={545}
+                quality={50}
+              />
+              <div className={css.item_content}>
+                <span className={css.item_category}>{t(solution.title)}</span>
+                <p>{t(solution.description)}</p>
+                <ul>
+                  {solution.skills.map((skill) => (
+                    <li key={skill}>{t(skill)}</li>
+                  ))}
+                </ul>
               </div>
-              <p>{t(solution.description)}</p>
-              <ul>
-                {solution.skills.map((skill) => (
-                  <li key={skill}>{t(skill)}</li>
-                ))}
-              </ul>
             </div>
           ))}
         </div>

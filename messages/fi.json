@@ -10,47 +10,35 @@
       "header": "Minun ratkaisut",
       "solution1": {
         "title": "Frontend-ohjelmointi ja verkkosivustot",
-        "description": "Rakennan helppokäyttöisiä ja selkeitä verkkosivustoja, jotka ovat myös mobiiliystävällisiä. Hyödynnän myös erilaisia ohjelmointirajapintoja verkkosivustoilla ja data-alustoilla."
+        "description": "Helppokäyttöiset ja selkeät verkkosivustot, jotka ovat myös mobiiliystävällisiä. Hyödynnän myös erilaisia ohjelmointirajapintoja verkkosivustoilla ja data-alustoilla."
       },
       "solution2": {
         "title": "Data- ja verkkoanalytiikka",
-        "description": "Rakennan automatisoituja dataratkaisuja, jotka sisältävät dataputkia, ETL/ELT-prosesseja ja datan visualisointia. Datan tarinankerronnalla tarjoan havaintoja ja raportteja, jotka edesauttavat asiakkaiden päätöksentekoa."
+        "description": "Automatisoidut dataratkaisut, jotka sisältävät ETL/ELT-prosesseja ja datan visualisointia. Datan tarinankerronnalla tarjoan havaintoja ja suosituksia, jotka edesauttavat asiakkaiden päätöksentekoa."
       },
       "solution3": {
-        "title": "Sisällöntuotanto ja suunnittelu",
-        "description": "Erilaiset suunnittelutavat tukevat minua luomaan näyttäviä ja selkeitä verkkosivustoja sekä datamateriaaleja, kuten koontinäytöt ja kaaviot. Luon sisältöä myös kuvankäsittelyllä ja videoeditoinnilla."
+        "title": "Suunnittelu ja sisällöntuotanto",
+        "description": "Erilaiset suunnittelutavat tukevat minua luomaan näyttäviä ja helppokäyttöisiä verkkosivustoja sekä datamateriaaleja, kuten koontinäytöt ja kaaviot."
       },
       "solution4": {
         "title": "Tekoäly",
-        "description": "Olen käyttänyt tekoälyä monissa eri alueissa, kuten ohjelmoinnissa, data- ja sentimenttianalytiikassa."
+        "description": "Tekoälyn avulla tehostan työskentelyä eri alueilla, kuten ohjelmoinnissa ja data-analytiikassa."
       },
       "data_header": "Data- ja web-analytiikka",
       "app_header": "Tuotekehitys ja suunnittelu",
       "skill": {
-        "html": "HTML, CSS, Sass",
-        "javascript": "JavaScript, TypeScript",
-        "react": "React, Next.js",
-        "figma": "Figma",
-        "canva": "Canva",
-        "capcut": "CapCut",
-        "ui": "UI/UX-suunnittelu",
-        "graphic": "Graafinen suunnittelu",
-        "responsive": "Responsiivinen suunnittelu",
+        "react": "React-pohjaiset ratkaisut",
+        "api": "API-integraatiot",
         "seo": "Hakukoneoptimointi (SEO)",
-        "github": "Github, CI/CD",
-        "api": "API:t",
-        "excel": "Excel",
-        "power_bi": "Power BI",
-        "sql": "SQL",
-        "databricks": "Databricks",
-        "bigquery": "Google BigQuery",
-        "google_analytics": "Google Analytics",
-        "google_tag": "Google Tag Manager",
-        "powerpoint": "Powerpoint",
-        "gemini": "Google Gemini",
-        "vertex": "Google Vertex AI",
-        "windsurf": "Windsurf",
-        "builder": "Builder.io"
+        "databricks": "Databricks-ratkaisut",
+        "power_bi": "Power BI -koontinäytöt",
+        "web_analytics": "Verkkoanalytiikka Google-tuotteiden avulla",
+        "graphic": "UI/UX-suunnittelu sekä graafinen suunnittelu",
+        "wireframe": "Rautalankamallit ja prototyypit",
+        "edit": "Kuvankäsittely ja videoeditointi",
+        "prompt": "Laadukkaat ja räätälöidyt promptit",
+        "info": "Tehostettu tiedonhaku",
+        "agent": "AI-agentit"
       }
     },
     "projects": {

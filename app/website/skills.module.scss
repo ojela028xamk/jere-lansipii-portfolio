@@ -23,39 +23,38 @@
       }
 
       .item {
+        padding: 0.8em;
+        border-radius: 1.5em;
+        background-color: main.$secondary-black;
+        color: main.$white;
         break-inside: avoid;
         margin-bottom: 1em;
-        text-align: left;
-        background-color: main.$secondary-black;
-        padding: 1.8em;
-        border-radius: 1em;
 
-        .item_header {
-          display: flex;
-          align-items: center;
-
-          .icon {
-            margin-right: 0.4em;
-            font-size: main.$title;
-            padding: 0.3em;
-            background-color: main.$pink;
-            border-radius: 2em;
-            overflow: visible;
-          }
-
-          .category {
-            font-size: main.$title;
-          }
+        .item_image {
+          margin: auto;
+          max-width: 99%;
+          height: auto;
+          border-radius: 1.5em;
+          margin-bottom: 0.5em;
+          border: 2px solid main.$pink;
         }
 
-        p,
-        ul {
-          font-size: main.$paragraph;
-        }
+        .item_content {
+          padding: 0.8em 0.5em 0 0.5em;
 
-        ul {
-          line-height: 1.5em;
-          margin-bottom: 0;
+          .item_category {
+            font-size: main.$title;
+            color: main.$pink;
+          }
+
+          p,
+          ul {
+            font-size: main.$paragraph;
+
+            li {
+              margin-bottom: 0.3em;
+            }
+          }
         }
       }
     }
