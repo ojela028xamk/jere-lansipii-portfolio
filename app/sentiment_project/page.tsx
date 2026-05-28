@@ -5,6 +5,7 @@ import SentimentSummary from "./sentimentSummary";
 import SentimentInsights from "./sentimentInsights";
 import SentimentRecommend from "./sentimentRecommend";
 import ReturnButton from "../website/returnButton";
+import Footer from "../website/footer";
 
 const Sentiment = () => {
   return (
@@ -24,6 +25,7 @@ const Sentiment = () => {
           <SentimentRecommend />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
