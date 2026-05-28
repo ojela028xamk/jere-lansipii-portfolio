@@ -28,31 +28,6 @@ const Header = (): JSX.Element => {
             <button className={css.button_contact} onClick={scrollToSection}>
               {t("header.contact")}
             </button>
-            {/*<Link
-              href="https://linkedin.com/in/jere-länsipii-60b1a3217"
-              target="_blank"
-            >
-              <Image
-                className={css.button_icon}
-                src="/linkedin.png"
-                alt="Linkedin link"
-                width={60}
-                height={60}
-                priority
-                quality={50}
-              />
-            </Link>
-            <Link href="https://github.com/ojela028xamk" target="_blank">
-              <Image
-                className={css.button_icon}
-                src="/github.png"
-                alt="Github link"
-                width={55}
-                height={55}
-                priority
-                quality={50}
-              />
-            </Link>*/}
           </div>
           <div className={css.job_logos}>
             <Image
@@ -86,15 +61,6 @@ const Header = (): JSX.Element => {
         </div>
         <div className={css.header_content_right}>
           <GrTechnology className={css.header_content_right_icon} />
-          {/*<Image
-            className={css.image}
-            src="/avatar.png"
-            alt="Jere Länsipii Avatar"
-            width={565}
-            height={582}
-            priority
-            quality={100}
-          />*/}
         </div>
       </div>
     </div>
