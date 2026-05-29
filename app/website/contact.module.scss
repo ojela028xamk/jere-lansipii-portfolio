@@ -6,71 +6,40 @@
   color: main.$white;
 
   .contact_content {
-    display: flex;
     margin: auto;
     padding: main.$content-padding;
     max-width: 1200px;
+    text-align: center;
 
-    @media (max-width: responsive.$tablet) {
-      flex-direction: column;
+    h1 {
+      @include main.content_header;
     }
 
-    .contact_content_text {
-      flex: 2;
+    .contact_items {
+      font-size: main.$paragraph;
+      line-height: 3.2rem;
+      font-size: 1.5rem;
 
-      h1 {
-        @include main.content_header;
-        text-align: left;
+      span {
+        display: block;
 
-        @media (max-width: responsive.$tablet) {
-          text-align: center;
+        .icon {
+          font-size: 2.5rem;
+          vertical-align: middle;
+          margin-right: 0.4em;
+        }
+
+        .link {
+          color: main.$white;
+
+          &:hover {
+            color: main.$pink;
+          }
         }
       }
 
-      .contact_items {
-        font-size: main.$paragraph;
-        line-height: 4rem;
-        font-size: 1.5rem;
-
-        span {
-          display: block;
-
-          @media (max-width: responsive.$tablet) {
-            text-align: center;
-          }
-
-          .icon {
-            font-size: 2.5rem;
-            vertical-align: middle;
-            margin-right: 0.4em;
-          }
-
-          .link {
-            color: main.$white;
-
-            &:hover {
-              color: main.$pink;
-            }
-          }
-        }
-
-        span:nth-child(4) {
-          color: main.$pink;
-        }
-      }
-    }
-
-    .contact_content_image {
-      flex: 1;
-      align-self: center;
-
-      .image {
-        width: 100%;
-        height: auto;
-
-        @media (max-width: responsive.$tablet) {
-          padding-top: 1em;
-        }
+      span:nth-child(4) {
+        color: main.$pink;
       }
     }
   }
