@@ -30,7 +30,7 @@ const Header = (): JSX.Element => {
             </button>
           </div>
           <div className={css.job_logos}>
-            <Image
+            {/*<Image
               className={css.job_logo}
               src="/booosted.png"
               alt="Booosted logo"
@@ -38,7 +38,7 @@ const Header = (): JSX.Element => {
               height={62}
               priority
               quality={50}
-            />
+            />*/}
             <Image
               className={css.job_logo}
               src="/wheelq.png"
@@ -57,10 +57,27 @@ const Header = (): JSX.Element => {
               priority
               quality={50}
             />
+            <Image
+              className={css.job_logo}
+              src="/xamk_white.png"
+              alt="Xamk logo"
+              width={350}
+              height={142}
+              priority
+              quality={50}
+            />
           </div>
         </div>
         <div className={css.header_content_right}>
-          <GrTechnology className={css.header_content_right_icon} />
+          <Image
+            className={css.header_content_right_image}
+            src="/avatar.png"
+            alt="Jere Länsipii avatar"
+            width={765}
+            height={685}
+            priority
+            quality={50}
+          />
         </div>
       </div>
     </div>
