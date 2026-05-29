@@ -15,6 +15,7 @@ const Experience = () => {
             alt={"Aarne Savolainen"}
             width={180}
             height={180}
+            quality={50}
             priority
           />
           <p className={css.text}>{t("experience")}</p>
