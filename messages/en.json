@@ -1,56 +1,44 @@
 {
   "website": {
     "header": {
-      "title": "Marketing Developer",
-      "description": "I am a marketing developer as well as IT professional with a Bachelor of Business Administration degree. I have previous work experience in software development, building websites and working with data.\n\nI act as a bridge between communication and technical tools. I build comprehensive solutions using programming, data analytics and digital marketing.",
-      "open_cv": "Open CV"
+      "title": "Business-supporting websites and data materials – optimized with UI/UX design and AI",
+      "description": "I design and build mobile-friendly websites that keep users engaged and are easy to navigate. I also create data materials, such as dashboards, reports, and presentations, that provide insights and recommendations. Workflows are not replaced but enhanced with AI.",
+      "contact": "Contact me"
     },
     "experience": "Jere demonstrated a good visual eye as well as knowledge of user interface/user experience design. It was also easy to communicate with him. I had a clear vision of what I wanted. Jere implemented this as well as greatly improved it. Recommended!",
     "skills": {
       "header": "My solutions",
       "solution1": {
         "title": "Frontend development & websites",
-        "description": "I build user-friendly and clear websites that are also mobile-friendly. I also integrate various APIs into websites and data platforms."
+        "description": "User-friendly and clear websites that are also mobile-friendly. I also utilize various APIs on websites and data platforms."
       },
       "solution2": {
-        "title": "Data and web analytics",
-        "description": "I build automated data solutions that include data pipelines, ETL/ELT processes and data visualization. Through data storytelling, I provide insights and reports that support client decision-making."
+        "title": "Data & web analytics",
+        "description": "Automated data solutions that include ETL/ELT processes and data visualization. Through data storytelling, I provide insights and recommendations that support clients' decision-making."
       },
       "solution3": {
-        "title": "Content creation & design",
-        "description": "Various design methodologies support me in creating visually appealing and clear websites as well as data materials like dashboards and charts. I also create content through image editing and video editing."
+        "title": "Design & content creation",
+        "description": "Various design methodologies support me in creating visually appealing and user-friendly websites as well as data materials, such as dashboards and charts."
       },
       "solution4": {
         "title": "Artificial Intelligence",
-        "description": "I have utilized AI across multiple domains, such as programming, data analysis and sentiment analysis."
+        "description": "With the help of AI, I enhance work efficiency across different areas, such as programming and data analytics."
       },
       "data_header": "Data & Web Analytics",
       "app_header": "Product Development & Design",
       "skill": {
-        "html": "HTML, CSS, Sass",
-        "javascript": "JavaScript, TypeScript",
-        "react": "React, Next.js",
-        "figma": "Figma",
-        "canva": "Canva",
-        "capcut": "CapCut",
-        "ui": "UI/UX design",
-        "graphic": "Graphic design",
-        "responsive": "Responsive design",
+        "react": "React-based solutions",
+        "api": "API integrations",
         "seo": "Search Engine Optimization (SEO)",
-        "github": "Github, CI/CD",
-        "api": "APIs",
-        "excel": "Excel",
-        "power_bi": "Power BI",
-        "sql": "SQL",
-        "databricks": "Databricks",
-        "bigquery": "Google BigQuery",
-        "google_analytics": "Google Analytics",
-        "google_tag": "Google Tag Manager",
-        "powerpoint": "Powerpoint",
-        "gemini": "Google Gemini",
-        "vertex": "Google Vertex AI",
-        "windsurf": "Windsurf",
-        "builder": "Builder.io"
+        "databricks": "Databricks solutions",
+        "power_bi": "Power BI dashboards",
+        "web_analytics": "Web analytics using Google products",
+        "graphic": "UI/UX design and graphic design",
+        "wireframe": "Wireframes and prototypes",
+        "edit": "Image and video editing",
+        "prompt": "High-quality and tailored prompts",
+        "info": "Enhanced information search",
+        "agent": "AI agents"
       }
     },
     "projects": {
@@ -60,7 +48,7 @@
       "category_data": "Data analysis",
       "category_website": "Website",
       "category_ai": "AI",
-      "go_back": "Go back to home page",
+      "go_back": "Back to home page",
       "project1": {
         "name": "Sentiment analysis: Evaluating customer feedback to support decision making (EN)",
         "description": "Data report analyzing Yelp customer reviews of various Korean restaurants. Project utilizes Natural Language Processing (NLP) to classify customer reviews into different sentiments (positive, neutral, negative) and categories (e.g., food, price)."

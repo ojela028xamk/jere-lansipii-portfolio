@@ -1,4 +1,5 @@
 @use "../main";
+@use "../responsive";
 
 .contact {
   background-color: main.$primary-black;
@@ -6,9 +7,9 @@
 
   .contact_content {
     margin: auto;
-    text-align: center;
     padding: main.$content-padding;
-    max-width: 1280px;
+    max-width: 1200px;
+    text-align: center;
 
     h1 {
       @include main.content_header;
@@ -16,17 +17,28 @@
 
     .contact_items {
       font-size: main.$paragraph;
-      line-height: 1.5em;
+      line-height: 3.2rem;
+      font-size: 1.5rem;
 
       span {
         display: block;
+
+        .icon {
+          font-size: 2.5rem;
+          vertical-align: middle;
+          margin-right: 0.4em;
+        }
+
+        .link {
+          color: main.$white;
+
+          &:hover {
+            color: main.$pink;
+          }
+        }
       }
 
-      span:nth-child(1) {
-        font-weight: 200;
-      }
-
-      span:nth-child(3) {
+      span:nth-child(4) {
         color: main.$pink;
       }
     }

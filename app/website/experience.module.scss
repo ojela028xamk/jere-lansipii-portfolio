@@ -30,27 +30,5 @@
         color: main.$blue;
       }
     }
-
-    .job_logos {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 2em;
-      gap: 1.5em;
-      justify-content: center;
-
-      .job_logo {
-        object-fit: contain;
-        width: 25%;
-        height: auto;
-
-        @media (max-width: responsive.$mobile-large) {
-          width: 60%;
-        }
-
-        @media (width > responsive.$mobile-large) and (max-width: responsive.$tablet) {
-          width: 40%;
-        }
-      }
-    }
   }
 }

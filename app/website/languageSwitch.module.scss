@@ -3,13 +3,12 @@
 .language_switch {
   display: flex;
   align-self: flex-end;
-  padding: 0.5em;
 
   .language_switch_button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.2em;
+    margin: 0 0.5em 0.8em 0;
     padding: 0.2em;
     color: main.$white;
     background-color: main.$pink;

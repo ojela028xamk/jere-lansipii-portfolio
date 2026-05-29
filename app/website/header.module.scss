@@ -1,86 +1,76 @@
 @use "../main";
 @use "../responsive.scss";
 
+$text-margin: 0.8em 0;
+
 .header {
   background-color: main.$primary-black;
   color: main.$white;
 
   .header_content {
     display: flex;
-    padding-top: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: main.$content-padding;
     margin: auto;
     max-width: 1200px;
-    white-space: pre-wrap;
 
     @media (max-width: responsive.$tablet) {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
 
     .header_content_left {
-      flex: 3;
-      padding: 2rem;
-      align-self: center;
+      flex: 4;
 
       .text {
-        h2 {
-          margin: 0;
-          font-weight: 300;
-          font-size: main.$title;
-        }
-
         h1 {
-          font-weight: 600;
+          text-transform: uppercase;
+          font-weight: 500;
           color: main.$pink;
-          font-size: 2.8rem;
-          margin: 0.3em 0;
+          font-size: 1.4rem;
+          margin: $text-margin;
         }
 
         p {
-          margin-top: 1em;
-          font-weight: 300;
-        }
-
-        ul {
-          margin-bottom: 2em;
-          font-weight: 300;
-
-          li {
-            margin-bottom: 0.3em;
-          }
-        }
-
-        p,
-        ul {
-          font-size: main.$paragraph;
+          font-size: 1.2rem;
+          margin: $text-margin;
         }
       }
 
-      .buttons {
-        display: flex;
-        gap: 0.8em;
-        align-items: center;
+      .button_contact {
+        font-family: inherit;
+        text-align: center;
+        margin: 0.8em 0;
+        padding: 0.5em 1.2em;
+        border-radius: 0.7em;
+        background-color: main.$pink;
+        border: 1px solid main.$pink;
+        color: main.$white;
+        font-size: 1.2rem;
 
-        .button_cv {
-          text-decoration: auto;
-          text-align: center;
-          padding: 0.5em 1.2em;
-          border-radius: 0.7em;
-          background-color: main.$pink;
-          border: 1px solid main.$pink;
-          color: main.$white;
-          font-size: 1.5em;
-
-          &:hover {
-            background-color: main.$primary-black;
-            color: main.$pink;
-          }
+        &:hover {
+          background-color: main.$primary-black;
+          color: main.$pink;
+          cursor: pointer;
         }
+      }
 
-        .button_icon {
-          &:hover {
-            cursor: pointer;
-            opacity: 0.5;
-          }
+      .button_icon {
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+
+      .job_logos {
+        display: flex;
+        margin: $text-margin;
+        gap: 1.5em;
+
+        .job_logo {
+          object-fit: contain;
+          width: 25%;
+          height: auto;
         }
       }
     }
@@ -88,20 +78,15 @@
     .header_content_right {
       flex: 2;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
+      padding: 1em;
 
-      @media (max-width: responsive.$tablet) {
-        border-bottom: 5px solid main.$pink;
-      }
-
-      .image {
-        max-width: 100%;
+      .header_content_right_image {
+        width: 90%;
         height: auto;
 
-        @media (width > responsive.$mobile-large) and (max-width: responsive.$tablet) {
-          max-width: 60%;
-          margin: auto;
+        @media (max-width: responsive.$tablet) {
+          width: 60%;
         }
       }
     }

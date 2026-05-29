@@ -15,41 +15,13 @@ const Experience = () => {
             alt={"Aarne Savolainen"}
             width={180}
             height={180}
+            quality={50}
             priority
           />
           <p className={css.text}>{t("experience")}</p>
           <span className={css.name}>
             <b>Aarne Savolainen, WheelQ</b>
           </span>
-        </div>
-        <div className={css.job_logos}>
-          <Image
-            className={css.job_logo}
-            src="/wheelq.png"
-            alt="WheelQ logo"
-            width={514}
-            height={134}
-            priority
-            quality={50}
-          />
-          <Image
-            className={css.job_logo}
-            src="/mipro.png"
-            alt="Mipro logo"
-            width={2048}
-            height={342}
-            priority
-            quality={50}
-          />
-          <Image
-            className={css.job_logo}
-            src="/xamk.png"
-            alt="XAMK logo"
-            width={2409}
-            height={976}
-            priority
-            quality={50}
-          />
         </div>
       </div>
     </div>
